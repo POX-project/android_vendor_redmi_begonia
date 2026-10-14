@@ -143,6 +143,18 @@ SERVICE_SH = """#!/system/bin/sh
 MODDIR=${0%/*}
 """
 
+UPDATER_SCRIPT_DUMMY = "#MAGISK\n"
+
+MAGISK_UPDATE_BINARY = """#!/sbin/sh
+OUTFD=$2
+ZIPFILE=$3
+mount /data 2>/dev/null
+[ -f /data/adb/magisk/util_functions.sh ] || { echo "! Please install Magisk v20.4+"; exit 1; }
+. /data/adb/magisk/util_functions.sh
+install_module
+exit 0
+"""
+
 
 def build_installer_zip():
     zip_path = os.path.join(DIST_DIR, "Begonia-HAL-Blobs-Flashable.zip")
@@ -203,6 +215,12 @@ def build_magisk_module():
         info_srv.create_system = 3
         info_srv.external_attr = 0o755 << 16
         zf.writestr(info_srv, SERVICE_SH)
+
+        info_bin = zipfile.ZipInfo("META-INF/com/google/android/update-binary")
+        info_bin.create_system = 3
+        info_bin.external_attr = 0o755 << 16
+        zf.writestr(info_bin, MAGISK_UPDATE_BINARY)
+        zf.writestr("META-INF/com/google/android/updater-script", UPDATER_SCRIPT_DUMMY)
 
         hal_dirs = ["lib/hw", "lib64/hw", "bin/hw", "etc/vintf", "etc/init"]
         count = 0
@@ -347,6 +365,12 @@ description=Systemless overlay providing 1,332 reverse-engineered HAL modules an
         info_srv.create_system = 3
         info_srv.external_attr = 0o755 << 16
         zf.writestr(info_srv, "#!/system/bin/sh\n")
+
+        info_bin = zipfile.ZipInfo("META-INF/com/google/android/update-binary")
+        info_bin.create_system = 3
+        info_bin.external_attr = 0o755 << 16
+        zf.writestr(info_bin, MAGISK_UPDATE_BINARY)
+        zf.writestr("META-INF/com/google/android/updater-script", UPDATER_SCRIPT_DUMMY)
 
         count = 0
         for root, dirs, files in os.walk(reconstructed_dir):

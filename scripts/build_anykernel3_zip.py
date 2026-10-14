@@ -66,7 +66,7 @@ ui_print " ============================================";
 ui_print " ";
 
 ## Boot install
-if [ -f "Image.gz" ] || [ -f "zImage" ] || [ -f "kernel" ]; then
+if [ -f "Image.gz-dtb" ] || [ -f "Image.gz" ] || [ -f "zImage" ] || [ -f "kernel" ]; then
     ui_print " [*] Unpacking and patching boot image...";
     dump_boot;
     write_boot;
@@ -122,8 +122,10 @@ def build_anykernel_zip(include_kernel=True):
 
     # 3. Optional Kernel payload
     kernel_sources = [
+        "/mnt/9f4d8733-a954-435d-b92f-f33c068c3b1e/begoker/build/Image.gz-dtb",
+        "/mnt/9f4d8733-a954-435d-b92f-f33c068c3b1e/begoker/build/out/arch/arm64/boot/Image.gz-dtb",
         "/mnt/9f4d8733-a954-435d-b92f-f33c068c3b1e/begoker/build/Image.gz",
-        "/media/dev/work/repack bego/kernel",
+        os.path.join(ROOT_DIR, "dist", "Image.gz-dtb"),
         os.path.join(ROOT_DIR, "dist", "Image.gz"),
     ]
     bundled_kernel = None
@@ -131,7 +133,7 @@ def build_anykernel_zip(include_kernel=True):
         for ks in kernel_sources:
             if os.path.exists(ks):
                 bundled_kernel = ks
-                dst_k = os.path.join(stage_dir, "Image.gz" if ks.endswith(".gz") else "kernel")
+                dst_k = os.path.join(stage_dir, os.path.basename(ks))
                 shutil.copy2(ks, dst_k)
                 print(f"  [✓] Bundled kernel payload: {os.path.basename(ks)} ({os.path.getsize(dst_k)} bytes)")
                 break
