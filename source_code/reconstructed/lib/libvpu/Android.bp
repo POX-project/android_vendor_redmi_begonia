@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvpu.so
 cc_library_shared {
-    name: "libvpu_gki",
+    name: "libvpu",
     vendor: true,
     srcs: [
         "libvpu.cpp",

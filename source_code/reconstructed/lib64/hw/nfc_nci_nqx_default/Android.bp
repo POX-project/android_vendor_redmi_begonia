@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered nfc_nci.nqx.default.so
 cc_library_shared {
-    name: "nfc_nci_nqx_default_gki",
+    name: "nfc_nci_nqx_default",
     vendor: true,
     srcs: [
         "nfc_nci_nqx_default.cpp",

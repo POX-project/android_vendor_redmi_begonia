@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam.featurepipe.vsdof_util.so
 cc_library_shared {
-    name: "libmtkcam_featurepipe_vsdof_util_gki",
+    name: "libmtkcam_featurepipe_vsdof_util",
     vendor: true,
     srcs: [
         "libmtkcam_featurepipe_vsdof_util.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_pipelinepolicy-smvr.so
 cc_library_shared {
-    name: "libmtkcam_pipelinepolicy_smvr_gki",
+    name: "libmtkcam_pipelinepolicy_smvr",
     vendor: true,
     srcs: [
         "libmtkcam_pipelinepolicy_smvr.cpp",

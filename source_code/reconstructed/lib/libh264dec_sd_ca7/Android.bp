@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libh264dec_sd.ca7.so
 cc_library_shared {
-    name: "libh264dec_sd_ca7_gki",
+    name: "libh264dec_sd_ca7",
     vendor: true,
     srcs: [
         "libh264dec_sd_ca7.cpp",

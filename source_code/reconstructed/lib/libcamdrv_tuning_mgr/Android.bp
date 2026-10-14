@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamdrv_tuning_mgr.so
 cc_library_shared {
-    name: "libcamdrv_tuning_mgr_gki",
+    name: "libcamdrv_tuning_mgr",
     vendor: true,
     srcs: [
         "libcamdrv_tuning_mgr.cpp",

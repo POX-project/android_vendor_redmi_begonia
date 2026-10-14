@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libhwm.so
 cc_library_shared {
-    name: "libhwm_gki",
+    name: "libhwm",
     vendor: true,
     srcs: [
         "libhwm.cpp",

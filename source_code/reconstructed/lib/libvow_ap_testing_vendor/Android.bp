@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvow_ap_testing.vendor.so
 cc_library_shared {
-    name: "libvow_ap_testing_vendor_gki",
+    name: "libvow_ap_testing_vendor",
     vendor: true,
     srcs: [
         "libvow_ap_testing_vendor.cpp",

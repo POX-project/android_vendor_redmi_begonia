@@ -1,7 +1,10 @@
 # Build outputs and temporary caches
 dist/*.zip
+dist/*.so
+dist/hal_test_runner*
 dist/ak3_stage/
 dist/reconstructed_libs/
+tools/
 scratch/
 __pycache__/
 *.pyc

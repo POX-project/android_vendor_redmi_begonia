@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgpud.so
 cc_library_shared {
-    name: "libgpud_gki",
+    name: "libgpud",
     vendor: true,
     srcs: [
         "libgpud.cpp",

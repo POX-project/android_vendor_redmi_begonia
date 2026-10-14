@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.so
 cc_library_shared {
-    name: "libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode_gki",
+    name: "libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1sunnymipiraw_QQ_Capture_ChatMode.cpp",

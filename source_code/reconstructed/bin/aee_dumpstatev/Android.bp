@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered aee_dumpstatev
 cc_binary {
-    name: "aee_dumpstatev_gki",
+    name: "aee_dumpstatev",
     vendor: true,
     srcs: [
         "aee_dumpstatev.cpp",

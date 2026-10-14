@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.vibrator-service.mediatek
 cc_binary {
-    name: "android_hardware_vibrator_service_mediatek_gki",
+    name: "android_hardware_vibrator_service_mediatek",
     vendor: true,
     srcs: [
         "android_hardware_vibrator_service_mediatek.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libril.so
 cc_library_shared {
-    name: "libril_gki",
+    name: "libril",
     vendor: true,
     srcs: [
         "libril.cpp",

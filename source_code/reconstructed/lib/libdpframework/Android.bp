@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdpframework.so
 cc_library_shared {
-    name: "libdpframework_gki",
+    name: "libdpframework",
     vendor: true,
     srcs: [
         "libdpframework.cpp",

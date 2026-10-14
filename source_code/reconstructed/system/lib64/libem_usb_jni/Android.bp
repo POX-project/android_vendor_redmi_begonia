@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libem_usb_jni.so
 cc_library_shared {
-    name: "libem_usb_jni_gki",
+    name: "libem_usb_jni",
     vendor: true,
     srcs: [
         "libem_usb_jni.cpp",

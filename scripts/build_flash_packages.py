@@ -231,83 +231,7 @@ def build_magisk_module():
         print(f"  Added {count} HAL files to Magisk overlay module.")
 
 
-def build_gki_compat_zip():
-    zip_path = os.path.join(DIST_DIR, "Begonia-GKI-Compat-Module.zip")
-    print(f"Creating {zip_path} ...")
-    gki_libs_dir = os.path.join(DIST_DIR, "gki_libs")
-    
-    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-        # Module metadata
-        gki_prop = """id=begonia_gki_compat
-name=Begonia GKI DMA-BUF Heap & Ashmem Bridge
-version=v1.0.0
-versionCode=100
-author=txorav & LineageOS Mainline (Kanged)
-description=Translates legacy MediaTek MT6785 /dev/ion calls to GKI /dev/dma_heap nodes, enabling 83+ legacy camera, audio, and graphics blobs on GKI kernels (5.4/5.10/5.15+).
-"""
-        zf.writestr("module.prop", gki_prop)
-        
-        info_srv = zipfile.ZipInfo("service.sh")
-        info_srv.create_system = 3
-        info_srv.external_attr = 0o755 << 16
-        zf.writestr(info_srv, "#!/system/bin/sh\n")
 
-        # TWRP update-binary installer support
-        info_bin = zipfile.ZipInfo("META-INF/com/google/android/update-binary")
-        info_bin.create_system = 3
-        info_bin.external_attr = 0o755 << 16
-        gki_installer = """#!/sbin/sh
-OUTFD="$2"
-ZIPFILE="$3"
-ui_print() { echo "ui_print $1" > /proc/self/fd/$OUTFD; echo "ui_print" > /proc/self/fd/$OUTFD; }
-ui_print "=========================================="
-ui_print " Begonia GKI DMA-BUF Heap Bridge Installer"
-ui_print "=========================================="
-mkdir -p /vendor
-mount -o rw /vendor 2>/dev/null || mount -o remount,rw /vendor 2>/dev/null || true
-mkdir -p /tmp/gki
-unzip -o "$ZIPFILE" "system/vendor/*" -d /tmp/gki/
-cp -a /tmp/gki/system/vendor/. /vendor/
-chmod 644 /vendor/lib/libion.so /vendor/lib64/libion.so 2>/dev/null || true
-chcon u:object_r:vendor_file:s0 /vendor/lib/libion.so /vendor/lib64/libion.so 2>/dev/null || true
-rm -rf /tmp/gki
-ui_print "[SUCCESS] GKI DMA-BUF Bridge installed to /vendor/lib*/libion.so!"
-exit 0
-"""
-        zf.writestr(info_bin, gki_installer)
-        zf.writestr("META-INF/com/google/android/updater-script", UPDATER_SCRIPT_DUMMY)
-
-        # 64-bit and 32-bit GKI bridges
-        ion_64 = os.path.join(gki_libs_dir, "libion_dmaheap.so")
-        ion_32 = os.path.join(gki_libs_dir, "libion_dmaheap_32.so")
-        ashmem_64 = os.path.join(gki_libs_dir, "libashmem_gki_compat.so")
-        ashmem_32 = os.path.join(gki_libs_dir, "libashmem_gki_compat_32.so")
-
-        if os.path.exists(ion_64):
-            zi = zipfile.ZipInfo("system/vendor/lib64/libion.so")
-            zi.create_system = 3
-            zi.external_attr = 0o644 << 16
-            with open(ion_64, "rb") as fh: zf.writestr(zi, fh.read())
-
-        if os.path.exists(ion_32):
-            zi = zipfile.ZipInfo("system/vendor/lib/libion.so")
-            zi.create_system = 3
-            zi.external_attr = 0o644 << 16
-            with open(ion_32, "rb") as fh: zf.writestr(zi, fh.read())
-
-        if os.path.exists(ashmem_64):
-            zi = zipfile.ZipInfo("system/vendor/lib64/libashmem_compat.so")
-            zi.create_system = 3
-            zi.external_attr = 0o644 << 16
-            with open(ashmem_64, "rb") as fh: zf.writestr(zi, fh.read())
-
-        if os.path.exists(ashmem_32):
-            zi = zipfile.ZipInfo("system/vendor/lib/libashmem_compat.so")
-            zi.create_system = 3
-            zi.external_attr = 0o644 << 16
-            with open(ashmem_32, "rb") as fh: zf.writestr(zi, fh.read())
-
-        print("  Added GKI DMA-BUF and Ashmem bridges to Begonia-GKI-Compat-Module.zip.")
 
 
 # ----------------------------------------------------------------------
@@ -403,11 +327,11 @@ def build_reconstructed_magisk_module():
     print(f"Creating {out_zip}...")
 
     module_prop = """id=begonia_reconstructed_hals
-name=Begonia Reconstructed GKI HAL Suite
-version=v1.0-GKI
+name=Begonia Reconstructed HAL Suite
+version=v1.0
 versionCode=100
 author=LineageOS / Community RE
-description=Systemless overlay providing 1,332 reverse-engineered HAL modules, daemons, and GKI DMA-BUF bridges for Redmi Note 8 Pro (MT6785).
+description=Systemless overlay providing 1,332 reverse-engineered HAL modules and daemons for Redmi Note 8 Pro (MT6785).
 """
 
     with zipfile.ZipFile(out_zip, "w", zipfile.ZIP_DEFLATED) as zf:
@@ -447,7 +371,6 @@ if __name__ == "__main__":
     build_installer_zip()
     build_reverter_zip()
     build_magisk_module()
-    build_gki_compat_zip()
     build_reconstructed_flashable_zip()
     build_reconstructed_magisk_module()
     print("Done! All flashable packages ready in dist/.")

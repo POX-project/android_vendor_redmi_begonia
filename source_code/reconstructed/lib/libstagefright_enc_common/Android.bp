@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefright_enc_common.so
 cc_library_shared {
-    name: "libstagefright_enc_common_gki",
+    name: "libstagefright_enc_common",
     vendor: true,
     srcs: [
         "libstagefright_enc_common.cpp",

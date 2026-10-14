@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsoft_attestation_cert.so
 cc_library_shared {
-    name: "libsoft_attestation_cert_gki",
+    name: "libsoft_attestation_cert",
     vendor: true,
     srcs: [
         "libsoft_attestation_cert.cpp",

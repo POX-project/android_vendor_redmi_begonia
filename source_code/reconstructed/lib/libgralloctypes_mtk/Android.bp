@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgralloctypes_mtk.so
 cc_library_shared {
-    name: "libgralloctypes_mtk_gki",
+    name: "libgralloctypes_mtk",
     vendor: true,
     srcs: [
         "libgralloctypes_mtk.cpp",

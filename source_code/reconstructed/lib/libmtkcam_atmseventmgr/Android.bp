@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam.atmseventmgr.so
 cc_library_shared {
-    name: "libmtkcam_atmseventmgr_gki",
+    name: "libmtkcam_atmseventmgr",
     vendor: true,
     srcs: [
         "libmtkcam_atmseventmgr.cpp",

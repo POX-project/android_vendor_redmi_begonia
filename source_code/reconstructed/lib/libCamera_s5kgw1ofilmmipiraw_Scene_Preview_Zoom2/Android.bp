@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom2.so
 cc_library_shared {
-    name: "libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom2_gki",
+    name: "libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom2",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1ofilmmipiraw_Scene_Preview_Zoom2.cpp",

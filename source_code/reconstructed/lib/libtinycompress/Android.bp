@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libtinycompress.so
 cc_library_shared {
-    name: "libtinycompress_gki",
+    name: "libtinycompress",
     vendor: true,
     srcs: [
         "libtinycompress.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libjpgt.so
 cc_library_shared {
-    name: "libjpgt_gki",
+    name: "libjpgt",
     vendor: true,
     srcs: [
         "libjpgt.cpp",

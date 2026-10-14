@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfpspolicy.so
 cc_library_shared {
-    name: "libfpspolicy_gki",
+    name: "libfpspolicy",
     vendor: true,
     srcs: [
         "libfpspolicy.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libSonyIMX519PdafLibrary.so
 cc_library_shared {
-    name: "libSonyIMX519PdafLibrary_gki",
+    name: "libSonyIMX519PdafLibrary",
     vendor: true,
     srcs: [
         "libSonyIMX519PdafLibrary.cpp",

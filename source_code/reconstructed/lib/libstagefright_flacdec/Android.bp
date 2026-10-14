@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefright_flacdec.so
 cc_library_shared {
-    name: "libstagefright_flacdec_gki",
+    name: "libstagefright_flacdec",
     vendor: true,
     srcs: [
         "libstagefright_flacdec.cpp",

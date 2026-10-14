@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libpcap.so
 cc_library_shared {
-    name: "libpcap_gki",
+    name: "libpcap",
     vendor: true,
     srcs: [
         "libpcap.cpp",

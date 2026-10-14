@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdynproc.so
 cc_library_shared {
-    name: "libdynproc_gki",
+    name: "libdynproc",
     vendor: true,
     srcs: [
         "libdynproc.cpp",

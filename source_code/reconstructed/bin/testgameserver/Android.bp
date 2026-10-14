@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered testgameserver
 cc_binary {
-    name: "testgameserver_gki",
+    name: "testgameserver",
     vendor: true,
     srcs: [
         "testgameserver.cpp",

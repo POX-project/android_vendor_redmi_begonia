@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered batteryd
 cc_binary {
-    name: "batteryd_gki",
+    name: "batteryd",
     vendor: true,
     srcs: [
         "batteryd.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.3dnr.so
 cc_library_shared {
-    name: "libcamalgo_3dnr_gki",
+    name: "libcamalgo_3dnr",
     vendor: true,
     srcs: [
         "libcamalgo_3dnr.cpp",

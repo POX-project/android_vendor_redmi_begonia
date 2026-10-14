@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib3a.ccudrv.so
 cc_library_shared {
-    name: "lib3a_ccudrv_gki",
+    name: "lib3a_ccudrv",
     vendor: true,
     srcs: [
         "lib3a_ccudrv.cpp",

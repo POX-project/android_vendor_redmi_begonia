@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered audio.usb.default.so
 cc_library_shared {
-    name: "audio_usb_default_gki",
+    name: "audio_usb_default",
     vendor: true,
     srcs: [
         "audio_usb_default.cpp",

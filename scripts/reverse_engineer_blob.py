@@ -3,7 +3,7 @@
 Begonia (MT6785) Advanced Proprietary Blob Reverse Engineering Engine
 ====================================================================
 Automated tool to reverse-engineer stripped ARM/ARM64 ELF binaries into
-clean, editable, and compilable C/C++ source code with GKI kernel compatibility hooks.
+clean, editable, and compilable C/C++ source code.
 """
 
 import os
@@ -438,7 +438,7 @@ class BlobAnalyzer:
                 lines.extend([
                     f"/* Demangled: {demangled} */",
                     f"extern \"C\" __attribute__((visibility(\"default\"))) int {name}(void) {{",
-                    f"    ALOGD(\"{name}() called on GKI compatibility bridge\");",
+                    f"    ALOGD(\"{name}() called\");",
                     f"    return 0;",
                     f"}}",
                     f"",
@@ -465,7 +465,7 @@ class BlobAnalyzer:
 
         return f"""// Android.bp for reverse-engineered {self.filename}
 {kind} {{
-    name: "{self.name}_gki",
+    name: "{self.name}",
     vendor: true,
     srcs: [
         "{self.name}.cpp",

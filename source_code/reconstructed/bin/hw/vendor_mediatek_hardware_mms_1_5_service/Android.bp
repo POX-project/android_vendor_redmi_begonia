@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.mms@1.5-service
 cc_binary {
-    name: "vendor_mediatek_hardware_mms_1_5_service_gki",
+    name: "vendor_mediatek_hardware_mms_1_5_service",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_mms_1_5_service.cpp",

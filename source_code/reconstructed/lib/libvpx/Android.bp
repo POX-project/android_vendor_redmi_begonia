@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvpx.so
 cc_library_shared {
-    name: "libvpx_gki",
+    name: "libvpx",
     vendor: true,
     srcs: [
         "libvpx.cpp",

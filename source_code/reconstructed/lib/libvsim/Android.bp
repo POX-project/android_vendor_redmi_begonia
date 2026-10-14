@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvsim.so
 cc_library_shared {
-    name: "libvsim_gki",
+    name: "libvsim",
     vendor: true,
     srcs: [
         "libvsim.cpp",

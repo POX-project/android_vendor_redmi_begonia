@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvp9dec_sa.ca7.so
 cc_library_shared {
-    name: "libvp9dec_sa_ca7_gki",
+    name: "libvp9dec_sa_ca7",
     vendor: true,
     srcs: [
         "libvp9dec_sa_ca7.cpp",

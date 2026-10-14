@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libipsec_ims_shr.so
 cc_library_shared {
-    name: "libipsec_ims_shr_gki",
+    name: "libipsec_ims_shr",
     vendor: true,
     srcs: [
         "libipsec_ims_shr.cpp",

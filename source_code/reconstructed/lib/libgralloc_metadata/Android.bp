@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgralloc_metadata.so
 cc_library_shared {
-    name: "libgralloc_metadata_gki",
+    name: "libgralloc_metadata",
     vendor: true,
     srcs: [
         "libgralloc_metadata.cpp",

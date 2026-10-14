@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libthermalalgo.so
 cc_library_shared {
-    name: "libthermalalgo_gki",
+    name: "libthermalalgo",
     vendor: true,
     srcs: [
         "libthermalalgo.cpp",

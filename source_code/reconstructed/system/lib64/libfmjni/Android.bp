@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfmjni.so
 cc_library_shared {
-    name: "libfmjni_gki",
+    name: "libfmjni",
     vendor: true,
     srcs: [
         "libfmjni.cpp",

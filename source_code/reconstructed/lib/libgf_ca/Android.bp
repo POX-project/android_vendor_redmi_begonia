@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgf_ca.so
 cc_library_shared {
-    name: "libgf_ca_gki",
+    name: "libgf_ca",
     vendor: true,
     srcs: [
         "libgf_ca.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libthha.so
 cc_library_shared {
-    name: "libthha_gki",
+    name: "libthha",
     vendor: true,
     srcs: [
         "libthha.cpp",

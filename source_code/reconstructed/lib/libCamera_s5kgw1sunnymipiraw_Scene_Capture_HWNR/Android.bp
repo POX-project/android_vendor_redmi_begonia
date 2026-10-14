@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.so
 cc_library_shared {
-    name: "libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR_gki",
+    name: "libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1sunnymipiraw_Scene_Capture_HWNR.cpp",

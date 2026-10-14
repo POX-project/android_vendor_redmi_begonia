@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered liblept.so
 cc_library_shared {
-    name: "liblept_gki",
+    name: "liblept",
     vendor: true,
     srcs: [
         "liblept.cpp",

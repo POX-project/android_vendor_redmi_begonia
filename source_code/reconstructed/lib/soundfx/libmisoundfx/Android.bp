@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmisoundfx.so
 cc_library_shared {
-    name: "libmisoundfx_gki",
+    name: "libmisoundfx",
     vendor: true,
     srcs: [
         "libmisoundfx.cpp",

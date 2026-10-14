@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.drm@1.3-service.widevine
 cc_binary {
-    name: "android_hardware_drm_1_3_service_widevine_gki",
+    name: "android_hardware_drm_1_3_service_widevine",
     vendor: true,
     srcs: [
         "android_hardware_drm_1_3_service_widevine.cpp",

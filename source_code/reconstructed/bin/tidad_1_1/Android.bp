@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered tidad@1.1
 cc_binary {
-    name: "tidad_1_1_gki",
+    name: "tidad_1_1",
     vendor: true,
     srcs: [
         "tidad_1_1.cpp",

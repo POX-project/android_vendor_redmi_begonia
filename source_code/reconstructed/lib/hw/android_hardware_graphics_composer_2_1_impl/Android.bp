@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.graphics.composer@2.1-impl.so
 cc_library_shared {
-    name: "android_hardware_graphics_composer_2_1_impl_gki",
+    name: "android_hardware_graphics_composer_2_1_impl",
     vendor: true,
     srcs: [
         "android_hardware_graphics_composer_2_1_impl.cpp",

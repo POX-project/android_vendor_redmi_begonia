@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.bluetooth.audio@2.0-impl.so
 cc_library_shared {
-    name: "android_hardware_bluetooth_audio_2_0_impl_gki",
+    name: "android_hardware_bluetooth_audio_2_0_impl",
     vendor: true,
     srcs: [
         "android_hardware_bluetooth_audio_2_0_impl.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.halisp.so
 cc_library_shared {
-    name: "libcam_halisp_gki",
+    name: "libcam_halisp",
     vendor: true,
     srcs: [
         "libcam_halisp.cpp",

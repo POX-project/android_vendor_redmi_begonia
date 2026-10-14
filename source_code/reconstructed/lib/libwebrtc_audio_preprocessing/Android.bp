@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libwebrtc_audio_preprocessing.so
 cc_library_shared {
-    name: "libwebrtc_audio_preprocessing_gki",
+    name: "libwebrtc_audio_preprocessing",
     vendor: true,
     srcs: [
         "libwebrtc_audio_preprocessing.cpp",

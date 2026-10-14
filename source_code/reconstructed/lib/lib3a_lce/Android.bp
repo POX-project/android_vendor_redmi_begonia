@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib3a.lce.so
 cc_library_shared {
-    name: "lib3a_lce_gki",
+    name: "lib3a_lce",
     vendor: true,
     srcs: [
         "lib3a_lce.cpp",

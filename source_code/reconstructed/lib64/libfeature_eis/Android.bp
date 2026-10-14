@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfeature_eis.so
 cc_library_shared {
-    name: "libfeature_eis_gki",
+    name: "libfeature_eis",
     vendor: true,
     srcs: [
         "libfeature_eis.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.memtrack@1.0-impl.so
 cc_library_shared {
-    name: "android_hardware_memtrack_1_0_impl_gki",
+    name: "android_hardware_memtrack_1_0_impl",
     vendor: true,
     srcs: [
         "android_hardware_memtrack_1_0_impl.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgz_uree.so
 cc_library_shared {
-    name: "libgz_uree_gki",
+    name: "libgz_uree",
     vendor: true,
     srcs: [
         "libgz_uree.cpp",

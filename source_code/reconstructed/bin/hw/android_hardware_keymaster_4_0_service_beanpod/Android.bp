@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.keymaster@4.0-service.beanpod
 cc_binary {
-    name: "android_hardware_keymaster_4_0_service_beanpod_gki",
+    name: "android_hardware_keymaster_4_0_service_beanpod",
     vendor: true,
     srcs: [
         "android_hardware_keymaster_4_0_service_beanpod.cpp",

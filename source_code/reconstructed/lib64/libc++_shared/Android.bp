@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libc++_shared.so
 cc_library_shared {
-    name: "libc++_shared_gki",
+    name: "libc++_shared",
     vendor: true,
     srcs: [
         "libc++_shared.cpp",

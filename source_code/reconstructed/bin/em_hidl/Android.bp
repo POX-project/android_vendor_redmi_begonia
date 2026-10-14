@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered em_hidl
 cc_binary {
-    name: "em_hidl_gki",
+    name: "em_hidl",
     vendor: true,
     srcs: [
         "em_hidl.cpp",

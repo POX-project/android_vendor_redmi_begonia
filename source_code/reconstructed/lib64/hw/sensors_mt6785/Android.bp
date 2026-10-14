@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered sensors.mt6785.so
 cc_library_shared {
-    name: "sensors_mt6785_gki",
+    name: "sensors_mt6785",
     vendor: true,
     srcs: [
         "sensors_mt6785.cpp",

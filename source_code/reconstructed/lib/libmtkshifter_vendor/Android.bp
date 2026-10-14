@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkshifter_vendor.so
 cc_library_shared {
-    name: "libmtkshifter_vendor_gki",
+    name: "libmtkshifter_vendor",
     vendor: true,
     srcs: [
         "libmtkshifter_vendor.cpp",

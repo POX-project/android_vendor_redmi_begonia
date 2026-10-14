@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vsimd
 cc_binary {
-    name: "vsimd_gki",
+    name: "vsimd",
     vendor: true,
     srcs: [
         "vsimd.cpp",

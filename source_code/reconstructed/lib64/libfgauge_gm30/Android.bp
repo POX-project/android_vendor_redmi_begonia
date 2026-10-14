@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfgauge_gm30.so
 cc_binary {
-    name: "libfgauge_gm30_gki",
+    name: "libfgauge_gm30",
     vendor: true,
     srcs: [
         "libfgauge_gm30.cpp",

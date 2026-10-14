@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libem_support_jni.so
 cc_library_shared {
-    name: "libem_support_jni_gki",
+    name: "libem_support_jni",
     vendor: true,
     srcs: [
         "libem_support_jni.cpp",

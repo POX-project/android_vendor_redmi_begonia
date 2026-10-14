@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libTEECommon.so
 cc_library_shared {
-    name: "libTEECommon_gki",
+    name: "libTEECommon",
     vendor: true,
     srcs: [
         "libTEECommon.cpp",

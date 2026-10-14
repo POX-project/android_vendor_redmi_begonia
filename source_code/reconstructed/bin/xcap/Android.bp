@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered xcap
 cc_binary {
-    name: "xcap_gki",
+    name: "xcap",
     vendor: true,
     srcs: [
         "xcap.cpp",

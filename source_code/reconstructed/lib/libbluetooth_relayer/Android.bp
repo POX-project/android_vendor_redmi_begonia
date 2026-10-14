@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libbluetooth_relayer.so
 cc_library_shared {
-    name: "libbluetooth_relayer_gki",
+    name: "libbluetooth_relayer",
     vendor: true,
     srcs: [
         "libbluetooth_relayer.cpp",

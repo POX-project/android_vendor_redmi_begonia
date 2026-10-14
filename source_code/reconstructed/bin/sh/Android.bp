@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered sh
 cc_binary {
-    name: "sh_gki",
+    name: "sh",
     vendor: true,
     srcs: [
         "sh.cpp",

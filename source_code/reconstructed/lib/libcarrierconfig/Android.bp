@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcarrierconfig.so
 cc_library_shared {
-    name: "libcarrierconfig_gki",
+    name: "libcarrierconfig",
     vendor: true,
     srcs: [
         "libcarrierconfig.cpp",

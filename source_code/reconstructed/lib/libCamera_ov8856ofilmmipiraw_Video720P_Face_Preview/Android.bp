@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_ov8856ofilmmipiraw_Video720P_Face_Preview.so
 cc_library_shared {
-    name: "libCamera_ov8856ofilmmipiraw_Video720P_Face_Preview_gki",
+    name: "libCamera_ov8856ofilmmipiraw_Video720P_Face_Preview",
     vendor: true,
     srcs: [
         "libCamera_ov8856ofilmmipiraw_Video720P_Face_Preview.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered kmsetkey.beanpod.so
 cc_library_shared {
-    name: "kmsetkey_beanpod_gki",
+    name: "kmsetkey_beanpod",
     vendor: true,
     srcs: [
         "kmsetkey_beanpod.cpp",

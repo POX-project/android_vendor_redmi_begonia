@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimgsensorca.so
 cc_library_shared {
-    name: "libimgsensorca_gki",
+    name: "libimgsensorca",
     vendor: true,
     srcs: [
         "libimgsensorca.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkperf_client_vendor.so
 cc_library_shared {
-    name: "libmtkperf_client_vendor_gki",
+    name: "libmtkperf_client_vendor",
     vendor: true,
     srcs: [
         "libmtkperf_client_vendor.cpp",

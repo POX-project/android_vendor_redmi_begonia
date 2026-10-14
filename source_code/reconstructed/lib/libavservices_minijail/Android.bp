@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libavservices_minijail.so
 cc_library_shared {
-    name: "libavservices_minijail_gki",
+    name: "libavservices_minijail",
     vendor: true,
     srcs: [
         "libavservices_minijail.cpp",

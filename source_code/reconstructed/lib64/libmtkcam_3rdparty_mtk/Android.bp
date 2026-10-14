@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_3rdparty.mtk.so
 cc_library_shared {
-    name: "libmtkcam_3rdparty_mtk_gki",
+    name: "libmtkcam_3rdparty_mtk",
     vendor: true,
     srcs: [
         "libmtkcam_3rdparty_mtk.cpp",

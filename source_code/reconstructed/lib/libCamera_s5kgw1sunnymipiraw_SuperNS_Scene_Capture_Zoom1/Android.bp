@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom1.so
 cc_library_shared {
-    name: "libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom1_gki",
+    name: "libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom1",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1sunnymipiraw_SuperNS_Scene_Capture_Zoom1.cpp",

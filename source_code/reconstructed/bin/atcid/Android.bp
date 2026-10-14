@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered atcid
 cc_binary {
-    name: "atcid_gki",
+    name: "atcid",
     vendor: true,
     srcs: [
         "atcid.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaal_cust.so
 cc_library_shared {
-    name: "libaal_cust_gki",
+    name: "libaal_cust",
     vendor: true,
     srcs: [
         "libaal_cust.cpp",

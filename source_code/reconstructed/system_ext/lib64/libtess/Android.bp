@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libtess.so
 cc_library_shared {
-    name: "libtess_gki",
+    name: "libtess",
     vendor: true,
     srcs: [
         "libtess.cpp",

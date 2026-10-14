@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.soundtrigger@2.3-impl.so
 cc_library_shared {
-    name: "android_hardware_soundtrigger_2_3_impl_gki",
+    name: "android_hardware_soundtrigger_2_3_impl",
     vendor: true,
     srcs: [
         "android_hardware_soundtrigger_2_3_impl.cpp",

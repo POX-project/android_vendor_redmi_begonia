@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudioloudc.so
 cc_library_shared {
-    name: "libaudioloudc_gki",
+    name: "libaudioloudc",
     vendor: true,
     srcs: [
         "libaudioloudc.cpp",

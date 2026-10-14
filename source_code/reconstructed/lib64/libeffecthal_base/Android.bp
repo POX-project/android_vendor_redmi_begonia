@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libeffecthal.base.so
 cc_library_shared {
-    name: "libeffecthal_base_gki",
+    name: "libeffecthal_base",
     vendor: true,
     srcs: [
         "libeffecthal_base.cpp",

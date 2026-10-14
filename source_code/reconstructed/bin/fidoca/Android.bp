@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered fidoca
 cc_binary {
-    name: "fidoca_gki",
+    name: "fidoca",
     vendor: true,
     srcs: [
         "fidoca.cpp",

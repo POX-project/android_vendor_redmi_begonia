@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libeffectproxy.so
 cc_library_shared {
-    name: "libeffectproxy_gki",
+    name: "libeffectproxy",
     vendor: true,
     srcs: [
         "libeffectproxy.cpp",

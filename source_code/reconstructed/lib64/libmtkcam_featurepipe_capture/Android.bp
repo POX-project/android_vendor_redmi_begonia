@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam.featurepipe.capture.so
 cc_library_shared {
-    name: "libmtkcam_featurepipe_capture_gki",
+    name: "libmtkcam_featurepipe_capture",
     vendor: true,
     srcs: [
         "libmtkcam_featurepipe_capture.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered jcos_client.so
 cc_library_shared {
-    name: "jcos_client_gki",
+    name: "jcos_client",
     vendor: true,
     srcs: [
         "jcos_client.cpp",

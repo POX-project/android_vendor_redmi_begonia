@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered librpc.so
 cc_library_shared {
-    name: "librpc_gki",
+    name: "librpc",
     vendor: true,
     srcs: [
         "librpc.cpp",

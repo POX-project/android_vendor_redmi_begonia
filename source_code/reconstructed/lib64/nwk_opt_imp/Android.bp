@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered nwk_opt_imp.so
 cc_binary {
-    name: "nwk_opt_imp_gki",
+    name: "nwk_opt_imp",
     vendor: true,
     srcs: [
         "nwk_opt_imp.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.flicker.so
 cc_library_shared {
-    name: "libcamalgo_flicker_gki",
+    name: "libcamalgo_flicker",
     vendor: true,
     srcs: [
         "libcamalgo_flicker.cpp",

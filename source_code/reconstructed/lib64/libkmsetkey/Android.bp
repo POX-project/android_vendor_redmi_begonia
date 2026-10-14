@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libkmsetkey.so
 cc_library_shared {
-    name: "libkmsetkey_gki",
+    name: "libkmsetkey",
     vendor: true,
     srcs: [
         "libkmsetkey.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamdrv_imem.so
 cc_library_shared {
-    name: "libcamdrv_imem_gki",
+    name: "libcamdrv_imem",
     vendor: true,
     srcs: [
         "libcamdrv_imem.cpp",

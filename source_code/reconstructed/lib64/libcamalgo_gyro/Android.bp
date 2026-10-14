@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.gyro.so
 cc_library_shared {
-    name: "libcamalgo_gyro_gki",
+    name: "libcamalgo_gyro",
     vendor: true,
     srcs: [
         "libcamalgo_gyro.cpp",

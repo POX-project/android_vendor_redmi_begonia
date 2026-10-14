@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.media.omx@1.0-service
 cc_binary {
-    name: "android_hardware_media_omx_1_0_service_gki",
+    name: "android_hardware_media_omx_1_0_service",
     vendor: true,
     srcs: [
         "android_hardware_media_omx_1_0_service.cpp",

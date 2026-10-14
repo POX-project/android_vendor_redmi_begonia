@@ -243,44 +243,6 @@ do_flash_reconstructed() {
     log_ok "Reconstructed HAL suite successfully installed on device!"
 }
 
-do_flash_gki() {
-    check_adb
-    local mode
-    mode=$(detect_device_mode)
-    log_info "Target device mode: ${mode}"
-    remount_vendor "$mode" || true
-    do_backup_device "$mode"
-    
-    log_info "Deploying GKI DMA-BUF heap & ashmem compatibility bridges..."
-    local gki_dir="${SCRIPT_DIR}/dist/gki_libs"
-    if [ -f "${gki_dir}/libion_dmaheap.so" ]; then
-        adb push "${gki_dir}/libion_dmaheap.so" /vendor/lib64/libion.so
-        adb shell "chmod 644 /vendor/lib64/libion.so && chcon u:object_r:vendor_file:s0 /vendor/lib64/libion.so"
-    fi
-    if [ -f "${gki_dir}/libion_dmaheap_32.so" ]; then
-        adb push "${gki_dir}/libion_dmaheap_32.so" /vendor/lib/libion.so
-        adb shell "chmod 644 /vendor/lib/libion.so && chcon u:object_r:vendor_file:s0 /vendor/lib/libion.so"
-    fi
-    if [ -f "${gki_dir}/libashmem_gki_compat.so" ]; then
-        adb push "${gki_dir}/libashmem_gki_compat.so" /vendor/lib64/libashmem_compat.so
-        adb shell "chmod 644 /vendor/lib64/libashmem_compat.so && chcon u:object_r:vendor_file:s0 /vendor/lib64/libashmem_compat.so"
-    fi
-    log_ok "GKI compatibility bridges successfully installed!"
-}
-
-do_check_gki() {
-    check_adb
-    log_info "Querying device kernel version and memory device nodes..."
-    echo "--- Kernel Version ---"
-    adb shell "uname -a"
-    echo "--- DMA-BUF Heaps ---"
-    adb shell "ls -la /dev/dma_heap/ 2>/dev/null || echo 'No /dev/dma_heap directory (legacy kernel)'"
-    echo "--- Legacy Memory Nodes ---"
-    adb shell "ls -la /dev/ion /dev/ashmem 2>/dev/null || echo 'No legacy /dev/ion or /dev/ashmem (GKI kernel)'"
-    echo "--- Active HAL Processes ---"
-    adb shell "ps -A | grep -E 'android.hardware|vendor.mediatek' | head -n 25 || true"
-}
-
 do_build_zips() {
     log_info "Building Begonia Flashable Recovery Packages and Magisk Modules..."
     mkdir -p "${SCRIPT_DIR}/dist"
@@ -308,12 +270,6 @@ case "${1:-}" in
     reconstructed|recon)
         do_flash_reconstructed
         ;;
-    gki)
-        do_flash_gki
-        ;;
-    check-gki)
-        do_check_gki
-        ;;
     revert)
         do_revert
         ;;
@@ -338,13 +294,11 @@ case "${1:-}" in
         echo " Flashing Commands:"
         echo "   ./flash_blobs.sh flash [hal]       - Backup & flash proprietary HAL blobs"
         echo "   ./flash_blobs.sh flash all         - Backup & flash all 2,900+ vendor blobs"
-        echo "   ./flash_blobs.sh reconstructed     - Backup & flash all 188 reconstructed HALs"
-        echo "   ./flash_blobs.sh gki               - Deploy GKI DMA-BUF heap & ashmem bridges"
+        echo "   ./flash_blobs.sh reconstructed     - Backup & flash all reconstructed native HALs"
         echo "   ./flash_blobs.sh revert            - Roll back device to previous backup"
         echo ""
         echo " Diagnostic & Verification:"
         echo "   ./flash_blobs.sh status            - Check vendor properties on connected device"
-        echo "   ./flash_blobs.sh check-gki         - Check GKI kernel version & devnodes on device"
         echo ""
         echo " Build & Packaging:"
         echo "   ./flash_blobs.sh build-recon       - Compile all reconstructed C++ HALs"

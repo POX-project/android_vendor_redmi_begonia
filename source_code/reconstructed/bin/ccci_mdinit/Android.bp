@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered ccci_mdinit
 cc_binary {
-    name: "ccci_mdinit_gki",
+    name: "ccci_mdinit",
     vendor: true,
     srcs: [
         "ccci_mdinit.cpp",

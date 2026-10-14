@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libneuron_runtime.so
 cc_library_shared {
-    name: "libneuron_runtime_gki",
+    name: "libneuron_runtime",
     vendor: true,
     srcs: [
         "libneuron_runtime.cpp",

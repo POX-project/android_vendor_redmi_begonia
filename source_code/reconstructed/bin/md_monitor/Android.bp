@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered md_monitor
 cc_binary {
-    name: "md_monitor_gki",
+    name: "md_monitor",
     vendor: true,
     srcs: [
         "md_monitor.cpp",

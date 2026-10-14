@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvcodecdrv.so
 cc_library_shared {
-    name: "libvcodecdrv_gki",
+    name: "libvcodecdrv",
     vendor: true,
     srcs: [
         "libvcodecdrv.cpp",

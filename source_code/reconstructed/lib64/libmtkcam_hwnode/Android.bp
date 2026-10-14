@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_hwnode.so
 cc_library_shared {
-    name: "libmtkcam_hwnode_gki",
+    name: "libmtkcam_hwnode",
     vendor: true,
     srcs: [
         "libmtkcam_hwnode.cpp",

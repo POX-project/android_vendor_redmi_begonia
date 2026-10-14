@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered aee_archivev
 cc_binary {
-    name: "aee_archivev_gki",
+    name: "aee_archivev",
     vendor: true,
     srcs: [
         "aee_archivev.cpp",

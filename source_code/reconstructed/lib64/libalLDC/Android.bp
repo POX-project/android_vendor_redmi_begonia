@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libalLDC.so
 cc_library_shared {
-    name: "libalLDC_gki",
+    name: "libalLDC",
     vendor: true,
     srcs: [
         "libalLDC.cpp",

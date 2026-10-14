@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libneuropilot_jni_R.so
 cc_binary {
-    name: "libneuropilot_jni_R_gki",
+    name: "libneuropilot_jni_R",
     vendor: true,
     srcs: [
         "libneuropilot_jni_R.cpp",

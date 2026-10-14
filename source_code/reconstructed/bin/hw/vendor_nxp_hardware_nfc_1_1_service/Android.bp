@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.nxp.hardware.nfc@1.1-service
 cc_binary {
-    name: "vendor_nxp_hardware_nfc_1_1_service_gki",
+    name: "vendor_nxp_hardware_nfc_1_1_service",
     vendor: true,
     srcs: [
         "vendor_nxp_hardware_nfc_1_1_service.cpp",

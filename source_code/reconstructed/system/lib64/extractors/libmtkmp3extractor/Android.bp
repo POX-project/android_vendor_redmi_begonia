@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkmp3extractor.so
 cc_library_shared {
-    name: "libmtkmp3extractor_gki",
+    name: "libmtkmp3extractor",
     vendor: true,
     srcs: [
         "libmtkmp3extractor.cpp",

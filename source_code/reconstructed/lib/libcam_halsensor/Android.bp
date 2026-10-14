@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.halsensor.so
 cc_library_shared {
-    name: "libcam_halsensor_gki",
+    name: "libcam_halsensor",
     vendor: true,
     srcs: [
         "libcam_halsensor.cpp",

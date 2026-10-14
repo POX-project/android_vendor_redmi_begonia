@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered getgameserver
 cc_binary {
-    name: "getgameserver_gki",
+    name: "getgameserver",
     vendor: true,
     srcs: [
         "getgameserver.cpp",

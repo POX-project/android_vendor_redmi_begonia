@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libneuron_platform.so
 cc_library_shared {
-    name: "libneuron_platform_gki",
+    name: "libneuron_platform",
     vendor: true,
     srcs: [
         "libneuron_platform.cpp",

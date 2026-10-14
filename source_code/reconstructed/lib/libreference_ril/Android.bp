@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libreference-ril.so
 cc_library_shared {
-    name: "libreference_ril_gki",
+    name: "libreference_ril",
     vendor: true,
     srcs: [
         "libreference_ril.cpp",

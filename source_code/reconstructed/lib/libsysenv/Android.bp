@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsysenv.so
 cc_library_shared {
-    name: "libsysenv_gki",
+    name: "libsysenv",
     vendor: true,
     srcs: [
         "libsysenv.cpp",

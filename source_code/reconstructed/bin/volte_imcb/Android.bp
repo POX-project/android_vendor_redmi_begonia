@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered volte_imcb
 cc_binary {
-    name: "volte_imcb_gki",
+    name: "volte_imcb",
     vendor: true,
     srcs: [
         "volte_imcb.cpp",

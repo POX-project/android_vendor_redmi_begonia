@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libneuronusdk_adapter.mtk.so
 cc_library_shared {
-    name: "libneuronusdk_adapter_mtk_gki",
+    name: "libneuronusdk_adapter_mtk",
     vendor: true,
     srcs: [
         "libneuronusdk_adapter_mtk.cpp",

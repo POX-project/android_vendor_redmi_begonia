@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libpngt.so
 cc_library_shared {
-    name: "libpngt_gki",
+    name: "libpngt",
     vendor: true,
     srcs: [
         "libpngt.cpp",

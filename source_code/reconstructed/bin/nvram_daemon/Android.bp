@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered nvram_daemon
 cc_binary {
-    name: "nvram_daemon_gki",
+    name: "nvram_daemon",
     vendor: true,
     srcs: [
         "nvram_daemon.cpp",

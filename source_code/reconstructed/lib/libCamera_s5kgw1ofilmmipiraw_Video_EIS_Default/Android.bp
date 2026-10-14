@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default.so
 cc_library_shared {
-    name: "libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default_gki",
+    name: "libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1ofilmmipiraw_Video_EIS_Default.cpp",

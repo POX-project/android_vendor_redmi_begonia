@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmsbc_mtk.so
 cc_library_shared {
-    name: "libmsbc_mtk_gki",
+    name: "libmsbc_mtk",
     vendor: true,
     srcs: [
         "libmsbc_mtk.cpp",

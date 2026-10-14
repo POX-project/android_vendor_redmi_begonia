@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkhardware_legacy.so
 cc_library_shared {
-    name: "libmtkhardware_legacy_gki",
+    name: "libmtkhardware_legacy",
     vendor: true,
     srcs: [
         "libmtkhardware_legacy.cpp",

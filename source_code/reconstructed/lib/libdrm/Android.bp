@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdrm.so
 cc_library_shared {
-    name: "libdrm_gki",
+    name: "libdrm",
     vendor: true,
     srcs: [
         "libdrm.cpp",

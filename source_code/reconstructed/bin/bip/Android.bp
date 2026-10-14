@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered bip
 cc_binary {
-    name: "bip_gki",
+    name: "bip",
     vendor: true,
     srcs: [
         "bip.cpp",

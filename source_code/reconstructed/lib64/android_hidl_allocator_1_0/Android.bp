@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hidl.allocator@1.0.so
 cc_library_shared {
-    name: "android_hidl_allocator_1_0_gki",
+    name: "android_hidl_allocator_1_0",
     vendor: true,
     srcs: [
         "android_hidl_allocator_1_0.cpp",

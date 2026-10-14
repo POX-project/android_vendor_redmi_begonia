@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered librilutils.so
 cc_library_shared {
-    name: "librilutils_gki",
+    name: "librilutils",
     vendor: true,
     srcs: [
         "librilutils.cpp",

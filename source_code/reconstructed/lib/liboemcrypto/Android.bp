@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered liboemcrypto.so
 cc_library_shared {
-    name: "liboemcrypto_gki",
+    name: "liboemcrypto",
     vendor: true,
     srcs: [
         "liboemcrypto.cpp",

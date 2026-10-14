@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdre.so
 cc_library_shared {
-    name: "libdre_gki",
+    name: "libdre",
     vendor: true,
     srcs: [
         "libdre.cpp",

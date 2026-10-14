@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmfllcore.so
 cc_library_shared {
-    name: "libmfllcore_gki",
+    name: "libmfllcore",
     vendor: true,
     srcs: [
         "libmfllcore.cpp",

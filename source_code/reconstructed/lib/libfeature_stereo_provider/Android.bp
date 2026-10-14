@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfeature.stereo.provider.so
 cc_library_shared {
-    name: "libfeature_stereo_provider_gki",
+    name: "libfeature_stereo_provider",
     vendor: true,
     srcs: [
         "libfeature_stereo_provider.cpp",

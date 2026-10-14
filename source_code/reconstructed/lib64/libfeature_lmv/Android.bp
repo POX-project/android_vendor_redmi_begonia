@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfeature_lmv.so
 cc_library_shared {
-    name: "libfeature_lmv_gki",
+    name: "libfeature_lmv",
     vendor: true,
     srcs: [
         "libfeature_lmv.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered pnscr
 cc_binary {
-    name: "pnscr_gki",
+    name: "pnscr",
     vendor: true,
     srcs: [
         "pnscr.cpp",

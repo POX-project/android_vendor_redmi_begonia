@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered boringssl_self_test32
 cc_binary {
-    name: "boringssl_self_test32_gki",
+    name: "boringssl_self_test32",
     vendor: true,
     srcs: [
         "boringssl_self_test32.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_fdvt.so
 cc_library_shared {
-    name: "libmtkcam_fdvt_gki",
+    name: "libmtkcam_fdvt",
     vendor: true,
     srcs: [
         "libmtkcam_fdvt.cpp",

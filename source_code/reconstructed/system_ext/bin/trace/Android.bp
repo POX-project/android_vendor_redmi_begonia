@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered trace
 cc_binary {
-    name: "trace_gki",
+    name: "trace",
     vendor: true,
     srcs: [
         "trace.cpp",

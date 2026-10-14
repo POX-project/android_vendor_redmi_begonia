@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libtida@1.1.so
 cc_library_shared {
-    name: "libtida_1_1_gki",
+    name: "libtida_1_1",
     vendor: true,
     srcs: [
         "libtida_1_1.cpp",

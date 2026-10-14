@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib3a.log.so
 cc_library_shared {
-    name: "lib3a_log_gki",
+    name: "lib3a_log",
     vendor: true,
     srcs: [
         "lib3a_log.cpp",

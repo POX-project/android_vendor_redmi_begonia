@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkrillog.so
 cc_library_shared {
-    name: "libmtkrillog_gki",
+    name: "libmtkrillog",
     vendor: true,
     srcs: [
         "libmtkrillog.cpp",

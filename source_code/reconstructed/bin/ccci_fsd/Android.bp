@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered ccci_fsd
 cc_binary {
-    name: "ccci_fsd_gki",
+    name: "ccci_fsd",
     vendor: true,
     srcs: [
         "ccci_fsd.cpp",

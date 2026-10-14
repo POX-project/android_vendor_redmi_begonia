@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered stroke
 cc_binary {
-    name: "stroke_gki",
+    name: "stroke",
     vendor: true,
     srcs: [
         "stroke.cpp",

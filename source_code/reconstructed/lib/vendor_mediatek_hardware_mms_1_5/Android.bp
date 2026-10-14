@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.mms@1.5.so
 cc_library_shared {
-    name: "vendor_mediatek_hardware_mms_1_5_gki",
+    name: "vendor_mediatek_hardware_mms_1_5",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_mms_1_5.cpp",

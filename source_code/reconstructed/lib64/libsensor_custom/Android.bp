@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsensor_custom.so
 cc_library_shared {
-    name: "libsensor_custom_gki",
+    name: "libsensor_custom",
     vendor: true,
     srcs: [
         "libsensor_custom.cpp",

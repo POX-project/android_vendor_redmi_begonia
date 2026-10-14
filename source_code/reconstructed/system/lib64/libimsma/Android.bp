@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimsma.so
 cc_library_shared {
-    name: "libimsma_gki",
+    name: "libimsma",
     vendor: true,
     srcs: [
         "libimsma.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaalservice.so
 cc_library_shared {
-    name: "libaalservice_gki",
+    name: "libaalservice",
     vendor: true,
     srcs: [
         "libaalservice.cpp",

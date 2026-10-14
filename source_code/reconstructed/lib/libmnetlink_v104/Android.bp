@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmnetlink_v104.so
 cc_library_shared {
-    name: "libmnetlink_v104_gki",
+    name: "libmnetlink_v104",
     vendor: true,
     srcs: [
         "libmnetlink_v104.cpp",

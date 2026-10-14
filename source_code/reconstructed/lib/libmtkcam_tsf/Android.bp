@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_tsf.so
 cc_library_shared {
-    name: "libmtkcam_tsf_gki",
+    name: "libmtkcam_tsf",
     vendor: true,
     srcs: [
         "libmtkcam_tsf.cpp",

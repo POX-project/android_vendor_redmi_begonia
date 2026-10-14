@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_gc2375afmipiraw_MFSR_Capture.so
 cc_library_shared {
-    name: "libCamera_gc2375afmipiraw_MFSR_Capture_gki",
+    name: "libCamera_gc2375afmipiraw_MFSR_Capture",
     vendor: true,
     srcs: [
         "libCamera_gc2375afmipiraw_MFSR_Capture.cpp",

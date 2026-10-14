@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkasfextractor.so
 cc_library_shared {
-    name: "libmtkasfextractor_gki",
+    name: "libmtkasfextractor",
     vendor: true,
     srcs: [
         "libmtkasfextractor.cpp",

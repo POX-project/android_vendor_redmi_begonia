@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.graphics.composer@2.1-service
 cc_binary {
-    name: "android_hardware_graphics_composer_2_1_service_gki",
+    name: "android_hardware_graphics_composer_2_1_service",
     vendor: true,
     srcs: [
         "android_hardware_graphics_composer_2_1_service.cpp",

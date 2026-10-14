@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam.featurepipe.depthmap.so
 cc_library_shared {
-    name: "libmtkcam_featurepipe_depthmap_gki",
+    name: "libmtkcam_featurepipe_depthmap",
     vendor: true,
     srcs: [
         "libmtkcam_featurepipe_depthmap.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmfido.so
 cc_library_shared {
-    name: "libmfido_gki",
+    name: "libmfido",
     vendor: true,
     srcs: [
         "libmfido.cpp",

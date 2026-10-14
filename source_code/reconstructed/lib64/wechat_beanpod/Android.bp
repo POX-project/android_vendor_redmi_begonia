@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered wechat.beanpod.so
 cc_library_shared {
-    name: "wechat_beanpod_gki",
+    name: "wechat_beanpod",
     vendor: true,
     srcs: [
         "wechat_beanpod.cpp",

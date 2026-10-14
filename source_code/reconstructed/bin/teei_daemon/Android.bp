@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered teei_daemon
 cc_binary {
-    name: "teei_daemon_gki",
+    name: "teei_daemon",
     vendor: true,
     srcs: [
         "teei_daemon.cpp",

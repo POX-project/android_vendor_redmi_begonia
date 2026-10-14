@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mtd@1.2
 cc_binary {
-    name: "mtd_1_2_gki",
+    name: "mtd_1_2",
     vendor: true,
     srcs: [
         "mtd_1_2.cpp",

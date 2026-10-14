@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.pq@2.2-service
 cc_binary {
-    name: "vendor_mediatek_hardware_pq_2_2_service_gki",
+    name: "vendor_mediatek_hardware_pq_2_2_service",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_pq_2_2_service.cpp",

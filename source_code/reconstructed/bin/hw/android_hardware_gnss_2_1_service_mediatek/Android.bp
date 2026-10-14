@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.gnss@2.1-service-mediatek
 cc_binary {
-    name: "android_hardware_gnss_2_1_service_mediatek_gki",
+    name: "android_hardware_gnss_2_1_service_mediatek",
     vendor: true,
     srcs: [
         "android_hardware_gnss_2_1_service_mediatek.cpp",

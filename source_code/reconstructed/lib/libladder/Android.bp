@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libladder.so
 cc_library_shared {
-    name: "libladder_gki",
+    name: "libladder",
     vendor: true,
     srcs: [
         "libladder.cpp",

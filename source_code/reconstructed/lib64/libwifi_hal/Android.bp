@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libwifi-hal.so
 cc_library_shared {
-    name: "libwifi_hal_gki",
+    name: "libwifi_hal",
     vendor: true,
     srcs: [
         "libwifi_hal.cpp",

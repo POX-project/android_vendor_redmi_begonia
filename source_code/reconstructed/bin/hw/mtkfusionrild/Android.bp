@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mtkfusionrild
 cc_binary {
-    name: "mtkfusionrild_gki",
+    name: "mtkfusionrild",
     vendor: true,
     srcs: [
         "mtkfusionrild.cpp",

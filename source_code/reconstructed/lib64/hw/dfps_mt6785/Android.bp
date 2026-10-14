@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered dfps.mt6785.so
 cc_library_shared {
-    name: "dfps_mt6785_gki",
+    name: "dfps_mt6785",
     vendor: true,
     srcs: [
         "dfps_mt6785.cpp",

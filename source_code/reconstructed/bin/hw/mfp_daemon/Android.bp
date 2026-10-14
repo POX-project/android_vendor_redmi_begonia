@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mfp-daemon
 cc_binary {
-    name: "mfp_daemon_gki",
+    name: "mfp_daemon",
     vendor: true,
     srcs: [
         "mfp_daemon.cpp",

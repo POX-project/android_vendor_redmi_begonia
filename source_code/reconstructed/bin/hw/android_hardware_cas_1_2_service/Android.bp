@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.cas@1.2-service
 cc_binary {
-    name: "android_hardware_cas_1_2_service_gki",
+    name: "android_hardware_cas_1_2_service",
     vendor: true,
     srcs: [
         "android_hardware_cas_1_2_service.cpp",

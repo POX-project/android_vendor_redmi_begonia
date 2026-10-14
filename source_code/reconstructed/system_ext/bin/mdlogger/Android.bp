@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mdlogger
 cc_binary {
-    name: "mdlogger_gki",
+    name: "mdlogger",
     vendor: true,
     srcs: [
         "mdlogger.cpp",

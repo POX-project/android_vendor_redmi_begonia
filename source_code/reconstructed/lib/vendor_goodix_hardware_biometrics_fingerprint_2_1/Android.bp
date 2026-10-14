@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 cc_library_shared {
-    name: "vendor_goodix_hardware_biometrics_fingerprint_2_1_gki",
+    name: "vendor_goodix_hardware_biometrics_fingerprint_2_1",
     vendor: true,
     srcs: [
         "vendor_goodix_hardware_biometrics_fingerprint_2_1.cpp",

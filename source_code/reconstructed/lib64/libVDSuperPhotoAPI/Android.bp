@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libVDSuperPhotoAPI.so
 cc_library_shared {
-    name: "libVDSuperPhotoAPI_gki",
+    name: "libVDSuperPhotoAPI",
     vendor: true,
     srcs: [
         "libVDSuperPhotoAPI.cpp",

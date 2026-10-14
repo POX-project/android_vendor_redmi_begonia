@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vndservicemanager
 cc_binary {
-    name: "vndservicemanager_gki",
+    name: "vndservicemanager",
     vendor: true,
     srcs: [
         "vndservicemanager.cpp",

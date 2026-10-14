@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libbwc.so
 cc_library_shared {
-    name: "libbwc_gki",
+    name: "libbwc",
     vendor: true,
     srcs: [
         "libbwc.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib3a.gma.so
 cc_library_shared {
-    name: "lib3a_gma_gki",
+    name: "lib3a_gma",
     vendor: true,
     srcs: [
         "lib3a_gma.cpp",

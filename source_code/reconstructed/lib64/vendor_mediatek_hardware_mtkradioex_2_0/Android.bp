@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.mtkradioex@2.0.so
 cc_library_shared {
-    name: "vendor_mediatek_hardware_mtkradioex_2_0_gki",
+    name: "vendor_mediatek_hardware_mtkradioex_2_0",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_mtkradioex_2_0.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 cc_library_shared {
-    name: "vendor_mediatek_hardware_camera_lomoeffect_1_0_impl_gki",
+    name: "vendor_mediatek_hardware_camera_lomoeffect_1_0_impl",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_camera_lomoeffect_1_0_impl.cpp",

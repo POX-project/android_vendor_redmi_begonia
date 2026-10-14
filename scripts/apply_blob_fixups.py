@@ -2,7 +2,7 @@
 """
 Begonia Automated Blob Fixup Suite (Kanged from WuXing90 & LineageOS extract-files.py)
 Applies official community binary fixups, DT_NEEDED rewrites, and shim injections
-using patchelf to enable MT6785 Begonia blobs to run on modern Android and GKI kernels.
+using patchelf to enable MT6785 Begonia blobs to run on modern Android versions.
 """
 
 import os

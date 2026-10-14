@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered fuelgauged
 cc_binary {
-    name: "fuelgauged_gki",
+    name: "fuelgauged",
     vendor: true,
     srcs: [
         "fuelgauged.cpp",

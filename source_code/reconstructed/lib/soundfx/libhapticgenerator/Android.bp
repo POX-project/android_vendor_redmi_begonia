@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libhapticgenerator.so
 cc_library_shared {
-    name: "libhapticgenerator_gki",
+    name: "libhapticgenerator",
     vendor: true,
     srcs: [
         "libhapticgenerator.cpp",

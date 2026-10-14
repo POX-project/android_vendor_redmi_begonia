@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered audio.bluetooth.default.so
 cc_library_shared {
-    name: "audio_bluetooth_default_gki",
+    name: "audio_bluetooth_default",
     vendor: true,
     srcs: [
         "audio_bluetooth_default.cpp",

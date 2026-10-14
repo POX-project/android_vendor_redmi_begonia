@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib3a.ccuif.so
 cc_library_shared {
-    name: "lib3a_ccuif_gki",
+    name: "lib3a_ccuif",
     vendor: true,
     srcs: [
         "lib3a_ccuif.cpp",

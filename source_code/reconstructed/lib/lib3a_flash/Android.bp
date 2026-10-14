@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib3a.flash.so
 cc_library_shared {
-    name: "lib3a_flash_gki",
+    name: "lib3a_flash",
     vendor: true,
     srcs: [
         "lib3a_flash.cpp",

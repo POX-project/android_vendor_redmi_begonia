@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered wmt_loader
 cc_binary {
-    name: "wmt_loader_gki",
+    name: "wmt_loader",
     vendor: true,
     srcs: [
         "wmt_loader.cpp",

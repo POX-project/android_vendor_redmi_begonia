@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libchromanr.so
 cc_library_shared {
-    name: "libchromanr_gki",
+    name: "libchromanr",
     vendor: true,
     srcs: [
         "libchromanr.cpp",

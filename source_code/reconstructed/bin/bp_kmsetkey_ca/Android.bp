@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered bp_kmsetkey_ca
 cc_binary {
-    name: "bp_kmsetkey_ca_gki",
+    name: "bp_kmsetkey_ca",
     vendor: true,
     srcs: [
         "bp_kmsetkey_ca.cpp",

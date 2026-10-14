@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered wmt_launcher
 cc_binary {
-    name: "wmt_launcher_gki",
+    name: "wmt_launcher",
     vendor: true,
     srcs: [
         "wmt_launcher.cpp",

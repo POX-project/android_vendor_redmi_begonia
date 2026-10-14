@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered doeapp-memtester
 cc_binary {
-    name: "doeapp_memtester_gki",
+    name: "doeapp_memtester",
     vendor: true,
     srcs: [
         "doeapp_memtester.cpp",

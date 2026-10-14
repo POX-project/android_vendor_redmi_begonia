@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_metadata.so
 cc_library_shared {
-    name: "libmtkcam_metadata_gki",
+    name: "libmtkcam_metadata",
     vendor: true,
     srcs: [
         "libmtkcam_metadata.cpp",

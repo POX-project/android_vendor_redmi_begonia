@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgf_hal.so
 cc_library_shared {
-    name: "libgf_hal_gki",
+    name: "libgf_hal",
     vendor: true,
     srcs: [
         "libgf_hal.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.warp.so
 cc_library_shared {
-    name: "libcamalgo_warp_gki",
+    name: "libcamalgo_warp",
     vendor: true,
     srcs: [
         "libcamalgo_warp.cpp",

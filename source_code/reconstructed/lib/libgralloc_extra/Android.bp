@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgralloc_extra.so
 cc_library_shared {
-    name: "libgralloc_extra_gki",
+    name: "libgralloc_extra",
     vendor: true,
     srcs: [
         "libgralloc_extra.cpp",

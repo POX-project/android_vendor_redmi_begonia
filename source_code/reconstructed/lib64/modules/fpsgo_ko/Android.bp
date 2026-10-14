@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered fpsgo.ko
 cc_library_shared {
-    name: "fpsgo_ko_gki",
+    name: "fpsgo_ko",
     vendor: true,
     srcs: [
         "fpsgo_ko.cpp",

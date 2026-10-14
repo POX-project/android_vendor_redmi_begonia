@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvolte_xdmc_shr.so
 cc_library_shared {
-    name: "libvolte_xdmc_shr_gki",
+    name: "libvolte_xdmc_shr",
     vendor: true,
     srcs: [
         "libvolte_xdmc_shr.cpp",

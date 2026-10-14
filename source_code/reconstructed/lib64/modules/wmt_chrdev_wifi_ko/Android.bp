@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered wmt_chrdev_wifi.ko
 cc_library_shared {
-    name: "wmt_chrdev_wifi_ko_gki",
+    name: "wmt_chrdev_wifi_ko",
     vendor: true,
     srcs: [
         "wmt_chrdev_wifi_ko.cpp",

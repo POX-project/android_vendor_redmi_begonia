@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered thermalloadalgod
 cc_binary {
-    name: "thermalloadalgod_gki",
+    name: "thermalloadalgod",
     vendor: true,
     srcs: [
         "thermalloadalgod.cpp",

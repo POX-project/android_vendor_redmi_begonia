@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered ov8856ofilm_mipi_raw_tuning.so
 cc_library_shared {
-    name: "ov8856ofilm_mipi_raw_tuning_gki",
+    name: "ov8856ofilm_mipi_raw_tuning",
     vendor: true,
     srcs: [
         "ov8856ofilm_mipi_raw_tuning.cpp",

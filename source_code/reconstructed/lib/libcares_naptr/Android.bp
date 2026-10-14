@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcares_naptr.so
 cc_library_shared {
-    name: "libcares_naptr_gki",
+    name: "libcares_naptr",
     vendor: true,
     srcs: [
         "libcares_naptr.cpp",

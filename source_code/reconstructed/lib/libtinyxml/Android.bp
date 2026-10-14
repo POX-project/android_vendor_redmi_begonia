@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libtinyxml.so
 cc_library_shared {
-    name: "libtinyxml_gki",
+    name: "libtinyxml",
     vendor: true,
     srcs: [
         "libtinyxml.cpp",

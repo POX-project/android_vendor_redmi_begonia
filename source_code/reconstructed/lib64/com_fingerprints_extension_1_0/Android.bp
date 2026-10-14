@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered com.fingerprints.extension@1.0.so
 cc_library_shared {
-    name: "com_fingerprints_extension_1_0_gki",
+    name: "com_fingerprints_extension_1_0",
     vendor: true,
     srcs: [
         "com_fingerprints_extension_1_0.cpp",

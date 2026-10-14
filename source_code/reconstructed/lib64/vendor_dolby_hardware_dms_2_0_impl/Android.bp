@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.dolby.hardware.dms@2.0-impl.so
 cc_library_shared {
-    name: "vendor_dolby_hardware_dms_2_0_impl_gki",
+    name: "vendor_dolby_hardware_dms_2_0_impl",
     vendor: true,
     srcs: [
         "vendor_dolby_hardware_dms_2_0_impl.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.lcs.so
 cc_library_shared {
-    name: "libcam_lcs_gki",
+    name: "libcam_lcs",
     vendor: true,
     srcs: [
         "libcam_lcs.cpp",

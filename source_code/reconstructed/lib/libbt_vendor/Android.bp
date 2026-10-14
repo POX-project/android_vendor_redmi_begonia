@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libbt-vendor.so
 cc_library_shared {
-    name: "libbt_vendor_gki",
+    name: "libbt_vendor",
     vendor: true,
     srcs: [
         "libbt_vendor.cpp",

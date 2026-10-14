@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libarmnn_ndk.mtk.so
 cc_library_shared {
-    name: "libarmnn_ndk_mtk_gki",
+    name: "libarmnn_ndk_mtk",
     vendor: true,
     srcs: [
         "libarmnn_ndk_mtk.cpp",

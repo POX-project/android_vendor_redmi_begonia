@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libperfctl_vendor.so
 cc_library_shared {
-    name: "libperfctl_vendor_gki",
+    name: "libperfctl_vendor",
     vendor: true,
     srcs: [
         "libperfctl_vendor.cpp",

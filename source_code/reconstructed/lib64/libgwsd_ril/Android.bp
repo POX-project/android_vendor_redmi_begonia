@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgwsd-ril.so
 cc_library_shared {
-    name: "libgwsd_ril_gki",
+    name: "libgwsd_ril",
     vendor: true,
     srcs: [
         "libgwsd_ril.cpp",

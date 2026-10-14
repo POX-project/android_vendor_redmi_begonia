@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.videotelephony-V1-ndk.so
 cc_library_shared {
-    name: "vendor_mediatek_hardware_videotelephony_V1_ndk_gki",
+    name: "vendor_mediatek_hardware_videotelephony_V1_ndk",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_videotelephony_V1_ndk.cpp",

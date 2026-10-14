@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvt_avsync.so
 cc_library_shared {
-    name: "libvt_avsync_gki",
+    name: "libvt_avsync",
     vendor: true,
     srcs: [
         "libvt_avsync.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libMEOW_trace.so
 cc_library_shared {
-    name: "libMEOW_trace_gki",
+    name: "libMEOW_trace",
     vendor: true,
     srcs: [
         "libMEOW_trace.cpp",

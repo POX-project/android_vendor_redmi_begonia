@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefright_amrnb_common.so
 cc_library_shared {
-    name: "libstagefright_amrnb_common_gki",
+    name: "libstagefright_amrnb_common",
     vendor: true,
     srcs: [
         "libstagefright_amrnb_common.cpp",

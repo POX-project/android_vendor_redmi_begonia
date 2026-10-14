@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvowp25testing.vendor.so
 cc_library_shared {
-    name: "libvowp25testing_vendor_gki",
+    name: "libvowp25testing_vendor",
     vendor: true,
     srcs: [
         "libvowp25testing_vendor.cpp",

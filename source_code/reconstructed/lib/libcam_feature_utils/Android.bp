@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.feature_utils.so
 cc_library_shared {
-    name: "libcam_feature_utils_gki",
+    name: "libcam_feature_utils",
     vendor: true,
     srcs: [
         "libcam_feature_utils.cpp",

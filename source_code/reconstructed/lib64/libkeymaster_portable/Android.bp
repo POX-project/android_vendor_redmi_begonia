@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libkeymaster_portable.so
 cc_library_shared {
-    name: "libkeymaster_portable_gki",
+    name: "libkeymaster_portable",
     vendor: true,
     srcs: [
         "libkeymaster_portable.cpp",

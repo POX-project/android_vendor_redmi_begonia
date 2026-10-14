@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1sunnymipiraw_Video_1080P_EIS.so
 cc_library_shared {
-    name: "libCamera_s5kgw1sunnymipiraw_Video_1080P_EIS_gki",
+    name: "libCamera_s5kgw1sunnymipiraw_Video_1080P_EIS",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1sunnymipiraw_Video_1080P_EIS.cpp",

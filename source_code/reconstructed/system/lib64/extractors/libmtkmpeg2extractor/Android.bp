@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkmpeg2extractor.so
 cc_library_shared {
-    name: "libmtkmpeg2extractor_gki",
+    name: "libmtkmpeg2extractor",
     vendor: true,
     srcs: [
         "libmtkmpeg2extractor.cpp",

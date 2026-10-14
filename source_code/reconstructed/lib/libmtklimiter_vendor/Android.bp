@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtklimiter_vendor.so
 cc_library_shared {
-    name: "libmtklimiter_vendor_gki",
+    name: "libmtklimiter_vendor",
     vendor: true,
     srcs: [
         "libmtklimiter_vendor.cpp",

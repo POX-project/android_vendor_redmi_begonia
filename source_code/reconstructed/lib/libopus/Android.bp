@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libopus.so
 cc_library_shared {
-    name: "libopus_gki",
+    name: "libopus",
     vendor: true,
     srcs: [
         "libopus.cpp",

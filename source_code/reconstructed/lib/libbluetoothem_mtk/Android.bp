@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libbluetoothem_mtk.so
 cc_library_shared {
-    name: "libbluetoothem_mtk_gki",
+    name: "libbluetoothem_mtk",
     vendor: true,
     srcs: [
         "libbluetoothem_mtk.cpp",

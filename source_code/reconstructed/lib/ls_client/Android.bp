@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered ls_client.so
 cc_library_shared {
-    name: "ls_client_gki",
+    name: "ls_client",
     vendor: true,
     srcs: [
         "ls_client.cpp",

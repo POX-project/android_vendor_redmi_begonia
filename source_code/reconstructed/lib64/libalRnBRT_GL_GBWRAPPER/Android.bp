@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libalRnBRT_GL_GBWRAPPER.so
 cc_library_shared {
-    name: "libalRnBRT_GL_GBWRAPPER_gki",
+    name: "libalRnBRT_GL_GBWRAPPER",
     vendor: true,
     srcs: [
         "libalRnBRT_GL_GBWRAPPER.cpp",

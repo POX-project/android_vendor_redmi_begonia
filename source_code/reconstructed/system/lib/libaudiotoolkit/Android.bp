@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiotoolkit.so
 cc_library_shared {
-    name: "libaudiotoolkit_gki",
+    name: "libaudiotoolkit",
     vendor: true,
     srcs: [
         "libaudiotoolkit.cpp",

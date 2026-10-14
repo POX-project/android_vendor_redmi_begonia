@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkalacextractor.so
 cc_library_shared {
-    name: "libmtkalacextractor_gki",
+    name: "libmtkalacextractor",
     vendor: true,
     srcs: [
         "libmtkalacextractor.cpp",

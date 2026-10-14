@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libpq_cust_base.so
 cc_library_shared {
-    name: "libpq_cust_base_gki",
+    name: "libpq_cust_base",
     vendor: true,
     srcs: [
         "libpq_cust_base.cpp",

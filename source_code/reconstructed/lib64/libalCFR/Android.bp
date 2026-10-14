@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libalCFR.so
 cc_library_shared {
-    name: "libalCFR_gki",
+    name: "libalCFR",
     vendor: true,
     srcs: [
         "libalCFR.cpp",

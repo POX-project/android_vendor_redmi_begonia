@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_stdutils.so
 cc_library_shared {
-    name: "libmtkcam_stdutils_gki",
+    name: "libmtkcam_stdutils",
     vendor: true,
     srcs: [
         "libmtkcam_stdutils.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libswvqe.so
 cc_library_shared {
-    name: "libswvqe_gki",
+    name: "libswvqe",
     vendor: true,
     srcs: [
         "libswvqe.cpp",

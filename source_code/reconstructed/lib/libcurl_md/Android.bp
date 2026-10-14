@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcurl-md.so
 cc_library_shared {
-    name: "libcurl_md_gki",
+    name: "libcurl_md",
     vendor: true,
     srcs: [
         "libcurl_md.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libpowerhal.so
 cc_library_shared {
-    name: "libpowerhal_gki",
+    name: "libpowerhal",
     vendor: true,
     srcs: [
         "libpowerhal.cpp",

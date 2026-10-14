@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libjpeg-alpha-oal_vendor.so
 cc_library_shared {
-    name: "libjpeg_alpha_oal_vendor_gki",
+    name: "libjpeg_alpha_oal_vendor",
     vendor: true,
     srcs: [
         "libjpeg_alpha_oal_vendor.cpp",

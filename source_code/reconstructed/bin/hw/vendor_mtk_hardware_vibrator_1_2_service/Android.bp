@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mtk.hardware.vibrator@1.2-service
 cc_binary {
-    name: "vendor_mtk_hardware_vibrator_1_2_service_gki",
+    name: "vendor_mtk_hardware_vibrator_1_2_service",
     vendor: true,
     srcs: [
         "vendor_mtk_hardware_vibrator_1_2_service.cpp",

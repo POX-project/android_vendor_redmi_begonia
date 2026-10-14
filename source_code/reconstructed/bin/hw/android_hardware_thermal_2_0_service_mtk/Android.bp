@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.thermal@2.0-service.mtk
 cc_binary {
-    name: "android_hardware_thermal_2_0_service_mtk_gki",
+    name: "android_hardware_thermal_2_0_service_mtk",
     vendor: true,
     srcs: [
         "android_hardware_thermal_2_0_service_mtk.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtknetutils.so
 cc_library_shared {
-    name: "libmtknetutils_gki",
+    name: "libmtknetutils",
     vendor: true,
     srcs: [
         "libmtknetutils.cpp",

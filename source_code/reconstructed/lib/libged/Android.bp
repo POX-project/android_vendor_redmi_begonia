@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libged.so
 cc_library_shared {
-    name: "libged_gki",
+    name: "libged",
     vendor: true,
     srcs: [
         "libged.cpp",

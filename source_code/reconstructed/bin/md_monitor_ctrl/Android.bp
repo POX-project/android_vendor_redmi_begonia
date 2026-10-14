@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered md_monitor_ctrl
 cc_binary {
-    name: "md_monitor_ctrl_gki",
+    name: "md_monitor_ctrl",
     vendor: true,
     srcs: [
         "md_monitor_ctrl.cpp",

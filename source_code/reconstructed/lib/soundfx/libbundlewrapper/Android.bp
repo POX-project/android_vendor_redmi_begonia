@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libbundlewrapper.so
 cc_library_shared {
-    name: "libbundlewrapper_gki",
+    name: "libbundlewrapper",
     vendor: true,
     srcs: [
         "libbundlewrapper.cpp",

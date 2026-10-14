@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimsg_log.so
 cc_library_shared {
-    name: "libimsg_log_gki",
+    name: "libimsg_log",
     vendor: true,
     srcs: [
         "libimsg_log.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmpbase.so
 cc_library_shared {
-    name: "libmpbase_gki",
+    name: "libmpbase",
     vendor: true,
     srcs: [
         "libmpbase.cpp",

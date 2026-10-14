@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkconfigutils.so
 cc_library_shared {
-    name: "libmtkconfigutils_gki",
+    name: "libmtkconfigutils",
     vendor: true,
     srcs: [
         "libmtkconfigutils.cpp",

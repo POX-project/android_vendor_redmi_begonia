@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1ofilmmipiraw_Video_1080P_60fps.so
 cc_library_shared {
-    name: "libCamera_s5kgw1ofilmmipiraw_Video_1080P_60fps_gki",
+    name: "libCamera_s5kgw1ofilmmipiraw_Video_1080P_60fps",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1ofilmmipiraw_Video_1080P_60fps.cpp",

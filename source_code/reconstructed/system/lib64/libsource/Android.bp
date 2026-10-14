@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsource.so
 cc_library_shared {
-    name: "libsource_gki",
+    name: "libsource",
     vendor: true,
     srcs: [
         "libsource.cpp",

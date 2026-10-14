@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.pdtblgen.so
 cc_library_shared {
-    name: "libcam_pdtblgen_gki",
+    name: "libcam_pdtblgen",
     vendor: true,
     srcs: [
         "libcam_pdtblgen.cpp",

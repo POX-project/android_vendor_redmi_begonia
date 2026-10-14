@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_imgbuf.so
 cc_library_shared {
-    name: "libmtkcam_imgbuf_gki",
+    name: "libmtkcam_imgbuf",
     vendor: true,
     srcs: [
         "libmtkcam_imgbuf.cpp",

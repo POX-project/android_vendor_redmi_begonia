@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdrmmtkwhitelist.so
 cc_library_shared {
-    name: "libdrmmtkwhitelist_gki",
+    name: "libdrmmtkwhitelist",
     vendor: true,
     srcs: [
         "libdrmmtkwhitelist.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libudf.so
 cc_library_shared {
-    name: "libudf_gki",
+    name: "libudf",
     vendor: true,
     srcs: [
         "libudf.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libtflite_mtk_static_R.so
 cc_binary {
-    name: "libtflite_mtk_static_R_gki",
+    name: "libtflite_mtk_static_R",
     vendor: true,
     srcs: [
         "libtflite_mtk_static_R.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered VP9SecureVdecCA.so
 cc_library_shared {
-    name: "VP9SecureVdecCA_gki",
+    name: "VP9SecureVdecCA",
     vendor: true,
     srcs: [
         "VP9SecureVdecCA.cpp",

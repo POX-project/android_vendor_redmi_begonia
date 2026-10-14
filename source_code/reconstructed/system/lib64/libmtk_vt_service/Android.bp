@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtk_vt_service.so
 cc_library_shared {
-    name: "libmtk_vt_service_gki",
+    name: "libmtk_vt_service",
     vendor: true,
     srcs: [
         "libmtk_vt_service.cpp",

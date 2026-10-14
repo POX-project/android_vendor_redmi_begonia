@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mi_thermald
 cc_binary {
-    name: "mi_thermald_gki",
+    name: "mi_thermald",
     vendor: true,
     srcs: [
         "mi_thermald.cpp",

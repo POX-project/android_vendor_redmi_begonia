@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvisualizer.so
 cc_library_shared {
-    name: "libvisualizer_gki",
+    name: "libvisualizer",
     vendor: true,
     srcs: [
         "libvisualizer.cpp",

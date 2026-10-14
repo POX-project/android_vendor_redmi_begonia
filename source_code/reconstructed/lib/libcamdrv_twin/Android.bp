@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamdrv_twin.so
 cc_library_shared {
-    name: "libcamdrv_twin_gki",
+    name: "libcamdrv_twin",
     vendor: true,
     srcs: [
         "libcamdrv_twin.cpp",

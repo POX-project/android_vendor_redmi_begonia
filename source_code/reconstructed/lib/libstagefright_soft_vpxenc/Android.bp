@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefright_soft_vpxenc.so
 cc_library_shared {
-    name: "libstagefright_soft_vpxenc_gki",
+    name: "libstagefright_soft_vpxenc",
     vendor: true,
     srcs: [
         "libstagefright_soft_vpxenc.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaptXHD_encoder.so
 cc_library_shared {
-    name: "libaptXHD_encoder_gki",
+    name: "libaptXHD_encoder",
     vendor: true,
     srcs: [
         "libaptXHD_encoder.cpp",

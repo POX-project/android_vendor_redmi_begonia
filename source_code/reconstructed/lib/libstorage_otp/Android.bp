@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstorage_otp.so
 cc_library_shared {
-    name: "libstorage_otp_gki",
+    name: "libstorage_otp",
     vendor: true,
     srcs: [
         "libstorage_otp.cpp",

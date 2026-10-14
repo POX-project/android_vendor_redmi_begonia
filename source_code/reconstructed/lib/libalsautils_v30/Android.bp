@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libalsautils-v30.so
 cc_library_shared {
-    name: "libalsautils_v30_gki",
+    name: "libalsautils_v30",
     vendor: true,
     srcs: [
         "libalsautils_v30.cpp",

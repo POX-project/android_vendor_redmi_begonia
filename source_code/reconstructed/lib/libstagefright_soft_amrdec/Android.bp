@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefright_soft_amrdec.so
 cc_library_shared {
-    name: "libstagefright_soft_amrdec_gki",
+    name: "libstagefright_soft_amrdec",
     vendor: true,
     srcs: [
         "libstagefright_soft_amrdec.cpp",

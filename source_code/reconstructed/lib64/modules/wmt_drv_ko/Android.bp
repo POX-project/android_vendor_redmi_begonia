@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered wmt_drv.ko
 cc_library_shared {
-    name: "wmt_drv_ko_gki",
+    name: "wmt_drv_ko",
     vendor: true,
     srcs: [
         "wmt_drv_ko.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcomutils.so
 cc_library_shared {
-    name: "libcomutils_gki",
+    name: "libcomutils",
     vendor: true,
     srcs: [
         "libcomutils.cpp",

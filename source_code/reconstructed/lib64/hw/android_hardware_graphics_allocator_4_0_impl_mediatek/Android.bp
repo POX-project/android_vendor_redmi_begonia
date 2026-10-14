@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.graphics.allocator@4.0-impl-mediatek.so
 cc_library_shared {
-    name: "android_hardware_graphics_allocator_4_0_impl_mediatek_gki",
+    name: "android_hardware_graphics_allocator_4_0_impl_mediatek",
     vendor: true,
     srcs: [
         "android_hardware_graphics_allocator_4_0_impl_mediatek.cpp",

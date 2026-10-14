@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libunwindstack-v30.so
 cc_library_shared {
-    name: "libunwindstack_v30_gki",
+    name: "libunwindstack_v30",
     vendor: true,
     srcs: [
         "libunwindstack_v30.cpp",

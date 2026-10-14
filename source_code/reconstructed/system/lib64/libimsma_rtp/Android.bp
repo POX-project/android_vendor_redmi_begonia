@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimsma_rtp.so
 cc_library_shared {
-    name: "libimsma_rtp_gki",
+    name: "libimsma_rtp",
     vendor: true,
     srcs: [
         "libimsma_rtp.cpp",

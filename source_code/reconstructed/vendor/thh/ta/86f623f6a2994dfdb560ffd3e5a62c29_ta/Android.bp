@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered 86f623f6a2994dfdb560ffd3e5a62c29.ta
 cc_binary {
-    name: "86f623f6a2994dfdb560ffd3e5a62c29_ta_gki",
+    name: "86f623f6a2994dfdb560ffd3e5a62c29_ta",
     vendor: true,
     srcs: [
         "86f623f6a2994dfdb560ffd3e5a62c29_ta.cpp",

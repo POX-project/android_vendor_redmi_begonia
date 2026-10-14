@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkares.so
 cc_library_shared {
-    name: "libmtkares_gki",
+    name: "libmtkares",
     vendor: true,
     srcs: [
         "libmtkares.cpp",

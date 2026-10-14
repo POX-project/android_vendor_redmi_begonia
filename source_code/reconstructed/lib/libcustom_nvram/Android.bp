@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcustom_nvram.so
 cc_library_shared {
-    name: "libcustom_nvram_gki",
+    name: "libcustom_nvram",
     vendor: true,
     srcs: [
         "libcustom_nvram.cpp",

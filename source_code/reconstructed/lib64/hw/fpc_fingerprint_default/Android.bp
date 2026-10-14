@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered fpc_fingerprint.default.so
 cc_library_shared {
-    name: "fpc_fingerprint_default_gki",
+    name: "fpc_fingerprint_default",
     vendor: true,
     srcs: [
         "fpc_fingerprint_default.cpp",

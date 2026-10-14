@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered wfca
 cc_binary {
-    name: "wfca_gki",
+    name: "wfca",
     vendor: true,
     srcs: [
         "wfca.cpp",

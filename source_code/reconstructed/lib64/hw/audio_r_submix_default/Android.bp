@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered audio.r_submix.default.so
 cc_library_shared {
-    name: "audio_r_submix_default_gki",
+    name: "audio_r_submix_default",
     vendor: true,
     srcs: [
         "audio_r_submix_default.cpp",

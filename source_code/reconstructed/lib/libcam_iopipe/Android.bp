@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.iopipe.so
 cc_library_shared {
-    name: "libcam_iopipe_gki",
+    name: "libcam_iopipe",
     vendor: true,
     srcs: [
         "libcam_iopipe.cpp",

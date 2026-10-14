@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudio_param_parser-sys.so
 cc_library_shared {
-    name: "libaudio_param_parser_sys_gki",
+    name: "libaudio_param_parser_sys",
     vendor: true,
     srcs: [
         "libaudio_param_parser_sys.cpp",

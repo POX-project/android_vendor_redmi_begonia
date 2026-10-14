@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libutils-v30.so
 cc_library_shared {
-    name: "libutils_v30_gki",
+    name: "libutils_v30",
     vendor: true,
     srcs: [
         "libutils_v30.cpp",

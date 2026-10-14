@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered s5k3t2_mipi_raw_IdxMgr.so
 cc_library_shared {
-    name: "s5k3t2_mipi_raw_IdxMgr_gki",
+    name: "s5k3t2_mipi_raw_IdxMgr",
     vendor: true,
     srcs: [
         "s5k3t2_mipi_raw_IdxMgr.cpp",

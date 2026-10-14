@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered fuelgauged_nvram
 cc_binary {
-    name: "fuelgauged_nvram_gki",
+    name: "fuelgauged_nvram",
     vendor: true,
     srcs: [
         "fuelgauged_nvram.cpp",

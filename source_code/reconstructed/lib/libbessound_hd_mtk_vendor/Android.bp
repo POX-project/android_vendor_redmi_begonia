@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libbessound_hd_mtk_vendor.so
 cc_library_shared {
-    name: "libbessound_hd_mtk_vendor_gki",
+    name: "libbessound_hd_mtk_vendor",
     vendor: true,
     srcs: [
         "libbessound_hd_mtk_vendor.cpp",

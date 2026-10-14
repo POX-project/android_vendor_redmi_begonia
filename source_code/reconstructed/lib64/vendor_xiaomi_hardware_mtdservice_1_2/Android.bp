@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.xiaomi.hardware.mtdservice@1.2.so
 cc_library_shared {
-    name: "vendor_xiaomi_hardware_mtdservice_1_2_gki",
+    name: "vendor_xiaomi_hardware_mtdservice_1_2",
     vendor: true,
     srcs: [
         "vendor_xiaomi_hardware_mtdservice_1_2.cpp",

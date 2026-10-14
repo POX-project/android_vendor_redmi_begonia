@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered power.mt6785.so
 cc_library_shared {
-    name: "power_mt6785_gki",
+    name: "power_mt6785",
     vendor: true,
     srcs: [
         "power_mt6785.cpp",

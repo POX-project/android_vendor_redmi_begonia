@@ -1,0 +1,6613 @@
+{
+  "total": 367,
+  "passed": 367,
+  "failed": 0,
+  "results": [
+    {
+      "path": "vendor/bin/hw/android_hardware_audio_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_bluetooth_1_0_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_cas_1_2_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_configstore_1_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_drm_1_3_service_clearkey",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_drm_1_3_service_widevine",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_dumpstate_1_1_service_xiaomi",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_gatekeeper_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_gnss_2_1_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_graphics_allocator_4_0_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_graphics_composer_2_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_health_2_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_ir_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_keymaster_4_0_service_beanpod",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_lights_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_media_omx_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_memtrack_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_neuralnetworks_1_3_service_mtk_neuron",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_secure_element_1_0_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_sensors_1_0_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_thermal_2_0_service_mtk",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_usb_1_1_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_vibrator_1_0_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_vibrator_service_mediatek",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/android_hardware_wifi_1_0_service_lazy",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/camerahalserver",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/hostapd",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/mfp_daemon",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/mtkfusionrild",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/power_native_test_v_1_0",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/power_native_test_v_1_1",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_dolby_hardware_dms_2_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_aee_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_dfps_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_dplanner_2_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_gpu_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_keymaster_attestation_1_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_mms_1_5_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_mtkcodecservice_1_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_mtkpower_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_nvram_1_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_nwk_opt_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mediatek_hardware_pq_2_2_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_microtrust_hardware_se_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_mtk_hardware_vibrator_1_2_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_nxp_hardware_nfc_1_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_xiaomi_hardware_citsensorservice_1_1_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_xiaomi_hardware_displayfeature_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_xiaomi_hardware_micharge_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_xiaomi_hardware_misys_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_xiaomi_hardware_misys_2_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_xiaomi_hardware_misys_3_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vendor_xiaomi_hardware_touchfeature_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/vtservice_hidl",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/wpa_supplicant",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/bin/hw/bin/hw/vendor_microtrust_hardware_soter_1_0_service",
+      "category": "vendor/bin/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_audio_6_0_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_audio_effect_6_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_bluetooth_1_0_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_bluetooth_1_0_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_bluetooth_audio_2_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_camera_provider_2_4_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_configstore_1_1_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_drm_1_3_service_clearkey.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_dumpstate_1_1_service_xiaomi.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_gatekeeper_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_gatekeeper_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_gnss_2_1_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_gnss_2_1_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_graphics_allocator_4_0_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_graphics_allocator_4_0_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_graphics_composer_2_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_graphics_composer_2_1_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_graphics_mapper_4_0_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_health_2_0_impl_2_1.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_health_2_1_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_ir_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_ir_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_keymaster_4_0_service_beanpod.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_lights_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_memtrack_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_memtrack_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_neuralnetworks_1_3_service_mtk_neuron.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_renderscript_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_secure_element_1_0_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_sensors_1_0_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_sensors_1_0_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_thermal_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_thermal_2_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_thermal_2_0_service_mtk.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_usb_1_1_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_vibrator_1_0_impl_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_vibrator_1_0_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_vibrator_service_mediatek.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/android_hardware_wifi_1_0_service_lazy.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_bluetooth_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_policy_stub.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_primary_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_primary_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_r_submix_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_r_submix_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_usb_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/audio_usb_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/camerahalserver.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/consumerir_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/dfps_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/displayfeature_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/fpc_fingerprint_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/gatekeeper_beanpod.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/gf_fingerprint_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/gps_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/gralloc_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/hostapd.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/hwcomposer_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/kmsetkey_beanpod.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/libSoftGatekeeper.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/lights_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/local_time_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/memtrack_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/mfp_daemon.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/mtkfusionrild.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/nfc_nci_nqx_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/power_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/power_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/power_native_test_v_1_0.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/power_native_test_v_1_1.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/sensors_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/sensors_touch.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/sound_trigger_primary_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/thermal_mt6785.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_dolby_hardware_dms_2_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_aee_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_bluetooth_audio_2_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_camera_atms_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_camera_bgservice_1_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_camera_ccap_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_camera_lomoeffect_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_camera_postproc_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_dfps_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_dfps_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_dplanner_2_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_gpu_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_keymaster_attestation_1_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_keymaster_attestation_1_1_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_mms_1_5_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_mms_1_5_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_mtkcodecservice_1_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_mtkpower_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_mtkpower_1_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_nvram_1_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_nvram_1_1_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_nwk_opt_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_pq_2_2_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_pq_2_6_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mediatek_hardware_videotelephony_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_microtrust_hardware_se_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_microtrust_hardwareter_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_mtk_hardware_vibrator_1_2_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_nxp_hardware_nfc_1_1_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_citsensorservice_1_1_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_citsensorservice_1_1_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_displayfeature_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_displayfeature_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_micharge_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_micharge_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_misys_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_misys_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_misys_2_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_misys_2_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_misys_3_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_misys_3_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_touchfeature_1_0_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vendor_xiaomi_hardware_touchfeature_1_0_service.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/vibrator_default.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/wpa_supplicant.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib64/hw/lib64/hw/android_hardware_soundtrigger_2_3_impl.so",
+      "category": "vendor/lib64/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_audio_6_0_impl_mediatek.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_audio_effect_6_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_audio_service_mediatek.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_bluetooth_1_0_impl_mediatek.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_bluetooth_audio_2_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_cas_1_2_service.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_drm_1_3_service_widevine.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_gatekeeper_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_graphics_allocator_4_0_impl_mediatek.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_graphics_composer_2_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_graphics_mapper_4_0_impl_mediatek.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_health_2_0_impl_2_1.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_ir_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_media_omx_1_0_service.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_memtrack_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_renderscript_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_thermal_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_thermal_2_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/android_hardware_vibrator_1_0_impl_mediatek.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_bluetooth_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_policy_stub.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_primary_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_primary_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_r_submix_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_r_submix_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_usb_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/audio_usb_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/consumerir_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/dfps_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/displayfeature_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/gatekeeper_beanpod.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/gf_fingerprint_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/gps_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/gralloc_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/kmsetkey_beanpod.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/libSoftGatekeeper.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/lights_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/local_time_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/memtrack_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/nfc_nci_nqx_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/power_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/power_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/sensors_touch.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/sound_trigger_primary_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/thermal_mt6785.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_bluetooth_audio_2_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_camera_atms_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_camera_bgservice_1_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_camera_postproc_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_dfps_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_keymaster_attestation_1_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_mms_1_5_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_mtkcodecservice_1_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_mtkcodecservice_1_1_service.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_mtkpower_1_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_nvram_1_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_pq_2_6_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_mediatek_hardware_videotelephony_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_xiaomi_hardware_citsensorservice_1_1_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_xiaomi_hardware_displayfeature_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_xiaomi_hardware_micharge_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_xiaomi_hardware_misys_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_xiaomi_hardware_misys_2_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_xiaomi_hardware_misys_3_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vendor_xiaomi_hardware_touchfeature_1_0_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vibrator_default.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": true,
+        "has_main": false
+      }
+    },
+    {
+      "path": "vendor/lib/hw/vtservice_hidl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "vendor/lib/hw/lib/hw/android_hardware_soundtrigger_2_3_impl.so",
+      "category": "vendor/lib/hw",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libaed.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libaptXHD_encoder.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libaptX_encoder.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libapuwareapusys_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libapuwareutils_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libapuwarexrp_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libarmnn_ndk_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libcmdl_ndk_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libdrmmtkutil.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libdrmmtkwhitelist.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libjpgt.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/liblept.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libneuron_opencv_delegate_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libneuronusdk_adapter_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libnir_neon_driver_ndk_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libpcap_bak.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libpngt.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libtess.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/libtflite_mtk_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "system_ext/lib64/libvpuapi_mtk.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_apuware_apusys_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_apuware_utils_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_apuware_xrp_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_audio_6_1.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_bluetooth_audio_2_1.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_camera_postproc_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_dfps_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_gpu_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_lbs_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_log_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_modemdbfilter_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_mtkpower_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_mtkpower_1_1.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_mtkradioex_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_nwk_opt_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_power_2_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_power_2_1.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_touchll_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_videotelephony_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/vendor_mediatek_hardware_vpu_1_0.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib64/drm/cta/libdrmctaplugin.so",
+      "category": "system_ext/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libaed.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libapuwareapusys_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libapuwareutils_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libapuwarexrp_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libarmnn_ndk_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libcmdl_ndk_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libdrmmtkutil.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libdrmmtkwhitelist.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libjpgt.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/liblept.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libneuron_opencv_delegate_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libneuronusdk_adapter_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libnir_neon_driver_ndk_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libpngt.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libtess.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/libtflite_mtk_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "system_ext/lib/libvpuapi_mtk.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_apuware_apusys_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_apuware_utils_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_apuware_xrp_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_atci_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_audio_6_1.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_bluetooth_audio_2_1.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_camera_atms_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_camera_postproc_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_dfps_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_gpu_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_mtkpower_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_mtkpower_1_1.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_mtkradioex_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_nwk_opt_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_touchll_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_videotelephony_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/vendor_mediatek_hardware_vpu_1_0.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/lib/drm/cta/libdrmctaplugin.so",
+      "category": "system_ext/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system_ext/bin/mdlogger",
+      "category": "system_ext/bin",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "system_ext/bin/rtt",
+      "category": "system_ext/bin",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "system_ext/bin/trace",
+      "category": "system_ext/bin",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    },
+    {
+      "path": "system/lib64/libaudio_param_parser_sys.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libaudiotoolkit.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libaudioutilmtk.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libcomutils.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libem_audio_jni.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libem_gpio_jni.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libem_support_jni.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libem_usb_jni.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libem_wifi_jni.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libimsma.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libimsma_adapt.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libimsma_rtp.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libimsma_socketwrapper.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libmtk_vt_service.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libmtk_vt_wrapper.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libmtkavenhancements.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libsignal.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libsink.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libsink_mtk.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libsource.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libvcodec_cap.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libvcodec_capenc.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/libvt_avsync.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/vendor_mediatek_hardware_audio_5_1.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/vendor_mediatek_hardware_videotelephony_1_0.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/vendor_mediatek_hardware_videotelephony_V1_ndk.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkadpcmextractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkalacextractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkapeextractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkasfextractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkaviextractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkflvextractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkmp3extractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib64/extractors/libmtkmpeg2extractor.so",
+      "category": "system/lib64",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libaudio_param_parser_sys.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libaudiotoolkit.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libaudioutilmtk.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libem_audio_jni.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libem_gpio_jni.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libem_support_jni.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libem_usb_jni.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/libem_wifi_jni.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/lib/vendor_mediatek_hardware_audio_5_1.so",
+      "category": "system/lib",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": false
+      }
+    },
+    {
+      "path": "system/bin/vtservice",
+      "category": "system/bin",
+      "passed": true,
+      "errors": [],
+      "warnings": [],
+      "details": {
+        "needed_libraries": [
+          "liblog.so",
+          "libc++_shared.so",
+          "libm.so",
+          "libdl.so",
+          "libc.so"
+        ],
+        "has_hmi": false,
+        "has_main": true
+      }
+    }
+  ]
+}

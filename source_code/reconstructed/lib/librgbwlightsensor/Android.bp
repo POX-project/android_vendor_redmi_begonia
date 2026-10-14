@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered librgbwlightsensor.so
 cc_library_shared {
-    name: "librgbwlightsensor_gki",
+    name: "librgbwlightsensor",
     vendor: true,
     srcs: [
         "librgbwlightsensor.cpp",

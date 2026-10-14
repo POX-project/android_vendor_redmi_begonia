@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libwvdrmengine.so
 cc_library_shared {
-    name: "libwvdrmengine_gki",
+    name: "libwvdrmengine",
     vendor: true,
     srcs: [
         "libwvdrmengine.cpp",

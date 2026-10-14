@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered volte_md_status
 cc_binary {
-    name: "volte_md_status_gki",
+    name: "volte_md_status",
     vendor: true,
     srcs: [
         "volte_md_status.cpp",

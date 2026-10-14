@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib_iir.so
 cc_library_shared {
-    name: "lib_iir_gki",
+    name: "lib_iir",
     vendor: true,
     srcs: [
         "lib_iir.cpp",

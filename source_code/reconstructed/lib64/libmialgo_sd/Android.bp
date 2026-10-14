@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmialgo_sd.so
 cc_library_shared {
-    name: "libmialgo_sd_gki",
+    name: "libmialgo_sd",
     vendor: true,
     srcs: [
         "libmialgo_sd.cpp",

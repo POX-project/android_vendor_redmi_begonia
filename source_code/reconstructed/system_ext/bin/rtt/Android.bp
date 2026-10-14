@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered rtt
 cc_binary {
-    name: "rtt_gki",
+    name: "rtt",
     vendor: true,
     srcs: [
         "rtt.cpp",

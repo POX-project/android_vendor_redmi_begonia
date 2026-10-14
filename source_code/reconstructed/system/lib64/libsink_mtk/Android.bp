@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsink-mtk.so
 cc_library_shared {
-    name: "libsink_mtk_gki",
+    name: "libsink_mtk",
     vendor: true,
     srcs: [
         "libsink_mtk.cpp",

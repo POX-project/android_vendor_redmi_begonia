@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libalhLDC.so
 cc_library_shared {
-    name: "libalhLDC_gki",
+    name: "libalhLDC",
     vendor: true,
     srcs: [
         "libalhLDC.cpp",

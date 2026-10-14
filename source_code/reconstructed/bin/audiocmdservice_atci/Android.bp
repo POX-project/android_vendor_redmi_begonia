@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered audiocmdservice_atci
 cc_binary {
-    name: "audiocmdservice_atci_gki",
+    name: "audiocmdservice_atci",
     vendor: true,
     srcs: [
         "audiocmdservice_atci.cpp",

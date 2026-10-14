@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_featurepolicy.so
 cc_library_shared {
-    name: "libmtkcam_featurepolicy_gki",
+    name: "libmtkcam_featurepolicy",
     vendor: true,
     srcs: [
         "libmtkcam_featurepolicy.cpp",

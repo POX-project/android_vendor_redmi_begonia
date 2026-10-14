@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered wlan_assistant
 cc_binary {
-    name: "wlan_assistant_gki",
+    name: "wlan_assistant",
     vendor: true,
     srcs: [
         "wlan_assistant.cpp",

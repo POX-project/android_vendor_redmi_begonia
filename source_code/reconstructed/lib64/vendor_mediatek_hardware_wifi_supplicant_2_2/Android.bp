@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.wifi.supplicant@2.2.so
 cc_library_shared {
-    name: "vendor_mediatek_hardware_wifi_supplicant_2_2_gki",
+    name: "vendor_mediatek_hardware_wifi_supplicant_2_2",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_wifi_supplicant_2_2.cpp",

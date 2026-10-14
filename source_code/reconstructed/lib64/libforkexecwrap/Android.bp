@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libforkexecwrap.so
 cc_library_shared {
-    name: "libforkexecwrap_gki",
+    name: "libforkexecwrap",
     vendor: true,
     srcs: [
         "libforkexecwrap.cpp",

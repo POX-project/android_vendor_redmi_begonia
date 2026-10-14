@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered sound_trigger.primary.mt6785.so
 cc_library_shared {
-    name: "sound_trigger_primary_mt6785_gki",
+    name: "sound_trigger_primary_mt6785",
     vendor: true,
     srcs: [
         "sound_trigger_primary_mt6785.cpp",

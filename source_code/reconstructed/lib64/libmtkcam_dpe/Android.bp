@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_dpe.so
 cc_library_shared {
-    name: "libmtkcam_dpe_gki",
+    name: "libmtkcam_dpe",
     vendor: true,
     srcs: [
         "libmtkcam_dpe.cpp",

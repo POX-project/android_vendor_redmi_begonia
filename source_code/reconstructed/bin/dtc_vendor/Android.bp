@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered dtc_vendor
 cc_binary {
-    name: "dtc_vendor_gki",
+    name: "dtc_vendor",
     vendor: true,
     srcs: [
         "dtc_vendor.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam.logicalmodule.so
 cc_library_shared {
-    name: "libmtkcam_logicalmodule_gki",
+    name: "libmtkcam_logicalmodule",
     vendor: true,
     srcs: [
         "libmtkcam_logicalmodule.cpp",

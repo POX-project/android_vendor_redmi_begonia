@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvpud_vcodec.so
 cc_library_shared {
-    name: "libvpud_vcodec_gki",
+    name: "libvpud_vcodec",
     vendor: true,
     srcs: [
         "libvpud_vcodec.cpp",

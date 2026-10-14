@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.n3d.so
 cc_library_shared {
-    name: "libcamalgo_n3d_gki",
+    name: "libcamalgo_n3d",
     vendor: true,
     srcs: [
         "libcamalgo_n3d.cpp",

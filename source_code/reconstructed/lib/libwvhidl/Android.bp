@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libwvhidl.so
 cc_library_shared {
-    name: "libwvhidl_gki",
+    name: "libwvhidl",
     vendor: true,
     srcs: [
         "libwvhidl.cpp",

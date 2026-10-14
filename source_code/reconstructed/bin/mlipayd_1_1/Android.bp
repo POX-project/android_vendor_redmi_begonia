@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mlipayd@1.1
 cc_binary {
-    name: "mlipayd_1_1_gki",
+    name: "mlipayd_1_1",
     vendor: true,
     srcs: [
         "mlipayd_1_1.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libkeystore-engine-wifi-hidl.so
 cc_library_shared {
-    name: "libkeystore_engine_wifi_hidl_gki",
+    name: "libkeystore_engine_wifi_hidl",
     vendor: true,
     srcs: [
         "libkeystore_engine_wifi_hidl.cpp",

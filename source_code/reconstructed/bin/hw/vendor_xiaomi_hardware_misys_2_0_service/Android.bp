@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.xiaomi.hardware.misys@2.0-service
 cc_binary {
-    name: "vendor_xiaomi_hardware_misys_2_0_service_gki",
+    name: "vendor_xiaomi_hardware_misys_2_0_service",
     vendor: true,
     srcs: [
         "vendor_xiaomi_hardware_misys_2_0_service.cpp",

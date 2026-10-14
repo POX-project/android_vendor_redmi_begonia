@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered camerahalserver
 cc_binary {
-    name: "camerahalserver_gki",
+    name: "camerahalserver",
     vendor: true,
     srcs: [
         "camerahalserver.cpp",

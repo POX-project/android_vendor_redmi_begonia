@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libapuwareapusys.mtk.so
 cc_library_shared {
-    name: "libapuwareapusys_mtk_gki",
+    name: "libapuwareapusys_mtk",
     vendor: true,
     srcs: [
         "libapuwareapusys_mtk.cpp",

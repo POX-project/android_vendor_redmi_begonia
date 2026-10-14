@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_ov02a10afmipiraw_Reserved.so
 cc_library_shared {
-    name: "libCamera_ov02a10afmipiraw_Reserved_gki",
+    name: "libCamera_ov02a10afmipiraw_Reserved",
     vendor: true,
     srcs: [
         "libCamera_ov02a10afmipiraw_Reserved.cpp",

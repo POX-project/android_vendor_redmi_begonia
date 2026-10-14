@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_fwkutils.so
 cc_library_shared {
-    name: "libmtkcam_fwkutils_gki",
+    name: "libmtkcam_fwkutils",
     vendor: true,
     srcs: [
         "libmtkcam_fwkutils.cpp",

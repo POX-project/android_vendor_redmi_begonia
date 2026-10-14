@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaptX_encoder.so
 cc_library_shared {
-    name: "libaptX_encoder_gki",
+    name: "libaptX_encoder",
     vendor: true,
     srcs: [
         "libaptX_encoder.cpp",

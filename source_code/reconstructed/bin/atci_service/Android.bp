@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered atci_service
 cc_binary {
-    name: "atci_service_gki",
+    name: "atci_service",
     vendor: true,
     srcs: [
         "atci_service.cpp",

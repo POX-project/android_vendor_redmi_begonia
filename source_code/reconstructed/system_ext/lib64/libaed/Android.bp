@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaed.so
 cc_library_shared {
-    name: "libaed_gki",
+    name: "libaed",
     vendor: true,
     srcs: [
         "libaed.cpp",

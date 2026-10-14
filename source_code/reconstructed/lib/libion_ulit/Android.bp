@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libion_ulit.so
 cc_library_shared {
-    name: "libion_ulit_gki",
+    name: "libion_ulit",
     vendor: true,
     srcs: [
         "libion_ulit.cpp",

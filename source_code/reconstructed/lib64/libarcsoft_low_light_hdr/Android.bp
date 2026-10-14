@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libarcsoft_low_light_hdr.so
 cc_library_shared {
-    name: "libarcsoft_low_light_hdr_gki",
+    name: "libarcsoft_low_light_hdr",
     vendor: true,
     srcs: [
         "libarcsoft_low_light_hdr.cpp",

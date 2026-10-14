@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered APUWareUtilsServer.so
 cc_library_shared {
-    name: "APUWareUtilsServer_gki",
+    name: "APUWareUtilsServer",
     vendor: true,
     srcs: [
         "APUWareUtilsServer.cpp",

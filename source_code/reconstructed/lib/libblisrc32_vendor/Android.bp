@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libblisrc32_vendor.so
 cc_library_shared {
-    name: "libblisrc32_vendor_gki",
+    name: "libblisrc32_vendor",
     vendor: true,
     srcs: [
         "libblisrc32_vendor.cpp",

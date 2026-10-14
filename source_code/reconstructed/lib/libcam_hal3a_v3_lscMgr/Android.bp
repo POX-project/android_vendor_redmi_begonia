@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.hal3a.v3.lscMgr.so
 cc_library_shared {
-    name: "libcam_hal3a_v3_lscMgr_gki",
+    name: "libcam_hal3a_v3_lscMgr",
     vendor: true,
     srcs: [
         "libcam_hal3a_v3_lscMgr.cpp",

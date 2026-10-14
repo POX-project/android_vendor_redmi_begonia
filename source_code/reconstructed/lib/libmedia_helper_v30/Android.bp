@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmedia_helper-v30.so
 cc_library_shared {
-    name: "libmedia_helper_v30_gki",
+    name: "libmedia_helper_v30",
     vendor: true,
     srcs: [
         "libmedia_helper_v30.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfile_op.so
 cc_library_shared {
-    name: "libfile_op_gki",
+    name: "libfile_op",
     vendor: true,
     srcs: [
         "libfile_op.cpp",

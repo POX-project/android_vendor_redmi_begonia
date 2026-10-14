@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libverno.so
 cc_library_shared {
-    name: "libverno_gki",
+    name: "libverno",
     vendor: true,
     srcs: [
         "libverno.cpp",

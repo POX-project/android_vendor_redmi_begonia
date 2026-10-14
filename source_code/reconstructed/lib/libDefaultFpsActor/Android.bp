@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libDefaultFpsActor.so
 cc_library_shared {
-    name: "libDefaultFpsActor_gki",
+    name: "libDefaultFpsActor",
     vendor: true,
     srcs: [
         "libDefaultFpsActor.cpp",

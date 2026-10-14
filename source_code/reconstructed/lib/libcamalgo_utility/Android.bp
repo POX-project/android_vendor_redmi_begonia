@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.utility.so
 cc_library_shared {
-    name: "libcamalgo_utility_gki",
+    name: "libcamalgo_utility",
     vendor: true,
     srcs: [
         "libcamalgo_utility.cpp",

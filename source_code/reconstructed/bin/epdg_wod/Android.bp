@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered epdg_wod
 cc_binary {
-    name: "epdg_wod_gki",
+    name: "epdg_wod",
     vendor: true,
     srcs: [
         "epdg_wod.cpp",

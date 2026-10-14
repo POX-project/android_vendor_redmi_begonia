@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libh264dec_customize.so
 cc_library_shared {
-    name: "libh264dec_customize_gki",
+    name: "libh264dec_customize",
     vendor: true,
     srcs: [
         "libh264dec_customize.cpp",

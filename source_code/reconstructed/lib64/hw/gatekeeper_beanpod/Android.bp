@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered gatekeeper.beanpod.so
 cc_library_shared {
-    name: "gatekeeper_beanpod_gki",
+    name: "gatekeeper_beanpod",
     vendor: true,
     srcs: [
         "gatekeeper_beanpod.cpp",

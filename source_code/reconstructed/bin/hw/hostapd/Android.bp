@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered hostapd
 cc_binary {
-    name: "hostapd_gki",
+    name: "hostapd",
     vendor: true,
     srcs: [
         "hostapd.cpp",

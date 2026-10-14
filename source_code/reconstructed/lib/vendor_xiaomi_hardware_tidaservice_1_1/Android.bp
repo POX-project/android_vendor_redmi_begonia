@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.xiaomi.hardware.tidaservice@1.1.so
 cc_library_shared {
-    name: "vendor_xiaomi_hardware_tidaservice_1_1_gki",
+    name: "vendor_xiaomi_hardware_tidaservice_1_1",
     vendor: true,
     srcs: [
         "vendor_xiaomi_hardware_tidaservice_1_1.cpp",

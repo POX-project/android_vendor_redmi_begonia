@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered toolbox
 cc_binary {
-    name: "toolbox_gki",
+    name: "toolbox",
     vendor: true,
     srcs: [
         "toolbox.cpp",

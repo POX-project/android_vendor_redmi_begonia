@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered applypatch
 cc_binary {
-    name: "applypatch_gki",
+    name: "applypatch",
     vendor: true,
     srcs: [
         "applypatch.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.mfnr.so
 cc_library_shared {
-    name: "libcamalgo_mfnr_gki",
+    name: "libcamalgo_mfnr",
     vendor: true,
     srcs: [
         "libcamalgo_mfnr.cpp",

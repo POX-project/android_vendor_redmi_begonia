@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libGLES_meow.so
 cc_library_shared {
-    name: "libGLES_meow_gki",
+    name: "libGLES_meow",
     vendor: true,
     srcs: [
         "libGLES_meow.cpp",

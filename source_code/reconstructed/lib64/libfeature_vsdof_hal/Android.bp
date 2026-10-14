@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfeature.vsdof.hal.so
 cc_library_shared {
-    name: "libfeature_vsdof_hal_gki",
+    name: "libfeature_vsdof_hal",
     vendor: true,
     srcs: [
         "libfeature_vsdof_hal.cpp",

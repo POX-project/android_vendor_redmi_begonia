@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libhwminijail.so
 cc_library_shared {
-    name: "libhwminijail_gki",
+    name: "libhwminijail",
     vendor: true,
     srcs: [
         "libhwminijail.cpp",

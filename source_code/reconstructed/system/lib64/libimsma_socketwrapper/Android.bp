@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimsma_socketwrapper.so
 cc_library_shared {
-    name: "libimsma_socketwrapper_gki",
+    name: "libimsma_socketwrapper",
     vendor: true,
     srcs: [
         "libimsma_socketwrapper.cpp",

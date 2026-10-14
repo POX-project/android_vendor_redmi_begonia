@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfeature_3dnr.so
 cc_library_shared {
-    name: "libfeature_3dnr_gki",
+    name: "libfeature_3dnr",
     vendor: true,
     srcs: [
         "libfeature_3dnr.cpp",

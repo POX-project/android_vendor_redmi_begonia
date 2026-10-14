@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libOpenCL.so
 cc_library_shared {
-    name: "libOpenCL_gki",
+    name: "libOpenCL",
     vendor: true,
     srcs: [
         "libOpenCL.cpp",

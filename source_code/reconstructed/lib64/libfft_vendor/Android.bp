@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfft_vendor.so
 cc_library_shared {
-    name: "libfft_vendor_gki",
+    name: "libfft_vendor",
     vendor: true,
     srcs: [
         "libfft_vendor.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.keymaster_attestation@1.1-service
 cc_binary {
-    name: "vendor_mediatek_hardware_keymaster_attestation_1_1_service_gki",
+    name: "vendor_mediatek_hardware_keymaster_attestation_1_1_service",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_keymaster_attestation_1_1_service.cpp",

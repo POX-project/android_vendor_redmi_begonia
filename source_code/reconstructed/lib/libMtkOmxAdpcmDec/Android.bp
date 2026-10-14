@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libMtkOmxAdpcmDec.so
 cc_library_shared {
-    name: "libMtkOmxAdpcmDec_gki",
+    name: "libMtkOmxAdpcmDec",
     vendor: true,
     srcs: [
         "libMtkOmxAdpcmDec.cpp",

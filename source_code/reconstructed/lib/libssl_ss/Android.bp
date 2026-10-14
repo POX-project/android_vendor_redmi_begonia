@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libssl-ss.so
 cc_library_shared {
-    name: "libssl_ss_gki",
+    name: "libssl_ss",
     vendor: true,
     srcs: [
         "libssl_ss.cpp",

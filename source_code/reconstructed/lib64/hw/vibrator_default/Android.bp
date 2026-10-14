@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vibrator.default.so
 cc_library_shared {
-    name: "vibrator_default_gki",
+    name: "vibrator_default",
     vendor: true,
     srcs: [
         "vibrator_default.cpp",

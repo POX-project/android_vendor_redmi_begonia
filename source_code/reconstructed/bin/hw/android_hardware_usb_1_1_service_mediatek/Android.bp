@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.usb@1.1-service-mediatek
 cc_binary {
-    name: "android_hardware_usb_1_1_service_mediatek_gki",
+    name: "android_hardware_usb_1_1_service_mediatek",
     vendor: true,
     srcs: [
         "android_hardware_usb_1_1_service_mediatek.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiofoundation.so
 cc_library_shared {
-    name: "libaudiofoundation_gki",
+    name: "libaudiofoundation",
     vendor: true,
     srcs: [
         "libaudiofoundation.cpp",

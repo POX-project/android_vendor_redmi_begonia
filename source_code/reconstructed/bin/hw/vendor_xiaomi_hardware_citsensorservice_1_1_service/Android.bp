@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.xiaomi.hardware.citsensorservice@1.1-service
 cc_binary {
-    name: "vendor_xiaomi_hardware_citsensorservice_1_1_service_gki",
+    name: "vendor_xiaomi_hardware_citsensorservice_1_1_service",
     vendor: true,
     srcs: [
         "vendor_xiaomi_hardware_citsensorservice_1_1_service.cpp",

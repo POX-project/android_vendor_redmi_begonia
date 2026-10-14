@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdrmclearkeyplugin.so
 cc_library_shared {
-    name: "libdrmclearkeyplugin_gki",
+    name: "libdrmclearkeyplugin",
     vendor: true,
     srcs: [
         "libdrmclearkeyplugin.cpp",

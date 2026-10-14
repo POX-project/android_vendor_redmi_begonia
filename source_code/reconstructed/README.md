@@ -52,8 +52,6 @@ Each reverse-engineered module contains:
    - `HMI` (`struct hw_module_t`) hardware module definitions
    - Exported global data objects & vtables
 2. **`<module_name>.cpp`**: Reconstructed C++ implementation containing:
-   - **GKI DMA-BUF Translation**: If the original binary accessed `/dev/ion`, it automatically probes `/dev/dma_heap/system` or `/dev/dma_heap/mtk_mm` and translates allocations via DMA-BUF ioctls.
-   - **GKI Memfd Fallback**: If `/dev/ashmem` was accessed, it routes allocations to Linux `memfd_create()`.
    - **Device Node Handlers**: Automatic access routines for hardware character devices (`/dev/mali`, `/dev/CAM_CAL_DRV`, `/dev/audio_ipi`, `/dev/ccci_aud`, `/dev/m_*_misc`).
    - **Daemon Main Harness**: For executables, provides signal trapping (`SIGTERM`, `SIGINT`), Binder threadpool initialization, and logging.
 3. **`Android.bp`**: Native Android build configuration compatible with AOSP / LineageOS source trees.

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libispcameraca.so
 cc_library_shared {
-    name: "libispcameraca_gki",
+    name: "libispcameraca",
     vendor: true,
     srcs: [
         "libispcameraca.cpp",

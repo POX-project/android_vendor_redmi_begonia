@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libteeclientjni@1.1.so
 cc_library_shared {
-    name: "libteeclientjni_1_1_gki",
+    name: "libteeclientjni_1_1",
     vendor: true,
     srcs: [
         "libteeclientjni_1_1.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcurl-ss.so
 cc_library_shared {
-    name: "libcurl_ss_gki",
+    name: "libcurl_ss",
     vendor: true,
     srcs: [
         "libcurl_ss.cpp",

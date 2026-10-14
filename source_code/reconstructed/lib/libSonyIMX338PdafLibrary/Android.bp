@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libSonyIMX338PdafLibrary.so
 cc_library_shared {
-    name: "libSonyIMX338PdafLibrary_gki",
+    name: "libSonyIMX338PdafLibrary",
     vendor: true,
     srcs: [
         "libSonyIMX338PdafLibrary.cpp",

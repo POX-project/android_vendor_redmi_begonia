@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libminiui.so
 cc_library_shared {
-    name: "libminiui_gki",
+    name: "libminiui",
     vendor: true,
     srcs: [
         "libminiui.cpp",

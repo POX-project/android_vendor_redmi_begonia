@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libarcsoft_beautyshot.so
 cc_library_shared {
-    name: "libarcsoft_beautyshot_gki",
+    name: "libarcsoft_beautyshot",
     vendor: true,
     srcs: [
         "libarcsoft_beautyshot.cpp",

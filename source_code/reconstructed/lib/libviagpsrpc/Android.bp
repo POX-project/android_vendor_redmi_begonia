@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libviagpsrpc.so
 cc_library_shared {
-    name: "libviagpsrpc_gki",
+    name: "libviagpsrpc",
     vendor: true,
     srcs: [
         "libviagpsrpc.cpp",

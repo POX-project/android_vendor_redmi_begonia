@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_ov8856sunnymipiraw_Zoom_Video.so
 cc_library_shared {
-    name: "libCamera_ov8856sunnymipiraw_Zoom_Video_gki",
+    name: "libCamera_ov8856sunnymipiraw_Zoom_Video",
     vendor: true,
     srcs: [
         "libCamera_ov8856sunnymipiraw_Zoom_Video.cpp",

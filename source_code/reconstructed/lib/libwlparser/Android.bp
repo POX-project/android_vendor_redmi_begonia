@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libwlparser.so
 cc_library_shared {
-    name: "libwlparser_gki",
+    name: "libwlparser",
     vendor: true,
     srcs: [
         "libwlparser.cpp",

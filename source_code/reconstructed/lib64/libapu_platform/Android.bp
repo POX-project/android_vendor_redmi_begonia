@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libapu-platform.so
 cc_library_shared {
-    name: "libapu_platform_gki",
+    name: "libapu_platform",
     vendor: true,
     srcs: [
         "libapu_platform.cpp",

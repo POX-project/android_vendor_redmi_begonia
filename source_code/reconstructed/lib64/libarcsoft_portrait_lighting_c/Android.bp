@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libarcsoft_portrait_lighting_c.so
 cc_library_shared {
-    name: "libarcsoft_portrait_lighting_c_gki",
+    name: "libarcsoft_portrait_lighting_c",
     vendor: true,
     srcs: [
         "libarcsoft_portrait_lighting_c.cpp",

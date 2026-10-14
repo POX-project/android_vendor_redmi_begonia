@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdownmix.so
 cc_library_shared {
-    name: "libdownmix_gki",
+    name: "libdownmix",
     vendor: true,
     srcs: [
         "libdownmix.cpp",

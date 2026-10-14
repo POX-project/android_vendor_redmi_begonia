@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered aee_aedv64
 cc_binary {
-    name: "aee_aedv64_gki",
+    name: "aee_aedv64",
     vendor: true,
     srcs: [
         "aee_aedv64.cpp",

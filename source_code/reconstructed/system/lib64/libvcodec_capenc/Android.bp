@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvcodec_capenc.so
 cc_library_shared {
-    name: "libvcodec_capenc_gki",
+    name: "libvcodec_capenc",
     vendor: true,
     srcs: [
         "libvcodec_capenc.cpp",

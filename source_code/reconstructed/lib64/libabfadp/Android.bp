@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libabfadp.so
 cc_library_shared {
-    name: "libabfadp_gki",
+    name: "libabfadp",
     vendor: true,
     srcs: [
         "libabfadp.cpp",

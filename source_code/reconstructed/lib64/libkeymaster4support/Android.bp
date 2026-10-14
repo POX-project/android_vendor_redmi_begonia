@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libkeymaster4support.so
 cc_library_shared {
-    name: "libkeymaster4support_gki",
+    name: "libkeymaster4support",
     vendor: true,
     srcs: [
         "libkeymaster4support.cpp",

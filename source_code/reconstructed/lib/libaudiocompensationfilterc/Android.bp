@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiocompensationfilterc.so
 cc_library_shared {
-    name: "libaudiocompensationfilterc_gki",
+    name: "libaudiocompensationfilterc",
     vendor: true,
     srcs: [
         "libaudiocompensationfilterc.cpp",

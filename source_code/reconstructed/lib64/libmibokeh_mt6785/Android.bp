@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmibokeh_mt6785.so
 cc_library_shared {
-    name: "libmibokeh_mt6785_gki",
+    name: "libmibokeh_mt6785",
     vendor: true,
     srcs: [
         "libmibokeh_mt6785.cpp",

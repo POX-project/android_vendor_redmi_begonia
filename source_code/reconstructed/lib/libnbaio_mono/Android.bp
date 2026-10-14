@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libnbaio_mono.so
 cc_library_shared {
-    name: "libnbaio_mono_gki",
+    name: "libnbaio_mono",
     vendor: true,
     srcs: [
         "libnbaio_mono.cpp",

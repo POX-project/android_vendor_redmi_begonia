@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiodcrflt_vendor.so
 cc_library_shared {
-    name: "libaudiodcrflt_vendor_gki",
+    name: "libaudiodcrflt_vendor",
     vendor: true,
     srcs: [
         "libaudiodcrflt_vendor.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libSonyIMX230PdafLibraryWrapper.so
 cc_library_shared {
-    name: "libSonyIMX230PdafLibraryWrapper_gki",
+    name: "libSonyIMX230PdafLibraryWrapper",
     vendor: true,
     srcs: [
         "libSonyIMX230PdafLibraryWrapper.cpp",

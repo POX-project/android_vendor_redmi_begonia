@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmockdrmcryptoplugin.so
 cc_library_shared {
-    name: "libmockdrmcryptoplugin_gki",
+    name: "libmockdrmcryptoplugin",
     vendor: true,
     srcs: [
         "libmockdrmcryptoplugin.cpp",

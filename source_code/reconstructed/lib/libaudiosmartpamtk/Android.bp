@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiosmartpamtk.so
 cc_library_shared {
-    name: "libaudiosmartpamtk_gki",
+    name: "libaudiosmartpamtk",
     vendor: true,
     srcs: [
         "libaudiosmartpamtk.cpp",

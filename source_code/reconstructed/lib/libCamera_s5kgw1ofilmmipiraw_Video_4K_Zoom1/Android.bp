@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom1.so
 cc_library_shared {
-    name: "libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom1_gki",
+    name: "libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom1",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1ofilmmipiraw_Video_4K_Zoom1.cpp",

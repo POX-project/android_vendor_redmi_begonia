@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsn100u_fw.so
 cc_library_shared {
-    name: "libsn100u_fw_gki",
+    name: "libsn100u_fw",
     vendor: true,
     srcs: [
         "libsn100u_fw.cpp",

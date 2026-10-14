@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkproperty.so
 cc_library_shared {
-    name: "libmtkproperty_gki",
+    name: "libmtkproperty",
     vendor: true,
     srcs: [
         "libmtkproperty.cpp",

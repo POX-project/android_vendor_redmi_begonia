@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libem_gpio_jni.so
 cc_library_shared {
-    name: "libem_gpio_jni_gki",
+    name: "libem_gpio_jni",
     vendor: true,
     srcs: [
         "libem_gpio_jni.cpp",

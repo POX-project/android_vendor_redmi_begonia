@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.fdft.so
 cc_library_shared {
-    name: "libcamalgo_fdft_gki",
+    name: "libcamalgo_fdft",
     vendor: true,
     srcs: [
         "libcamalgo_fdft.cpp",

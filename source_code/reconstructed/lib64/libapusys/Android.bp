@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libapusys.so
 cc_library_shared {
-    name: "libapusys_gki",
+    name: "libapusys",
     vendor: true,
     srcs: [
         "libapusys.cpp",

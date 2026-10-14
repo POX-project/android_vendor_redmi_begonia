@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1sunnymipiraw_portrait_preview_full.so
 cc_library_shared {
-    name: "libCamera_s5kgw1sunnymipiraw_portrait_preview_full_gki",
+    name: "libCamera_s5kgw1sunnymipiraw_portrait_preview_full",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1sunnymipiraw_portrait_preview_full.cpp",

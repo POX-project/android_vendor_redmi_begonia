@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered thermal.mt6785.so
 cc_library_shared {
-    name: "thermal_mt6785_gki",
+    name: "thermal_mt6785",
     vendor: true,
     srcs: [
         "thermal_mt6785.cpp",

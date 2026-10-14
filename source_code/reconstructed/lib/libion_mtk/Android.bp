@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libion_mtk.so
 cc_library_shared {
-    name: "libion_mtk_gki",
+    name: "libion_mtk",
     vendor: true,
     srcs: [
         "libion_mtk.cpp",

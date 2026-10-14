@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vtservice
 cc_binary {
-    name: "vtservice_gki",
+    name: "vtservice",
     vendor: true,
     srcs: [
         "vtservice.cpp",

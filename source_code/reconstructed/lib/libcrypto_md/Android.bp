@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcrypto-md.so
 cc_library_shared {
-    name: "libcrypto_md_gki",
+    name: "libcrypto_md",
     vendor: true,
     srcs: [
         "libcrypto_md.cpp",

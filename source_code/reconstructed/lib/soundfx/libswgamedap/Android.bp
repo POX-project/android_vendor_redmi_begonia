@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libswgamedap.so
 cc_library_shared {
-    name: "libswgamedap_gki",
+    name: "libswgamedap",
     vendor: true,
     srcs: [
         "libswgamedap.cpp",

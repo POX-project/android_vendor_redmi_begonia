@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_3rdparty.vidhance.so
 cc_library_shared {
-    name: "libmtkcam_3rdparty_vidhance_gki",
+    name: "libmtkcam_3rdparty_vidhance",
     vendor: true,
     srcs: [
         "libmtkcam_3rdparty_vidhance.cpp",

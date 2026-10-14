@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudioprimarydevicehalifclient.so
 cc_library_shared {
-    name: "libaudioprimarydevicehalifclient_gki",
+    name: "libaudioprimarydevicehalifclient",
     vendor: true,
     srcs: [
         "libaudioprimarydevicehalifclient.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered osal_ut
 cc_binary {
-    name: "osal_ut_gki",
+    name: "osal_ut",
     vendor: true,
     srcs: [
         "osal_ut.cpp",

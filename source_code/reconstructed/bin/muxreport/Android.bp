@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered muxreport
 cc_binary {
-    name: "muxreport_gki",
+    name: "muxreport",
     vendor: true,
     srcs: [
         "muxreport.cpp",

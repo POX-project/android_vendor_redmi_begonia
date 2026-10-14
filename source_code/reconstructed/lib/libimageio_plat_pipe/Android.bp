@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimageio_plat_pipe.so
 cc_library_shared {
-    name: "libimageio_plat_pipe_gki",
+    name: "libimageio_plat_pipe",
     vendor: true,
     srcs: [
         "libimageio_plat_pipe.cpp",

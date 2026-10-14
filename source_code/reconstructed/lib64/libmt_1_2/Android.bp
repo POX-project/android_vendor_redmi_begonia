@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmt@1.2.so
 cc_library_shared {
-    name: "libmt_1_2_gki",
+    name: "libmt_1_2",
     vendor: true,
     srcs: [
         "libmt_1_2.cpp",

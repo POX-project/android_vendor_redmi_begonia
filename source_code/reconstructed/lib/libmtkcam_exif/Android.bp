@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_exif.so
 cc_library_shared {
-    name: "libmtkcam_exif_gki",
+    name: "libmtkcam_exif",
     vendor: true,
     srcs: [
         "libmtkcam_exif.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdrmmtkutil.so
 cc_library_shared {
-    name: "libdrmmtkutil_gki",
+    name: "libdrmmtkutil",
     vendor: true,
     srcs: [
         "libdrmmtkutil.cpp",

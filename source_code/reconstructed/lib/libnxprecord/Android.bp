@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libnxprecord.so
 cc_library_shared {
-    name: "libnxprecord_gki",
+    name: "libnxprecord",
     vendor: true,
     srcs: [
         "libnxprecord.cpp",

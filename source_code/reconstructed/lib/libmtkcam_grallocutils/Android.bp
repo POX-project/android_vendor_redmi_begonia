@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_grallocutils.so
 cc_library_shared {
-    name: "libmtkcam_grallocutils_gki",
+    name: "libmtkcam_grallocutils",
     vendor: true,
     srcs: [
         "libmtkcam_grallocutils.cpp",

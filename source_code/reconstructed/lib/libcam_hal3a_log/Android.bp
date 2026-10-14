@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.hal3a.log.so
 cc_library_shared {
-    name: "libcam_hal3a_log_gki",
+    name: "libcam_hal3a_log",
     vendor: true,
     srcs: [
         "libcam_hal3a_log.cpp",

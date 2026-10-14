@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_tuning_utils.so
 cc_library_shared {
-    name: "libmtkcam_tuning_utils_gki",
+    name: "libmtkcam_tuning_utils",
     vendor: true,
     srcs: [
         "libmtkcam_tuning_utils.cpp",

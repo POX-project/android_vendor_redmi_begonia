@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_pipelinemodel_capture.so
 cc_library_shared {
-    name: "libmtkcam_pipelinemodel_capture_gki",
+    name: "libmtkcam_pipelinemodel_capture",
     vendor: true,
     srcs: [
         "libmtkcam_pipelinemodel_capture.cpp",

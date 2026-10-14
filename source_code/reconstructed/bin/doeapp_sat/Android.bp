@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered doeapp-sat
 cc_binary {
-    name: "doeapp_sat_gki",
+    name: "doeapp_sat",
     vendor: true,
     srcs: [
         "doeapp_sat.cpp",

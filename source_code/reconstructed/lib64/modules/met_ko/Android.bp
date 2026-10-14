@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered met.ko
 cc_library_shared {
-    name: "met_ko_gki",
+    name: "met_ko",
     vendor: true,
     srcs: [
         "met_ko.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmp4enc_xa.ca7.so
 cc_library_shared {
-    name: "libmp4enc_xa_ca7_gki",
+    name: "libmp4enc_xa_ca7",
     vendor: true,
     srcs: [
         "libmp4enc_xa_ca7.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered gsm0710muxd
 cc_binary {
-    name: "gsm0710muxd_gki",
+    name: "gsm0710muxd",
     vendor: true,
     srcs: [
         "gsm0710muxd.cpp",

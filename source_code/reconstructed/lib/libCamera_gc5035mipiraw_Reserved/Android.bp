@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_gc5035mipiraw_Reserved.so
 cc_library_shared {
-    name: "libCamera_gc5035mipiraw_Reserved_gki",
+    name: "libCamera_gc5035mipiraw_Reserved",
     vendor: true,
     srcs: [
         "libCamera_gc5035mipiraw_Reserved.cpp",

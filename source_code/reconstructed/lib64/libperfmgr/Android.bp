@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libperfmgr.so
 cc_library_shared {
-    name: "libperfmgr_gki",
+    name: "libperfmgr",
     vendor: true,
     srcs: [
         "libperfmgr.cpp",

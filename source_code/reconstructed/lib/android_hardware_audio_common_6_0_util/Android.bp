@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.audio.common@6.0-util.so
 cc_library_shared {
-    name: "android_hardware_audio_common_6_0_util_gki",
+    name: "android_hardware_audio_common_6_0_util",
     vendor: true,
     srcs: [
         "android_hardware_audio_common_6_0_util.cpp",

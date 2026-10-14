@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered dconfig
 cc_binary {
-    name: "dconfig_gki",
+    name: "dconfig",
     vendor: true,
     srcs: [
         "dconfig.cpp",

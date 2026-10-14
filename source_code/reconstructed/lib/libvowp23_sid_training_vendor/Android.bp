@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvowp23_sid_training.vendor.so
 cc_library_shared {
-    name: "libvowp23_sid_training_vendor_gki",
+    name: "libvowp23_sid_training_vendor",
     vendor: true,
     srcs: [
         "libvowp23_sid_training_vendor.cpp",

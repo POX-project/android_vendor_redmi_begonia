@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefright_soft_mpeg2dec.so
 cc_library_shared {
-    name: "libstagefright_soft_mpeg2dec_gki",
+    name: "libstagefright_soft_mpeg2dec",
     vendor: true,
     srcs: [
         "libstagefright_soft_mpeg2dec.cpp",

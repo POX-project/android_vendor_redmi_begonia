@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vpud
 cc_binary {
-    name: "vpud_gki",
+    name: "vpud",
     vendor: true,
     srcs: [
         "vpud.cpp",

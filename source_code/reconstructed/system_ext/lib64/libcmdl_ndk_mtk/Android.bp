@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcmdl_ndk.mtk.so
 cc_library_shared {
-    name: "libcmdl_ndk_mtk_gki",
+    name: "libcmdl_ndk_mtk",
     vendor: true,
     srcs: [
         "libcmdl_ndk_mtk.cpp",

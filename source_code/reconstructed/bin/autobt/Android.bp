@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered autobt
 cc_binary {
-    name: "autobt_gki",
+    name: "autobt",
     vendor: true,
     srcs: [
         "autobt.cpp",

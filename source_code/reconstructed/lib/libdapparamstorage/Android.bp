@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdapparamstorage.so
 cc_library_shared {
-    name: "libdapparamstorage_gki",
+    name: "libdapparamstorage",
     vendor: true,
     srcs: [
         "libdapparamstorage.cpp",

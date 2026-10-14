@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.vpunr.so
 cc_library_shared {
-    name: "libcamalgo_vpunr_gki",
+    name: "libcamalgo_vpunr",
     vendor: true,
     srcs: [
         "libcamalgo_vpunr.cpp",

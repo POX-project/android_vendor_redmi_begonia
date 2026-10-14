@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiocomponentengine_vendor.so
 cc_library_shared {
-    name: "libaudiocomponentengine_vendor_gki",
+    name: "libaudiocomponentengine_vendor",
     vendor: true,
     srcs: [
         "libaudiocomponentengine_vendor.cpp",

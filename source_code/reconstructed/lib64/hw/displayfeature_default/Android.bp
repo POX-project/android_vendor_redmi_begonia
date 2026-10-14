@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered displayfeature.default.so
 cc_library_shared {
-    name: "displayfeature_default_gki",
+    name: "displayfeature_default",
     vendor: true,
     srcs: [
         "displayfeature_default.cpp",

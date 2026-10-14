@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaedv.so
 cc_library_shared {
-    name: "libaedv_gki",
+    name: "libaedv",
     vendor: true,
     srcs: [
         "libaedv.cpp",

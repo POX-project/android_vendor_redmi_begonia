@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.ArcCamEngine.so
 cc_library_shared {
-    name: "libcam_ArcCamEngine_gki",
+    name: "libcam_ArcCamEngine",
     vendor: true,
     srcs: [
         "libcam_ArcCamEngine.cpp",

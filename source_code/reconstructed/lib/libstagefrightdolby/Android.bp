@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefrightdolby.so
 cc_library_shared {
-    name: "libstagefrightdolby_gki",
+    name: "libstagefrightdolby",
     vendor: true,
     srcs: [
         "libstagefrightdolby.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libhidltransport.so
 cc_library_shared {
-    name: "libhidltransport_gki",
+    name: "libhidltransport",
     vendor: true,
     srcs: [
         "libhidltransport.cpp",

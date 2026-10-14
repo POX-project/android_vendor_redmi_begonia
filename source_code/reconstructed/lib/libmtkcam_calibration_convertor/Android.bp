@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_calibration_convertor.so
 cc_library_shared {
-    name: "libmtkcam_calibration_convertor_gki",
+    name: "libmtkcam_calibration_convertor",
     vendor: true,
     srcs: [
         "libmtkcam_calibration_convertor.cpp",

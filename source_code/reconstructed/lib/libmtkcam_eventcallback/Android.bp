@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam.eventcallback.so
 cc_library_shared {
-    name: "libmtkcam_eventcallback_gki",
+    name: "libmtkcam_eventcallback",
     vendor: true,
     srcs: [
         "libmtkcam_eventcallback.cpp",

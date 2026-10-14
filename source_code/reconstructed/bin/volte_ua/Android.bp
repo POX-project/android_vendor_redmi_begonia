@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered volte_ua
 cc_binary {
-    name: "volte_ua_gki",
+    name: "volte_ua",
     vendor: true,
     srcs: [
         "volte_ua.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libhdrvideo.so
 cc_library_shared {
-    name: "libhdrvideo_gki",
+    name: "libhdrvideo",
     vendor: true,
     srcs: [
         "libhdrvideo.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered power.default.so
 cc_library_shared {
-    name: "power_default_gki",
+    name: "power_default",
     vendor: true,
     srcs: [
         "power_default.cpp",

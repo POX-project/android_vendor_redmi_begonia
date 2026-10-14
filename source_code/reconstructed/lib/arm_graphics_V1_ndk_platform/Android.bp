@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered arm.graphics-V1-ndk_platform.so
 cc_library_shared {
-    name: "arm_graphics_V1_ndk_platform_gki",
+    name: "arm_graphics_V1_ndk_platform",
     vendor: true,
     srcs: [
         "arm_graphics_V1_ndk_platform.cpp",

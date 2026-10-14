@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered sound_trigger.primary.default.so
 cc_library_shared {
-    name: "sound_trigger_primary_default_gki",
+    name: "sound_trigger_primary_default",
     vendor: true,
     srcs: [
         "sound_trigger_primary_default.cpp",

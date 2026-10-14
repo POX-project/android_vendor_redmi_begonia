@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_ulog.so
 cc_library_shared {
-    name: "libmtkcam_ulog_gki",
+    name: "libmtkcam_ulog",
     vendor: true,
     srcs: [
         "libmtkcam_ulog.cpp",

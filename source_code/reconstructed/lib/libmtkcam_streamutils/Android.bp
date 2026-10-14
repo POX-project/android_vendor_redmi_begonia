@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_streamutils.so
 cc_library_shared {
-    name: "libmtkcam_streamutils_gki",
+    name: "libmtkcam_streamutils",
     vendor: true,
     srcs: [
         "libmtkcam_streamutils.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvt_custom.so
 cc_library_shared {
-    name: "libvt_custom_gki",
+    name: "libvt_custom",
     vendor: true,
     srcs: [
         "libvt_custom.cpp",

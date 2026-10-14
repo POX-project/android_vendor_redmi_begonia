@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libhwbinder.so
 cc_library_shared {
-    name: "libhwbinder_gki",
+    name: "libhwbinder",
     vendor: true,
     srcs: [
         "libhwbinder.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered gc5035_mipi_raw_tuning.so
 cc_library_shared {
-    name: "gc5035_mipi_raw_tuning_gki",
+    name: "gc5035_mipi_raw_tuning",
     vendor: true,
     srcs: [
         "gc5035_mipi_raw_tuning.cpp",

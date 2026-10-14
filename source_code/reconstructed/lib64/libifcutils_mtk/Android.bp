@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libifcutils_mtk.so
 cc_library_shared {
-    name: "libifcutils_mtk_gki",
+    name: "libifcutils_mtk",
     vendor: true,
     srcs: [
         "libifcutils_mtk.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvia-ril.so
 cc_library_shared {
-    name: "libvia_ril_gki",
+    name: "libvia_ril",
     vendor: true,
     srcs: [
         "libvia_ril.cpp",

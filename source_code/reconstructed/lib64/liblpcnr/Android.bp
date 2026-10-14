@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered liblpcnr.so
 cc_library_shared {
-    name: "liblpcnr_gki",
+    name: "liblpcnr",
     vendor: true,
     srcs: [
         "liblpcnr.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered kheaders.ko
 cc_library_shared {
-    name: "kheaders_ko_gki",
+    name: "kheaders_ko",
     vendor: true,
     srcs: [
         "kheaders_ko.cpp",

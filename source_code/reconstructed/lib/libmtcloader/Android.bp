@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtcloader.so
 cc_library_shared {
-    name: "libmtcloader_gki",
+    name: "libmtcloader",
     vendor: true,
     srcs: [
         "libmtcloader.cpp",

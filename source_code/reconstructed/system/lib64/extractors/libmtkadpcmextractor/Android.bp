@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkadpcmextractor.so
 cc_library_shared {
-    name: "libmtkadpcmextractor_gki",
+    name: "libmtkadpcmextractor",
     vendor: true,
     srcs: [
         "libmtkadpcmextractor.cpp",

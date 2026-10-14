@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered stp_dump3
 cc_binary {
-    name: "stp_dump3_gki",
+    name: "stp_dump3",
     vendor: true,
     srcs: [
         "stp_dump3.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered toybox_vendor
 cc_binary {
-    name: "toybox_vendor_gki",
+    name: "toybox_vendor",
     vendor: true,
     srcs: [
         "toybox_vendor.cpp",

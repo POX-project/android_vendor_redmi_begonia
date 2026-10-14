@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libarcsoft_dualcam_refocus.so
 cc_library_shared {
-    name: "libarcsoft_dualcam_refocus_gki",
+    name: "libarcsoft_dualcam_refocus",
     vendor: true,
     srcs: [
         "libarcsoft_dualcam_refocus.cpp",

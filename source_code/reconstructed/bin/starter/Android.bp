@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered starter
 cc_binary {
-    name: "starter_gki",
+    name: "starter",
     vendor: true,
     srcs: [
         "starter.cpp",

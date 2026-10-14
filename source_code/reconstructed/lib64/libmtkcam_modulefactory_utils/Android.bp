@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_modulefactory_utils.so
 cc_library_shared {
-    name: "libmtkcam_modulefactory_utils_gki",
+    name: "libmtkcam_modulefactory_utils",
     vendor: true,
     srcs: [
         "libmtkcam_modulefactory_utils.cpp",

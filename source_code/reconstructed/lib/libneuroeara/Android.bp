@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libneuroeara.so
 cc_library_shared {
-    name: "libneuroeara_gki",
+    name: "libneuroeara",
     vendor: true,
     srcs: [
         "libneuroeara.cpp",

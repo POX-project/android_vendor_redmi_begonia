@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_ov02a10afmipiraw_Flash_Preview_PF.so
 cc_library_shared {
-    name: "libCamera_ov02a10afmipiraw_Flash_Preview_PF_gki",
+    name: "libCamera_ov02a10afmipiraw_Flash_Preview_PF",
     vendor: true,
     srcs: [
         "libCamera_ov02a10afmipiraw_Flash_Preview_PF.cpp",

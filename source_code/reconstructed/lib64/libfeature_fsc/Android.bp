@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libfeature_fsc.so
 cc_library_shared {
-    name: "libfeature_fsc_gki",
+    name: "libfeature_fsc",
     vendor: true,
     srcs: [
         "libfeature_fsc.cpp",

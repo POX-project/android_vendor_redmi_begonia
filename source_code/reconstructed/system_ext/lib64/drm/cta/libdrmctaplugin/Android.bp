@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdrmctaplugin.so
 cc_library_shared {
-    name: "libdrmctaplugin_gki",
+    name: "libdrmctaplugin",
     vendor: true,
     srcs: [
         "libdrmctaplugin.cpp",

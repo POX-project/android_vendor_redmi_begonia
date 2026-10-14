@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.dumpstate@1.1-service.xiaomi
 cc_binary {
-    name: "android_hardware_dumpstate_1_1_service_xiaomi_gki",
+    name: "android_hardware_dumpstate_1_1_service_xiaomi",
     vendor: true,
     srcs: [
         "android_hardware_dumpstate_1_1_service_xiaomi.cpp",

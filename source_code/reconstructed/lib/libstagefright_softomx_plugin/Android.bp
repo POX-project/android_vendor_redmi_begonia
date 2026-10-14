@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefright_softomx_plugin.so
 cc_library_shared {
-    name: "libstagefright_softomx_plugin_gki",
+    name: "libstagefright_softomx_plugin",
     vendor: true,
     srcs: [
         "libstagefright_softomx_plugin.cpp",

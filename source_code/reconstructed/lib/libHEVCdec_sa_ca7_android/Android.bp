@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libHEVCdec_sa.ca7.android.so
 cc_library_shared {
-    name: "libHEVCdec_sa_ca7_android_gki",
+    name: "libHEVCdec_sa_ca7_android",
     vendor: true,
     srcs: [
         "libHEVCdec_sa_ca7_android.cpp",

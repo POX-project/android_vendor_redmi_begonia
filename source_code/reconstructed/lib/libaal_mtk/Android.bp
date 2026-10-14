@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaal_mtk.so
 cc_library_shared {
-    name: "libaal_mtk_gki",
+    name: "libaal_mtk",
     vendor: true,
     srcs: [
         "libaal_mtk.cpp",

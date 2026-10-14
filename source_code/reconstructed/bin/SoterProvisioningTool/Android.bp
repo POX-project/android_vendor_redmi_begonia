@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered SoterProvisioningTool
 cc_binary {
-    name: "SoterProvisioningTool_gki",
+    name: "SoterProvisioningTool",
     vendor: true,
     srcs: [
         "SoterProvisioningTool.cpp",

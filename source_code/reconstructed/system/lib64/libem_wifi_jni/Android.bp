@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libem_wifi_jni.so
 cc_library_shared {
-    name: "libem_wifi_jni_gki",
+    name: "libem_wifi_jni",
     vendor: true,
     srcs: [
         "libem_wifi_jni.cpp",

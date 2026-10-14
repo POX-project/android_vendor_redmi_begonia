@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmlipay.so
 cc_library_shared {
-    name: "libmlipay_gki",
+    name: "libmlipay",
     vendor: true,
     srcs: [
         "libmlipay.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered volte_stack
 cc_binary {
-    name: "volte_stack_gki",
+    name: "volte_stack",
     vendor: true,
     srcs: [
         "volte_stack.cpp",

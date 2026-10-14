@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgpu_aux.so
 cc_library_shared {
-    name: "libgpu_aux_gki",
+    name: "libgpu_aux",
     vendor: true,
     srcs: [
         "libgpu_aux.cpp",

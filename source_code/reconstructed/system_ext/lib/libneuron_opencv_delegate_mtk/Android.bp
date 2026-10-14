@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libneuron_opencv_delegate.mtk.so
 cc_library_shared {
-    name: "libneuron_opencv_delegate_mtk_gki",
+    name: "libneuron_opencv_delegate_mtk",
     vendor: true,
     srcs: [
         "libneuron_opencv_delegate_mtk.cpp",

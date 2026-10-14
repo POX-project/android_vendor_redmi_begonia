@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.camera.provider@2.4-impl-mediatek.so
 cc_library_shared {
-    name: "android_hardware_camera_provider_2_4_impl_mediatek_gki",
+    name: "android_hardware_camera_provider_2_4_impl_mediatek",
     vendor: true,
     srcs: [
         "android_hardware_camera_provider_2_4_impl_mediatek.cpp",

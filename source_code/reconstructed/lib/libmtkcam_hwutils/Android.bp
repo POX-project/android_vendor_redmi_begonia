@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_hwutils.so
 cc_library_shared {
-    name: "libmtkcam_hwutils_gki",
+    name: "libmtkcam_hwutils",
     vendor: true,
     srcs: [
         "libmtkcam_hwutils.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libdip_imem.so
 cc_library_shared {
-    name: "libdip_imem_gki",
+    name: "libdip_imem",
     vendor: true,
     srcs: [
         "libdip_imem.cpp",

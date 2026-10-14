@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered dexecutor
 cc_binary {
-    name: "dexecutor_gki",
+    name: "dexecutor",
     vendor: true,
     srcs: [
         "dexecutor.cpp",

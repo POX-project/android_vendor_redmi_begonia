@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcmdl.so
 cc_library_shared {
-    name: "libcmdl_gki",
+    name: "libcmdl",
     vendor: true,
     srcs: [
         "libcmdl.cpp",

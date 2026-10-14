@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libspeech_enh_lib.so
 cc_library_shared {
-    name: "libspeech_enh_lib_gki",
+    name: "libspeech_enh_lib",
     vendor: true,
     srcs: [
         "libspeech_enh_lib.cpp",

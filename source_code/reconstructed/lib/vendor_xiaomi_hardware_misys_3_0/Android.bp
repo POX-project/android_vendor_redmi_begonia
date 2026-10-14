@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.xiaomi.hardware.misys@3.0.so
 cc_library_shared {
-    name: "vendor_xiaomi_hardware_misys_3_0_gki",
+    name: "vendor_xiaomi_hardware_misys_3_0",
     vendor: true,
     srcs: [
         "vendor_xiaomi_hardware_misys_3_0.cpp",

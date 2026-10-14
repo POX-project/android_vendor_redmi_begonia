@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcutils.so
 cc_library_shared {
-    name: "libmtkcutils_gki",
+    name: "libmtkcutils",
     vendor: true,
     srcs: [
         "libmtkcutils.cpp",

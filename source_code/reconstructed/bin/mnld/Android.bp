@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mnld
 cc_binary {
-    name: "mnld_gki",
+    name: "mnld",
     vendor: true,
     srcs: [
         "mnld.cpp",

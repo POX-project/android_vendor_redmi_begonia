@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcvsd_mtk.so
 cc_library_shared {
-    name: "libcvsd_mtk_gki",
+    name: "libcvsd_mtk",
     vendor: true,
     srcs: [
         "libcvsd_mtk.cpp",

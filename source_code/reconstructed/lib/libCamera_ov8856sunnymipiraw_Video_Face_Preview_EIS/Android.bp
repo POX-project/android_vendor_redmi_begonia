@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_ov8856sunnymipiraw_Video_Face_Preview_EIS.so
 cc_library_shared {
-    name: "libCamera_ov8856sunnymipiraw_Video_Face_Preview_EIS_gki",
+    name: "libCamera_ov8856sunnymipiraw_Video_Face_Preview_EIS",
     vendor: true,
     srcs: [
         "libCamera_ov8856sunnymipiraw_Video_Face_Preview_EIS.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered aeev
 cc_binary {
-    name: "aeev_gki",
+    name: "aeev",
     vendor: true,
     srcs: [
         "aeev.cpp",

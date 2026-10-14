@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcameracustom.eis.so
 cc_library_shared {
-    name: "libcameracustom_eis_gki",
+    name: "libcameracustom_eis",
     vendor: true,
     srcs: [
         "libcameracustom_eis.cpp",

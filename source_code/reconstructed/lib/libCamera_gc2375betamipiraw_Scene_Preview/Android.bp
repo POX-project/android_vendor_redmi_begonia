@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_gc2375betamipiraw_Scene_Preview.so
 cc_library_shared {
-    name: "libCamera_gc2375betamipiraw_Scene_Preview_gki",
+    name: "libCamera_gc2375betamipiraw_Scene_Preview",
     vendor: true,
     srcs: [
         "libCamera_gc2375betamipiraw_Scene_Preview.cpp",

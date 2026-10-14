@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libreverbwrapper.so
 cc_library_shared {
-    name: "libreverbwrapper_gki",
+    name: "libreverbwrapper",
     vendor: true,
     srcs: [
         "libreverbwrapper.cpp",

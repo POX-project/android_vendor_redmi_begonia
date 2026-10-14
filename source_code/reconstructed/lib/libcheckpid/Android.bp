@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcheckpid.so
 cc_library_shared {
-    name: "libcheckpid_gki",
+    name: "libcheckpid",
     vendor: true,
     srcs: [
         "libcheckpid.cpp",

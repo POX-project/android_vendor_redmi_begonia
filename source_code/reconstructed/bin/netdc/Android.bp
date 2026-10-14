@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered netdc
 cc_binary {
-    name: "netdc_gki",
+    name: "netdc",
     vendor: true,
     srcs: [
         "netdc.cpp",

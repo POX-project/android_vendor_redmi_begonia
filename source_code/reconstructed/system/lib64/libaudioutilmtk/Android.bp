@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudioutilmtk.so
 cc_library_shared {
-    name: "libaudioutilmtk_gki",
+    name: "libaudioutilmtk",
     vendor: true,
     srcs: [
         "libaudioutilmtk.cpp",

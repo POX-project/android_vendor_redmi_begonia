@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered ccci_rpcd
 cc_binary {
-    name: "ccci_rpcd_gki",
+    name: "ccci_rpcd",
     vendor: true,
     srcs: [
         "ccci_rpcd.cpp",

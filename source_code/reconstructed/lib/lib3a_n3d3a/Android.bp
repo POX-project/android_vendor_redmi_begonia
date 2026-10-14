@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lib3a.n3d3a.so
 cc_library_shared {
-    name: "lib3a_n3d3a_gki",
+    name: "lib3a_n3d3a",
     vendor: true,
     srcs: [
         "lib3a_n3d3a.cpp",

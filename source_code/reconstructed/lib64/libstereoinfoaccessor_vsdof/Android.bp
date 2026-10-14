@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstereoinfoaccessor_vsdof.so
 cc_library_shared {
-    name: "libstereoinfoaccessor_vsdof_gki",
+    name: "libstereoinfoaccessor_vsdof",
     vendor: true,
     srcs: [
         "libstereoinfoaccessor_vsdof.cpp",

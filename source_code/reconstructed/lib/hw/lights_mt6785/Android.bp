@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered lights.mt6785.so
 cc_library_shared {
-    name: "lights_mt6785_gki",
+    name: "lights_mt6785",
     vendor: true,
     srcs: [
         "lights_mt6785.cpp",

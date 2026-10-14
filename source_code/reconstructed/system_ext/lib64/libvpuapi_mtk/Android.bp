@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvpuapi.mtk.so
 cc_library_shared {
-    name: "libvpuapi_mtk_gki",
+    name: "libvpuapi_mtk",
     vendor: true,
     srcs: [
         "libvpuapi_mtk.cpp",

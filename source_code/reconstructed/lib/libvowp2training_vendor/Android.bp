@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvowp2training.vendor.so
 cc_library_shared {
-    name: "libvowp2training_vendor_gki",
+    name: "libvowp2training_vendor",
     vendor: true,
     srcs: [
         "libvowp2training_vendor.cpp",

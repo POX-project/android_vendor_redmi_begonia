@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libchrome.so
 cc_library_shared {
-    name: "libchrome_gki",
+    name: "libchrome",
     vendor: true,
     srcs: [
         "libchrome.cpp",

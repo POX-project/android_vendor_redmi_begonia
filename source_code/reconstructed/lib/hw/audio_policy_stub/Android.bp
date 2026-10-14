@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered audio_policy.stub.so
 cc_library_shared {
-    name: "audio_policy_stub_gki",
+    name: "audio_policy_stub",
     vendor: true,
     srcs: [
         "audio_policy_stub.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered ipsec_mon
 cc_binary {
-    name: "ipsec_mon_gki",
+    name: "ipsec_mon",
     vendor: true,
     srcs: [
         "ipsec_mon.cpp",

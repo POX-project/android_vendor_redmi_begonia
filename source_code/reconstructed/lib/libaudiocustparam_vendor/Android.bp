@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiocustparam_vendor.so
 cc_library_shared {
-    name: "libaudiocustparam_vendor_gki",
+    name: "libaudiocustparam_vendor",
     vendor: true,
     srcs: [
         "libaudiocustparam_vendor.cpp",

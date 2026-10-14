@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered factory
 cc_binary {
-    name: "factory_gki",
+    name: "factory",
     vendor: true,
     srcs: [
         "factory.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libnvram_daemon_callback.so
 cc_library_shared {
-    name: "libnvram_daemon_callback_gki",
+    name: "libnvram_daemon_callback",
     vendor: true,
     srcs: [
         "libnvram_daemon_callback.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered mtk_agpsd
 cc_binary {
-    name: "mtk_agpsd_gki",
+    name: "mtk_agpsd",
     vendor: true,
     srcs: [
         "mtk_agpsd.cpp",

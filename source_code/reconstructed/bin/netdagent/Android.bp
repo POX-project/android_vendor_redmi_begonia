@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered netdagent
 cc_binary {
-    name: "netdagent_gki",
+    name: "netdagent",
     vendor: true,
     srcs: [
         "netdagent.cpp",

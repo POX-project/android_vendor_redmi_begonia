@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libtextclassifier_hash.so
 cc_library_shared {
-    name: "libtextclassifier_hash_gki",
+    name: "libtextclassifier_hash",
     vendor: true,
     srcs: [
         "libtextclassifier_hash.cpp",

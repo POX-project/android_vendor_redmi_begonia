@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsimaka.so
 cc_library_shared {
-    name: "libsimaka_gki",
+    name: "libsimaka",
     vendor: true,
     srcs: [
         "libsimaka.cpp",

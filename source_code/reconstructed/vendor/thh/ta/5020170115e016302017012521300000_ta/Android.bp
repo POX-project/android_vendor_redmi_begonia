@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered 5020170115e016302017012521300000.ta
 cc_binary {
-    name: "5020170115e016302017012521300000_ta_gki",
+    name: "5020170115e016302017012521300000_ta",
     vendor: true,
     srcs: [
         "5020170115e016302017012521300000_ta.cpp",

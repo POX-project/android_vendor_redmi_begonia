@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_owe.so
 cc_library_shared {
-    name: "libmtkcam_owe_gki",
+    name: "libmtkcam_owe",
     vendor: true,
     srcs: [
         "libmtkcam_owe.cpp",

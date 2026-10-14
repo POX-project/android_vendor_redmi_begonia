@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5k3t1ofilmmipiraw_QQ_Capture_1080P.so
 cc_library_shared {
-    name: "libCamera_s5k3t1ofilmmipiraw_QQ_Capture_1080P_gki",
+    name: "libCamera_s5k3t1ofilmmipiraw_QQ_Capture_1080P",
     vendor: true,
     srcs: [
         "libCamera_s5k3t1ofilmmipiraw_QQ_Capture_1080P.cpp",

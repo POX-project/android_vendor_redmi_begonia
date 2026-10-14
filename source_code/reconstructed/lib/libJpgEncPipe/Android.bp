@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libJpgEncPipe.so
 cc_library_shared {
-    name: "libJpgEncPipe_gki",
+    name: "libJpgEncPipe",
     vendor: true,
     srcs: [
         "libJpgEncPipe.cpp",

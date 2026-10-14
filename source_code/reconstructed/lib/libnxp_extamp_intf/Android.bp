@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libnxp_extamp_intf.so
 cc_library_shared {
-    name: "libnxp_extamp_intf_gki",
+    name: "libnxp_extamp_intf",
     vendor: true,
     srcs: [
         "libnxp_extamp_intf.cpp",

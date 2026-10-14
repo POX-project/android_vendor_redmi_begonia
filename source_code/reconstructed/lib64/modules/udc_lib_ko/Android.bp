@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered udc_lib.ko
 cc_library_shared {
-    name: "udc_lib_ko_gki",
+    name: "udc_lib_ko",
     vendor: true,
     srcs: [
         "udc_lib_ko.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libstagefrighthw.so
 cc_library_shared {
-    name: "libstagefrighthw_gki",
+    name: "libstagefrighthw",
     vendor: true,
     srcs: [
         "libstagefrighthw.cpp",

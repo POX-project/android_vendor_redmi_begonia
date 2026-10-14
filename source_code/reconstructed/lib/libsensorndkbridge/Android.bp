@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libsensorndkbridge.so
 cc_library_shared {
-    name: "libsensorndkbridge_gki",
+    name: "libsensorndkbridge",
     vendor: true,
     srcs: [
         "libsensorndkbridge.cpp",

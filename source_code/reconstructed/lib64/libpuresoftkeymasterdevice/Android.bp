@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libpuresoftkeymasterdevice.so
 cc_library_shared {
-    name: "libpuresoftkeymasterdevice_gki",
+    name: "libpuresoftkeymasterdevice",
     vendor: true,
     srcs: [
         "libpuresoftkeymasterdevice.cpp",

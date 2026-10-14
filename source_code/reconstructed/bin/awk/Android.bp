@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered awk
 cc_binary {
-    name: "awk_gki",
+    name: "awk",
     vendor: true,
     srcs: [
         "awk.cpp",

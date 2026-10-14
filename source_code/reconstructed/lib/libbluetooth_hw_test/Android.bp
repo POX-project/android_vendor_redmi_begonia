@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libbluetooth_hw_test.so
 cc_library_shared {
-    name: "libbluetooth_hw_test_gki",
+    name: "libbluetooth_hw_test",
     vendor: true,
     srcs: [
         "libbluetooth_hw_test.cpp",

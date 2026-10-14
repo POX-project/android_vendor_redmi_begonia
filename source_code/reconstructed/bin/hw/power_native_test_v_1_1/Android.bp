@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered power_native_test_v_1_1
 cc_binary {
-    name: "power_native_test_v_1_1_gki",
+    name: "power_native_test_v_1_1",
     vendor: true,
     srcs: [
         "power_native_test_v_1_1.cpp",

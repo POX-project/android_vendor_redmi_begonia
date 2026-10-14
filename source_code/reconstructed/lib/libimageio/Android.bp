@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimageio.so
 cc_library_shared {
-    name: "libimageio_gki",
+    name: "libimageio",
     vendor: true,
     srcs: [
         "libimageio.cpp",

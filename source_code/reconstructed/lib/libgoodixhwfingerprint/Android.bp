@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libgoodixhwfingerprint.so
 cc_library_shared {
-    name: "libgoodixhwfingerprint_gki",
+    name: "libgoodixhwfingerprint",
     vendor: true,
     srcs: [
         "libgoodixhwfingerprint.cpp",

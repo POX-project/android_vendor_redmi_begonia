@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered se_extn_client.so
 cc_library_shared {
-    name: "se_extn_client_gki",
+    name: "se_extn_client",
     vendor: true,
     srcs: [
         "se_extn_client.cpp",

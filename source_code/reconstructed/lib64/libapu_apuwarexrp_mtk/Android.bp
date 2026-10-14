@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libapu-apuwarexrp.mtk.so
 cc_library_shared {
-    name: "libapu_apuwarexrp_mtk_gki",
+    name: "libapu_apuwarexrp_mtk",
     vendor: true,
     srcs: [
         "libapu_apuwarexrp_mtk.cpp",

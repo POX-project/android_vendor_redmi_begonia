@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.mediatek.hardware.audio@6.1.so
 cc_library_shared {
-    name: "vendor_mediatek_hardware_audio_6_1_gki",
+    name: "vendor_mediatek_hardware_audio_6_1",
     vendor: true,
     srcs: [
         "vendor_mediatek_hardware_audio_6_1.cpp",

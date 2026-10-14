@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_mapping_mgr.so
 cc_library_shared {
-    name: "libmtkcam_mapping_mgr_gki",
+    name: "libmtkcam_mapping_mgr",
     vendor: true,
     srcs: [
         "libmtkcam_mapping_mgr.cpp",

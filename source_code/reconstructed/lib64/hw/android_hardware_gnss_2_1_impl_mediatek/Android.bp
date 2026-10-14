@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.gnss@2.1-impl-mediatek.so
 cc_library_shared {
-    name: "android_hardware_gnss_2_1_impl_mediatek_gki",
+    name: "android_hardware_gnss_2_1_impl_mediatek",
     vendor: true,
     srcs: [
         "android_hardware_gnss_2_1_impl_mediatek.cpp",

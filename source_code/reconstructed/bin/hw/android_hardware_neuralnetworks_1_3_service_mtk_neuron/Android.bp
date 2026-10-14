@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered android.hardware.neuralnetworks@1.3-service-mtk-neuron
 cc_binary {
-    name: "android_hardware_neuralnetworks_1_3_service_mtk_neuron_gki",
+    name: "android_hardware_neuralnetworks_1_3_service_mtk_neuron",
     vendor: true,
     srcs: [
         "android_hardware_neuralnetworks_1_3_service_mtk_neuron.cpp",

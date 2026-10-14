@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.fsc.so
 cc_library_shared {
-    name: "libcamalgo_fsc_gki",
+    name: "libcamalgo_fsc",
     vendor: true,
     srcs: [
         "libcamalgo_fsc.cpp",

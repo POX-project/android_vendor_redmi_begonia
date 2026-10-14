@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaurisysdemo.so
 cc_library_shared {
-    name: "libaurisysdemo_gki",
+    name: "libaurisysdemo",
     vendor: true,
     srcs: [
         "libaurisysdemo.cpp",

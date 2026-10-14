@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libSoftGatekeeper.so
 cc_library_shared {
-    name: "libSoftGatekeeper_gki",
+    name: "libSoftGatekeeper",
     vendor: true,
     srcs: [
         "libSoftGatekeeper.cpp",

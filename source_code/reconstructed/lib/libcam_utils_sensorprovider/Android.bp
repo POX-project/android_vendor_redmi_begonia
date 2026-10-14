@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcam.utils.sensorprovider.so
 cc_library_shared {
-    name: "libcam_utils_sensorprovider_gki",
+    name: "libcam_utils_sensorprovider",
     vendor: true,
     srcs: [
         "libcam_utils_sensorprovider.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libimageio_plat_drv.so
 cc_library_shared {
-    name: "libimageio_plat_drv_gki",
+    name: "libimageio_plat_drv",
     vendor: true,
     srcs: [
         "libimageio_plat_drv.cpp",

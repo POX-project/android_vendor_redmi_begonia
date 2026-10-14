@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered s5kgw1sunny_mipi_raw_IdxMgr.so
 cc_library_shared {
-    name: "s5kgw1sunny_mipi_raw_IdxMgr_gki",
+    name: "s5kgw1sunny_mipi_raw_IdxMgr",
     vendor: true,
     srcs: [
         "s5kgw1sunny_mipi_raw_IdxMgr.cpp",

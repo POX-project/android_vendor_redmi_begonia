@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libacdk.so
 cc_library_shared {
-    name: "libacdk_gki",
+    name: "libacdk",
     vendor: true,
     srcs: [
         "libacdk.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvidhance.so
 cc_library_shared {
-    name: "libvidhance_gki",
+    name: "libvidhance",
     vendor: true,
     srcs: [
         "libvidhance.cpp",

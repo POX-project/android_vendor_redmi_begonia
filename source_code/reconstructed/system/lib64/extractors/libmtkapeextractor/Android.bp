@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkapeextractor.so
 cc_library_shared {
-    name: "libmtkapeextractor_gki",
+    name: "libmtkapeextractor",
     vendor: true,
     srcs: [
         "libmtkapeextractor.cpp",

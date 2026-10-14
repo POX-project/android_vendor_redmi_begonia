@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libwlservice.so
 cc_library_shared {
-    name: "libwlservice_gki",
+    name: "libwlservice",
     vendor: true,
     srcs: [
         "libwlservice.cpp",

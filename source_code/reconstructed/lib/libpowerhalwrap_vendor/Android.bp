@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libpowerhalwrap_vendor.so
 cc_library_shared {
-    name: "libpowerhalwrap_vendor_gki",
+    name: "libpowerhalwrap_vendor",
     vendor: true,
     srcs: [
         "libpowerhalwrap_vendor.cpp",

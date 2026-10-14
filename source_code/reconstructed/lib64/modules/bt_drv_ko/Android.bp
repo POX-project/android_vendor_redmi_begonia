@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered bt_drv.ko
 cc_library_shared {
-    name: "bt_drv_ko_gki",
+    name: "bt_drv_ko",
     vendor: true,
     srcs: [
         "bt_drv_ko.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libNoFpsActor.so
 cc_library_shared {
-    name: "libNoFpsActor_gki",
+    name: "libNoFpsActor",
     vendor: true,
     srcs: [
         "libNoFpsActor.cpp",

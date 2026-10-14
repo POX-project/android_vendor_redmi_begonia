@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered vendor.microtrust.hardware.soter@1.0.so
 cc_library_shared {
-    name: "vendor_microtrust_hardware_soter_1_0_gki",
+    name: "vendor_microtrust_hardware_soter_1_0",
     vendor: true,
     srcs: [
         "vendor_microtrust_hardware_soter_1_0.cpp",

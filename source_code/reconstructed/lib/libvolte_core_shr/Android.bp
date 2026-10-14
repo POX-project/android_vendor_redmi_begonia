@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libvolte_core_shr.so
 cc_library_shared {
-    name: "libvolte_core_shr_gki",
+    name: "libvolte_core_shr",
     vendor: true,
     srcs: [
         "libvolte_core_shr.cpp",

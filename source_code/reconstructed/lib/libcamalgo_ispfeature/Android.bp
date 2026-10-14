@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libcamalgo.ispfeature.so
 cc_library_shared {
-    name: "libcamalgo_ispfeature_gki",
+    name: "libcamalgo_ispfeature",
     vendor: true,
     srcs: [
         "libcamalgo_ispfeature.cpp",

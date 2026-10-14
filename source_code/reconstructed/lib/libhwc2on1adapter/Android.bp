@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libhwc2on1adapter.so
 cc_library_shared {
-    name: "libhwc2on1adapter_gki",
+    name: "libhwc2on1adapter",
     vendor: true,
     srcs: [
         "libhwc2on1adapter.cpp",

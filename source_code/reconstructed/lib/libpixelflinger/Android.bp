@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libpixelflinger.so
 cc_library_shared {
-    name: "libpixelflinger_gki",
+    name: "libpixelflinger",
     vendor: true,
     srcs: [
         "libpixelflinger.cpp",

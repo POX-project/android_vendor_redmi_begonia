@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtksysutils.so
 cc_library_shared {
-    name: "libmtksysutils_gki",
+    name: "libmtksysutils",
     vendor: true,
     srcs: [
         "libmtksysutils.cpp",

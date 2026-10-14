@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered fmradio_drv.ko
 cc_library_shared {
-    name: "fmradio_drv_ko_gki",
+    name: "fmradio_drv_ko",
     vendor: true,
     srcs: [
         "fmradio_drv_ko.cpp",

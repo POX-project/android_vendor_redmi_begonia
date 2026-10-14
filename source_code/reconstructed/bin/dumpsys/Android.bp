@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered dumpsys
 cc_binary {
-    name: "dumpsys_gki",
+    name: "dumpsys",
     vendor: true,
     srcs: [
         "dumpsys.cpp",

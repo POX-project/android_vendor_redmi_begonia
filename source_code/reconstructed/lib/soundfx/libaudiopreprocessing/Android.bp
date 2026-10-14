@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libaudiopreprocessing.so
 cc_library_shared {
-    name: "libaudiopreprocessing_gki",
+    name: "libaudiopreprocessing",
     vendor: true,
     srcs: [
         "libaudiopreprocessing.cpp",

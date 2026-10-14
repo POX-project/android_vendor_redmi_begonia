@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libGLES_mali.so
 cc_library_shared {
-    name: "libGLES_mali_gki",
+    name: "libGLES_mali",
     vendor: true,
     srcs: [
         "libGLES_mali.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libmtkcam_pipelinepolicy_factory.so
 cc_library_shared {
-    name: "libmtkcam_pipelinepolicy_factory_gki",
+    name: "libmtkcam_pipelinepolicy_factory",
     vendor: true,
     srcs: [
         "libmtkcam_pipelinepolicy_factory.cpp",

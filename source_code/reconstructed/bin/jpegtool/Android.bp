@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered jpegtool
 cc_binary {
-    name: "jpegtool_gki",
+    name: "jpegtool",
     vendor: true,
     srcs: [
         "jpegtool.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libCamera_s5kgw1ofilmmipiraw_Scene_Capture_64.so
 cc_library_shared {
-    name: "libCamera_s5kgw1ofilmmipiraw_Scene_Capture_64_gki",
+    name: "libCamera_s5kgw1ofilmmipiraw_Scene_Capture_64",
     vendor: true,
     srcs: [
         "libCamera_s5kgw1ofilmmipiraw_Scene_Capture_64.cpp",

@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libldnhncr.so
 cc_library_shared {
-    name: "libldnhncr_gki",
+    name: "libldnhncr",
     vendor: true,
     srcs: [
         "libldnhncr.cpp",

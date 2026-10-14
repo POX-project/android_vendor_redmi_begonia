@@ -1,6 +1,6 @@
 // Android.bp for reverse-engineered libnxpspeech.so
 cc_library_shared {
-    name: "libnxpspeech_gki",
+    name: "libnxpspeech",
     vendor: true,
     srcs: [
         "libnxpspeech.cpp",
