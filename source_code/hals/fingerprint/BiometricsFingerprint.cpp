@@ -21,6 +21,7 @@
 #include <android-base/properties.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <dlfcn.h>
 #include <fstream>
 #include "BiometricsFingerprint.h"
 
@@ -111,10 +112,36 @@ bool BiometricsFingerprint::openHal(SensorType type, fingerprint_device_t** devi
 
     if (hw_mdl == nullptr) {
         err = hw_get_module(FINGERPRINT_HARDWARE_MODULE_ID, &hw_mdl);
-        if (err != 0 || hw_mdl == nullptr) {
-            LOG(ERROR) << "Could not open any fingerprint hw_module, err=" << err;
-            return false;
+    }
+
+    if (hw_mdl == nullptr) {
+        // Direct dlopen fallback for Begonia non-standard blob filenames:
+        // /vendor/lib64/hw/fpc_fingerprint.default.so and gf_fingerprint.default.so
+        const char* explicit_paths[] = {
+            (type == SensorType::GOODIX ? "/vendor/lib64/hw/gf_fingerprint.default.so" : "/vendor/lib64/hw/fpc_fingerprint.default.so"),
+            (type == SensorType::GOODIX ? "/vendor/lib64/hw/fpc_fingerprint.default.so" : "/vendor/lib64/hw/gf_fingerprint.default.so"),
+            "/vendor/lib/hw/fpc_fingerprint.default.so",
+            "/vendor/lib/hw/gf_fingerprint.default.so",
+            nullptr
+        };
+        for (int i = 0; explicit_paths[i] != nullptr; ++i) {
+            if (access(explicit_paths[i], R_OK) == 0) {
+                void* handle = dlopen(explicit_paths[i], RTLD_NOW);
+                if (handle != nullptr) {
+                    const hw_module_t* hmi = reinterpret_cast<const hw_module_t*>(dlsym(handle, HAL_MODULE_INFO_SYM_AS_STR));
+                    if (hmi != nullptr) {
+                        LOG(INFO) << "Directly loaded Begonia fingerprint module from: " << explicit_paths[i];
+                        hw_mdl = hmi;
+                        break;
+                    }
+                }
+            }
         }
+    }
+
+    if (hw_mdl == nullptr) {
+        LOG(ERROR) << "Could not open any fingerprint hw_module, err=" << err;
+        return false;
     }
 
     hw_device_t* dev = nullptr;

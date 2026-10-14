@@ -12,7 +12,7 @@ These HALs replace closed-source proprietary OEM blobs with clean, stable AIDL /
 |---|---|---|---|
 | **`fingerprint/`** | `IBiometricsFingerprint@2.1` | **Unified Dual-Sensor Biometrics HAL**: Dynamically detects FPC1020 vs Goodix GF3208 at boot, fixes cancellation race conditions, and interfaces with TEE. | `/dev/teei_fp`, `/dev/goodix_fp`, `/sys/devices/platform/1100a000.spi0/` |
 | **`light/`** | `ILights` (AIDL) | **Modern AIDL Lights HAL**: Dual Tianma/Huaxing panel LCD backlight scaling (2047/4095 levels), RGB battery/notification LED pulsing & blink patterns. | `/sys/class/leds/lcd-backlight/`, `/sys/class/leds/{red,green,blue,white}/` |
-| **`consumerir/`** | `IConsumerIr@1.0` | **Consumer IR Blaster HAL**: Directly formats IR pulse timings and drives carrier frequencies (30 kHz – 60 kHz). | `/dev/irtx` |
+| **`consumerir/`** | `IConsumerIr` (AIDL & HIDL) | **Consumer IR Blaster HAL**: Directly formats IR pulse timings and drives carrier frequencies (30 kHz – 60 kHz). Supports both Android 14/15/16 AIDL and legacy HIDL. | `/dev/irtx` |
 | **`thermal/`** | `IThermal` (AIDL) | **AIDL Thermal Mitigation HAL**: Multi-zone thermal monitoring, virtual temperature estimation, and throttling mitigation. | `/sys/class/thermal/thermal_zone*`, `/proc/stat` |
 | **`power-mediatek/`** | `IPower` (AIDL) | **AIDL Power & Performance HAL**: Schedutil rate limits, interactive scaling boosts (`POWER_HINT_INTERACTION`, `POWER_HINT_LAUNCH`), MTK FPSGO boost, and DT2W. | `/proc/perfmgr/boost_ctrl/`, `/sys/touchpanel/double_tap` |
 | **`vibrator/`** | `IVibrator` (AIDL) | **AIDL Haptic Feedback HAL**: Rich haptic waveforms and amplitude control. | `/sys/class/leds/vibrator/` |
@@ -33,7 +33,7 @@ Drop this directory into your device tree or hardware directory:
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.begonia \
     android.hardware.lights-service.begonia \
-    android.hardware.ir@1.0-service.begonia \
+    android.hardware.ir-service.begonia \
     android.hardware.thermal-service.mediatek \
     android.hardware.power-service.mediatek \
     android.hardware.vibrator-service.mediatek \

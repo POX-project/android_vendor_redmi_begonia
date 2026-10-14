@@ -1,3 +1,33 @@
+//
+// Copyright (C) 2024 POX Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// AIDL Consumer IR service for Android 14/15/16
+cc_binary {
+    name: "android.hardware.ir-service.begonia",
+    relative_install_path: "hw",
+    init_rc: ["android.hardware.ir-service.begonia.rc"],
+    vintf_fragments: ["android.hardware.ir-service.begonia.xml"],
+    vendor: true,
+    srcs: [
+        "ConsumerIrAidl.cpp",
+        "service_aidl.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "liblog",
+        "libbinder_ndk",
+        "android.hardware.ir-V1-ndk",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+    ],
+}
+
+// Legacy HIDL Consumer IR service
 cc_binary {
     name: "android.hardware.ir@1.0-service.begonia",
     defaults: ["hidl_defaults"],

@@ -1,1 +1,0 @@
-echo 1 > /proc/sys/vm/watermark_scale_factor
