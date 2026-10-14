@@ -1,0 +1,20 @@
+//
+// Hardware Abstraction Layer (HAL) Blueprint Suite for Redmi Note 8 Pro (Begonia)
+// POX Project - Production Open-Source HALs
+//
+
+subdirs = [
+    "bluetooth",
+    "consumerir",
+    "fingerprint",
+    "gadget",
+    "health",
+    "light",
+    "memtrack",
+    "mtkpower",
+    "power-mediatek",
+    "thermal",
+    "usb",
+    "usb-legacy",
+    "vibrator",
+]

@@ -1,6 +1,13 @@
 # Begonia (MT6785) Reconstructed Hardware Abstraction Layer (HAL) Suite
 
-This directory contains the reverse-engineered C++ source code, headers, Android.bp build specifications, and standalone Makefiles for all 188 proprietary hardware modules and services extracted from the Redmi Note 8 Pro (Begonia / MT6785).
+This directory contains the reverse-engineered C++ ABI specifications, exported symbols, demangled signatures, and interfaces for all 188 proprietary hardware modules and services extracted from the Redmi Note 8 Pro (Begonia / MT6785).
+
+> [!NOTE]
+> **For Custom ROM Developers:**
+> * **Building ROMs?** Use **[`source_code/hals/`](file:///media/dev/work/begonia_blobs_code/source_code/hals/)**! That directory contains handcrafted, production-grade AIDL/HIDL open-source HALs (unified FPC/Goodix fingerprint, AIDL lights, AIDL thermal, AIDL power, AIDL vibrator, consumer IR).
+> * **Inspecting Closed-Source Internals?** Use this directory (`source_code/reconstructed/`) to explore symbol hierarchies, hardware ioctls, vtables, and ABI headers for MediaTek's proprietary camera, APU, modem, and TEE binaries.
+> * **Generic AOSP Modules:** Modules ending in `_default` (such as `audio.usb.default`, `gralloc.default`, `audio.r_submix.default`) are standard upstream AOSP modules included in OEM factory builds; their canonical sources reside in upstream AOSP `hardware/libhardware/modules/`.
+
 
 ---
 

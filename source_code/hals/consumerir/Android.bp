@@ -1,0 +1,25 @@
+cc_binary {
+    name: "android.hardware.ir@1.0-service.begonia",
+    defaults: ["hidl_defaults"],
+    relative_install_path: "hw",
+    init_rc: ["android.hardware.ir@1.0-service.begonia.rc"],
+    vintf_fragments: ["android.hardware.ir@1.0-service.begonia.xml"],
+    vendor: true,
+    srcs: [
+        "ConsumerIr.cpp",
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "liblog",
+        "libhardware",
+        "libhidlbase",
+        "libutils",
+        "android.hardware.ir@1.0",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wextra",
+    ],
+}

@@ -21,15 +21,21 @@ This repository provides full proprietary vendor binaries, build specifications,
 
 ---
 
-## 🛠️ Handcrafted Core HAL Implementations (`source_code/hals/`)
+## 🛠️ Production Open-Source HAL Suite (`source_code/hals/`)
 
-* **Lights HAL (`lights_mt6785`)**: Backlight, battery LED, notification LED, sysfs brightness control (`/sys/class/leds/lcd-backlight/brightness`), and RGB channels.
-* **Sensors HAL (`sensors_mt6785`)**: Sensor hub driver for LSM6DSO (Accelerometer/Gyroscope), AKM09918 (Magnetometer), and STK3X3X (Ambient Light / Proximity), complete event polling loop, and batching.
-* **Power HAL (`power_mt6785`)**: Schedutil rate limits, interactive scaling hints (`POWER_HINT_INTERACTION`, `POWER_HINT_LAUNCH`), MTK FPSGO boost, and double-tap-to-wake (`POWER_FEATURE_DOUBLE_TAP_TO_WAKE`).
-* **Memtrack HAL (`memtrack_mt6785`)**: Graphics and GL memory accounting via `/proc/<pid>/smaps` scanning for Mali GPU and memory heaps.
-* **Thermal HAL (`thermal_mt6785`)**: Linux kernel thermal zone monitoring (`/sys/class/thermal/thermal_zone*`) and per-CPU load calculations (`/proc/stat`).
-* **Vibrator HAL (`vibrator_default`)**: Haptic driver interfacing with `/sys/class/leds/vibrator/`.
-* **Consumer IR HAL (`consumerir_mt6785`)**: Infrared transmitter driver interfacing with `/dev/irtx` across standard carrier frequencies (30 kHz to 56 kHz).
+Thirteen production-grade, compilable C++ AIDL & HIDL hardware abstraction layers engineered specifically for Begonia:
+
+* **Unified Biometrics Fingerprint (`fingerprint/`)**: Breakthrough unified dual-sensor HAL (`android.hardware.biometrics.fingerprint@2.1-service.begonia`) that dynamically probes hardware at boot for **FPC1020** (`/dev/teei_fp`) vs **Goodix GF3208** (`/dev/goodix_fp`), fixes MTK cancellation race condition deadlocks, and integrates with Microtrust TEE.
+* **Modern AIDL Lights HAL (`light/`)**: Complete AIDL implementation (`android.hardware.lights-service.begonia`) supporting Begonia's dual LCD suppliers (Tianma `max_brightness=2047`, Huaxing `max_brightness=4095`) with perceived luminance scaling and RGB notification/charging LED controls.
+* **Consumer IR Blaster HAL (`consumerir/`)**: Dedicated driver service (`android.hardware.ir@1.0-service.begonia`) transmitting IR pulse patterns directly to `/dev/irtx` across 30 kHz – 60 kHz frequencies.
+* **AIDL Thermal HAL (`thermal/`)**: Advanced multi-zone thermal monitoring (`android.hardware.thermal-service.mediatek`), per-CPU load calculations (`/proc/stat`), and virtual temperature estimation.
+* **AIDL Power HAL (`power-mediatek/`)**: MediaTek schedutil rate limits, interactive scaling hints (`POWER_HINT_INTERACTION`, `POWER_HINT_LAUNCH`), MTK FPSGO boost, and double-tap-to-wake (`/sys/touchpanel/double_tap`).
+* **AIDL Vibrator HAL (`vibrator/`)**: Haptic feedback driver (`android.hardware.vibrator-service.mediatek`) controlling `/sys/class/leds/vibrator/`.
+* **AIDL Health HAL (`health/`)**: Battery capacity, health status, and charging rate reporting.
+* **AIDL Memtrack HAL (`memtrack/`)**: GPU and graphics memory accounting via `/proc/<pid>/smaps`.
+* **AIDL Bluetooth Audio HAL (`bluetooth/`)**: High-res codec offload interface.
+* **AIDL USB & Gadget HALs (`usb/`, `gadget/`, `usb-legacy/`)**: Dynamic USB role switching.
+* **MediaTek Performance Client (`mtkpower/`)**: EAS scheduler hints and touch boost interface.
 
 ---
 
