@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered atci_service
+cc_binary {
+    name: "atci_service_gki",
+    vendor: true,
+    srcs: [
+        "atci_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "vendor.mediatek.hardware.pq@2.0",
+        "libnvram",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

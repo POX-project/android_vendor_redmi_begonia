@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered libfeature_3dnr.so
+cc_library_shared {
+    name: "libfeature_3dnr_gki",
+    vendor: true,
+    srcs: [
+        "libfeature_3dnr.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_sysutils",
+        "libmtkcam_stdutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libcam.utils.sensorprovider",
+        "libcamalgo.3dnr",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

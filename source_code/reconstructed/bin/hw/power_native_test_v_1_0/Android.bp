@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered power_native_test_v_1_0
+cc_binary {
+    name: "power_native_test_v_1_0_gki",
+    vendor: true,
+    srcs: [
+        "power_native_test_v_1_0.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

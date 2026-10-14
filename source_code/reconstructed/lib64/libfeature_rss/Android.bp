@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libfeature_rss.so
+cc_library_shared {
+    name: "libfeature_rss_gki",
+    vendor: true,
+    srcs: [
+        "libfeature_rss.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_sysutils",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

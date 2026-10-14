@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered libcam.hal3a.v3.lscMgr.so
+cc_library_shared {
+    name: "libcam_hal3a_v3_lscMgr_gki",
+    vendor: true,
+    srcs: [
+        "libcam_hal3a_v3_lscMgr.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamalgo.ispfeature",
+        "libcam3a_imem",
+        "libcam.hal3a.v3.lsctbl.50",
+        "libcam.hal3a.v3.nvram.50",
+        "libmtkcam_stdutils",
+        "libcameracustom",
+        "libmtkcam_imgbuf",
+        "libmtkcam_modulehelper",
+        "libmtkcam_tuning_utils",
+        "libmtkcam_mapping_mgr",
+        "libcamalgo.lsc",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

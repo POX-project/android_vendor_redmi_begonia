@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libvt_avsync.so
+cc_library_shared {
+    name: "libvt_avsync_gki",
+    vendor: true,
+    srcs: [
+        "libvt_avsync.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

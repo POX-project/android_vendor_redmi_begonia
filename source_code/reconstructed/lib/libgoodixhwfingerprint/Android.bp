@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libgoodixhwfingerprint.so
+cc_library_shared {
+    name: "libgoodixhwfingerprint_gki",
+    vendor: true,
+    srcs: [
+        "libgoodixhwfingerprint.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "vendor.goodix.hardware.biometrics.fingerprint@2.1",
+        "libgf_hal",
+        "libgf_ca",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

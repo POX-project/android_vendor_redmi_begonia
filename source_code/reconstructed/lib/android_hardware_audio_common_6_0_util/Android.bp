@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered android.hardware.audio.common@6.0-util.so
+cc_library_shared {
+    name: "android_hardware_audio_common_6_0_util_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_audio_common_6_0_util.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "android.hardware.audio.common-util",
+        "android.hardware.audio.common@6.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

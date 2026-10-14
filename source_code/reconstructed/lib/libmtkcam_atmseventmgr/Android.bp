@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libmtkcam.atmseventmgr.so
+cc_library_shared {
+    name: "libmtkcam_atmseventmgr_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_atmseventmgr.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered secure_element-impl.so
+cc_library_shared {
+    name: "secure_element_impl_gki",
+    vendor: true,
+    srcs: [
+        "secure_element_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "android.hardware.secure_element@1.0",
+        "libTEECommon",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

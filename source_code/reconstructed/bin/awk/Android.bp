@@ -1,0 +1,25 @@
+// Android.bp for reverse-engineered awk
+cc_binary {
+    name: "awk_gki",
+    vendor: true,
+    srcs: [
+        "awk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

@@ -1,0 +1,19 @@
+//
+// LineageOS Reconstructed Application for Begonia (Redmi Note 8 Pro)
+//
+
+android_app {
+    name: "EmCamera",
+    srcs: [
+        "src/sources/**/*.java",
+    ],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+    vendor: true,
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    dex_preopt: {
+        enabled: false,
+    },
+}

@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libdip_imem.so
+cc_library_shared {
+    name: "libdip_imem_gki",
+    vendor: true,
+    srcs: [
+        "libdip_imem.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libion",
+        "libion_mtk",
+        "libmtkcam_stdutils",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

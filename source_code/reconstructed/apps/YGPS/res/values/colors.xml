@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar_outline">#ffffffff</color>
+    <color name="bar_unused">#ffffcc33</color>
+    <color name="bar_used">#ff00bb00</color>
+    <color name="gray">#ff909090</color>
+    <color name="grid">#ffdddddd</color>
+    <color name="light_gray">#ff303030</color>
+    <color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="sigview_background">#ff222222</color>
+    <color name="sigview_line_color">#ffdddddd</color>
+    <color name="sigview_text_color">#ffffffff</color>
+    <color name="skyview_background">#ff4444dd</color>
+    <color name="skyview_text_color">#ffffffff</color>
+</resources>

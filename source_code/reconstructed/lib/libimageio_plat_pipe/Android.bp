@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libimageio_plat_pipe.so
+cc_library_shared {
+    name: "libimageio_plat_pipe_gki",
+    vendor: true,
+    srcs: [
+        "libimageio_plat_pipe.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libaedv",
+        "libimageio_plat_drv",
+        "libcamdrv_isp",
+        "libmtkcam_stdutils",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

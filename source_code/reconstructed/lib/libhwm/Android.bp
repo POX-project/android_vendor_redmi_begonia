@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libhwm.so
+cc_library_shared {
+    name: "libhwm_gki",
+    vendor: true,
+    srcs: [
+        "libhwm.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnvram",
+        "libfile_op",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

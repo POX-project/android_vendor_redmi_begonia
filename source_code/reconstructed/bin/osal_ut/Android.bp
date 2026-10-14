@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered osal_ut
+cc_binary {
+    name: "osal_ut_gki",
+    vendor: true,
+    srcs: [
+        "osal_ut.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libui",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

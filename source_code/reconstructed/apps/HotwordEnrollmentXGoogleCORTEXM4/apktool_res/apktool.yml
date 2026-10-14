@@ -1,0 +1,21 @@
+version: 3.0.3
+apkFileName: HotwordEnrollmentXGoogleCORTEXM4.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 30
+  targetSdkVersion: 29
+versionInfo:
+  versionCode: 30
+  versionName: 11
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- dex
+- png
+- META-INF/androidx.core_core.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- res/raw/version

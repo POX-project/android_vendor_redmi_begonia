@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice-enrollment-application xmlns:android="http://schemas.android.com/apk/res/android"
+    android:searchKeyphraseId="100"
+    android:searchKeyphrase="OK Google"
+    android:searchKeyphraseSupportedLocales="ar-EG,ar-SA,bn-IN,cmn-Hans-CN,cmn-Hant-TW,cs-CZ,da-DK,de-DE,en-AU,en-CA,en-GB,en-IE,en-IN,en-PH,en-SG,en-US,es-419,es-AR,es-ES,es-MX,es-US,fa-IR,fi-FI,fil-PH,fr-CA,fr-FR,gu-IN,hi-IN,hr-HR,id-ID,it-IT,ja-JP,kn-IN,ko-KR,ml-IN,mr-IN,ms-MY,nb-NO,nl-NL,pa-IN,pl-PL,pt-BR,ro-RO,ru-RU,sv-SE,ta-IN,te-IN,th-TH,tr-TR,ur-IN,vi-VN,yue-HK,yue-Hant-HK,zh-CN,zh-HK,zh-Hans-CN,zh-Hant-HK,zh-Hant-TW,zh-TW"
+    android:searchKeyphraseRecognitionFlags="voiceTrigger"/>

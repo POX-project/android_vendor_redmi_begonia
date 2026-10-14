@@ -1,0 +1,23 @@
+// Android.bp for reverse-engineered sh
+cc_binary {
+    name: "sh_gki",
+    vendor: true,
+    srcs: [
+        "sh.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

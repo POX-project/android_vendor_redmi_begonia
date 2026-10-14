@@ -1,0 +1,11 @@
+//
+// LineageOS Reconstructed Overlay for Begonia (Redmi Note 8 Pro)
+//
+
+runtime_resource_overlay {
+    name: "MtkTelephonyServiceResOverlay",
+    theme: "MtkTelephonyServiceResOverlay",
+    resource_dirs: ["res"],
+    vendor: true,
+    sdk_version: "current",
+}

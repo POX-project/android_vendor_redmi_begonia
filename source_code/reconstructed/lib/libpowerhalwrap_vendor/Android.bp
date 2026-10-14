@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libpowerhalwrap_vendor.so
+cc_library_shared {
+    name: "libpowerhalwrap_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libpowerhalwrap_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libhidlbase",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

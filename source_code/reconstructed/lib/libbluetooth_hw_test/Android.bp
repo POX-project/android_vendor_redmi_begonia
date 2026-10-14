@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libbluetooth_hw_test.so
+cc_library_shared {
+    name: "libbluetooth_hw_test_gki",
+    vendor: true,
+    srcs: [
+        "libbluetooth_hw_test.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

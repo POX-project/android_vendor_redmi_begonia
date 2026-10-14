@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libimsma_socketwrapper.so
+cc_library_shared {
+    name: "libimsma_socketwrapper_gki",
+    vendor: true,
+    srcs: [
+        "libimsma_socketwrapper.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libmedia",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libnetd_client",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/common_info" style="@style/title" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/supported_batch_size" style="@style/info_label" />
+            <TextView android:id="@id/supported_batch_size" style="@style/info_state_value" />
+        </LinearLayout>
+        <View style="@style/line" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@id/period" style="@style/info_label" />
+            <Button android:textSize="14.0sp" android:id="@id/button_IncreasePeriod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plus" android:layout_weight="1.0" />
+            <Button android:textSize="14.0sp" android:id="@id/button_DecreasePeriod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minus" android:layout_weight="1.0" />
+        </LinearLayout>
+        <CheckBox android:textSize="15.0sp" android:id="@id/CheckBox_WakeupOnFifoFull" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wakeup_on_fifo_full" />
+        <LinearLayout style="@style/entry_layout">
+            <ToggleButton android:id="@id/batch_start" android:textOn="@string/batch_on" android:textOff="@string/batch_off" style="@style/base" />
+        </LinearLayout>
+        <View style="@style/line" />
+        <LinearLayout style="@style/entry_layout">
+            <Button android:id="@id/fused_flush_batched_locations" android:text="@string/flush_batched_locations" style="@style/base" />
+            <Button android:id="@id/fused_clear_info" android:text="@string/clear_info" style="@style/base" />
+        </LinearLayout>
+        <View style="@style/line" />
+        <TextView android:text="@string/location_callback" style="@style/title" />
+        <TextView android:id="@id/fused_count" style="@style/debug_info" />
+        <TextView android:id="@id/fused_callback" style="@style/small_debug_info" />
+    </LinearLayout>
+</ScrollView>

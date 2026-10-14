@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libcamdrv_tuning_mgr.so
+cc_library_shared {
+    name: "libcamdrv_tuning_mgr_gki",
+    vendor: true,
+    srcs: [
+        "libcamdrv_tuning_mgr.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libbinder",
+        "libcamdrv_imem",
+        "libcamdrv_isp",
+        "libmtkcam_stdutils",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered gatekeeper.beanpod.so
+cc_library_shared {
+    name: "gatekeeper_beanpod_gki",
+    vendor: true,
+    srcs: [
+        "gatekeeper_beanpod.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libTEECommon",
+        "libimsg_log",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

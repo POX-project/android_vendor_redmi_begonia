@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libgralloc_extra.so
+cc_library_shared {
+    name: "libgralloc_extra_gki",
+    vendor: true,
+    srcs: [
+        "libgralloc_extra.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libion",
+        "libged",
+        "libutilscallstack",
+        "android.hardware.graphics.common@1.2",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

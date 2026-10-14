@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered gc2375af_mipi_raw_tuning.so
+cc_library_shared {
+    name: "gc2375af_mipi_raw_tuning_gki",
+    vendor: true,
+    srcs: [
+        "gc2375af_mipi_raw_tuning.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libCamera_gc2375afmipiraw_Flash_Capture",
+        "libCamera_gc2375afmipiraw_Flash_Preview_PF",
+        "libCamera_gc2375afmipiraw_HDR_Capture",
+        "libCamera_gc2375afmipiraw_MFSR_Capture",
+        "libCamera_gc2375afmipiraw_Reserved",
+        "libCamera_gc2375afmipiraw_Scene_Capture",
+        "libCamera_gc2375afmipiraw_Scene_Preview",
+        "libCamera_gc2375afmipiraw_Video_Preview",
+        "libCamera_gc2375afmipiraw_Zoom_Preview",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

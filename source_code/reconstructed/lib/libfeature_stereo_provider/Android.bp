@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered libfeature.stereo.provider.so
+cc_library_shared {
+    name: "libfeature_stereo_provider_gki",
+    vendor: true,
+    srcs: [
+        "libfeature_stereo_provider.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnativewindow",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_imgbuf",
+        "libcameracustom",
+        "libmtkcam_metadata",
+        "libgralloc_extra",
+        "libsync",
+        "libmtkcam.logicalmodule",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

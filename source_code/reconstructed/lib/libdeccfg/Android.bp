@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libdeccfg.so
+cc_library_shared {
+    name: "libdeccfg_gki",
+    vendor: true,
+    srcs: [
+        "libdeccfg.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "vendor.dolby.hardware.dms@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

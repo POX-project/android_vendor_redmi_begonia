@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libmtkadpcmextractor.so
+cc_library_shared {
+    name: "libmtkadpcmextractor_gki",
+    vendor: true,
+    srcs: [
+        "libmtkadpcmextractor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkavenhancements",
+        "libbinder_ndk",
+        "libmediandk",
+        "libstagefright_foundation",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

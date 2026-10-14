@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libnxp_extamp_intf.so
+cc_library_shared {
+    name: "libnxp_extamp_intf_gki",
+    vendor: true,
+    srcs: [
+        "libnxp_extamp_intf.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libtinyalsa",
+        "libtinyxml",
+        "libnvram",
+        "libcrypto",
+        "libssl",
+        "libfile_op",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

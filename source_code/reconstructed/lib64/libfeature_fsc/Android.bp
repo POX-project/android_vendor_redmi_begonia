@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libfeature_fsc.so
+cc_library_shared {
+    name: "libfeature_fsc_gki",
+    vendor: true,
+    srcs: [
+        "libfeature_fsc.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_sysutils",
+        "libmtkcam_stdutils",
+        "libmtkcam_metadata",
+        "libcamalgo.fsc",
+        "libcameracustom",
+        "libcameracustom.eis",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered vendor.microtrust.hardware.soter@1.0-service
+cc_binary {
+    name: "vendor_microtrust_hardware_soter_1_0_service_gki",
+    vendor: true,
+    srcs: [
+        "vendor_microtrust_hardware_soter_1_0_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libhidlbase",
+        "libhidltransport",
+        "vendor.microtrust.hardware.soter@1.0",
+        "libTEECommon",
+        "libimsg_log",
+        "libssl",
+        "wechat.beanpod",
+        "libcrypto",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

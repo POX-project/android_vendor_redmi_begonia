@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libcam.lcs.so
+cc_library_shared {
+    name: "libcam_lcs_gki",
+    vendor: true,
+    srcs: [
+        "libcam_lcs.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_imgbuf",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

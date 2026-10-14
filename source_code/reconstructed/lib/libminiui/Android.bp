@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libminiui.so
+cc_library_shared {
+    name: "libminiui_gki",
+    vendor: true,
+    srcs: [
+        "libminiui.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libpixelflinger",
+        "libpng",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

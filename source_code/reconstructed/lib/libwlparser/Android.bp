@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libwlparser.so
+cc_library_shared {
+    name: "libwlparser_gki",
+    vendor: true,
+    srcs: [
+        "libwlparser.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libexpat",
+        "libbinder",
+        "libwlservice",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

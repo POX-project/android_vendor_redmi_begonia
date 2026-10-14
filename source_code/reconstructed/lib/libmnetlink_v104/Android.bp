@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libmnetlink_v104.so
+cc_library_shared {
+    name: "libmnetlink_v104_gki",
+    vendor: true,
+    srcs: [
+        "libmnetlink_v104.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

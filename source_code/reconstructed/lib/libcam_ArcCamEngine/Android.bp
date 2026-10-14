@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libcam.ArcCamEngine.so
+cc_library_shared {
+    name: "libcam_ArcCamEngine_gki",
+    vendor: true,
+    srcs: [
+        "libcam_ArcCamEngine.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_imgbuf",
+        "libmpbase",
+        "libarcsoft_dualcam_refocus",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

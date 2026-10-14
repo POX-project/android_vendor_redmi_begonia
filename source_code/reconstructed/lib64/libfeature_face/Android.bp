@@ -1,0 +1,38 @@
+// Android.bp for reverse-engineered libfeature.face.so
+cc_library_shared {
+    name: "libfeature_face_gki",
+    vendor: true,
+    srcs: [
+        "libfeature_face.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libnativewindow",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libeffecthal.base",
+        "libmtkcam_stdutils",
+        "libcameracustom",
+        "libdpframework",
+        "libmtkcam_imgbuf",
+        "libmtkcam_fdvt",
+        "libcamalgo.fdft",
+        "libcamalgo.asd",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

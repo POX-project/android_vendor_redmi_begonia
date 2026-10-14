@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libalRnBRT_GL_GBWRAPPER.so
+cc_library_shared {
+    name: "libalRnBRT_GL_GBWRAPPER_gki",
+    vendor: true,
+    srcs: [
+        "libalRnBRT_GL_GBWRAPPER.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libui-v34",
+        "libGLESv2",
+        "libEGL",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

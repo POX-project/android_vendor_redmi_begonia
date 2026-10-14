@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered libsink-mtk.so
+cc_library_shared {
+    name: "libsink_mtk_gki",
+    vendor: true,
+    srcs: [
+        "libsink_mtk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libgui",
+        "libmedia",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libui",
+        "libcomutils",
+        "libvcodec_cap",
+        "libvt_avsync",
+        "libmedia_omx",
+        "libaudioclient",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

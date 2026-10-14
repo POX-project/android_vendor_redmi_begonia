@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libvowp25testing.vendor.so
+cc_library_shared {
+    name: "libvowp25testing_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libvowp25testing_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

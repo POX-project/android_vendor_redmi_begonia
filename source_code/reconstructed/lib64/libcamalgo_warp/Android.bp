@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libcamalgo.warp.so
+cc_library_shared {
+    name: "libcamalgo_warp_gki",
+    vendor: true,
+    srcs: [
+        "libcamalgo_warp.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libEGL",
+        "libGLESv2",
+        "libgralloc_extra",
+        "libnativewindow",
+        "libcamalgo.utility",
+        "libbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered nwk_opt_imp.so
+cc_binary {
+    name: "nwk_opt_imp_gki",
+    vendor: true,
+    srcs: [
+        "nwk_opt_imp.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libhidlbase",
+        "vendor.mediatek.hardware.nwk_opt@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

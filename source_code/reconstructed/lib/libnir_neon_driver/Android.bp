@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libnir_neon_driver.so
+cc_library_shared {
+    name: "libnir_neon_driver_gki",
+    vendor: true,
+    srcs: [
+        "libnir_neon_driver.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

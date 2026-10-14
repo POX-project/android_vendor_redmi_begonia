@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered dexecutor
+cc_binary {
+    name: "dexecutor_gki",
+    vendor: true,
+    srcs: [
+        "dexecutor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhardware_legacy",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

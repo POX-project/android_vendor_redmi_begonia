@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libswgamedap.so
+cc_library_shared {
+    name: "libswgamedap_gki",
+    vendor: true,
+    srcs: [
+        "libswgamedap.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaudioutils",
+        "libdapparamstorage",
+        "libhidlbase",
+        "vendor.dolby.hardware.dms@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

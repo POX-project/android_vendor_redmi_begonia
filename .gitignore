@@ -1,0 +1,11 @@
+# Build outputs and temporary caches
+dist/*.zip
+dist/ak3_stage/
+dist/reconstructed_libs/
+scratch/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+*.official
+*.orig

@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered VP9SecureVdecCA.so
+cc_library_shared {
+    name: "VP9SecureVdecCA_gki",
+    vendor: true,
+    srcs: [
+        "VP9SecureVdecCA.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libTEECommon",
+        "libion",
+        "libion_mtk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

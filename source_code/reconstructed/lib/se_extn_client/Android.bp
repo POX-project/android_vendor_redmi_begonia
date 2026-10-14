@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered se_extn_client.so
+cc_library_shared {
+    name: "se_extn_client_gki",
+    vendor: true,
+    srcs: [
+        "se_extn_client.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libchrome",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

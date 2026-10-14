@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libneuropilot_jni_R.so
+cc_binary {
+    name: "libneuropilot_jni_R_gki",
+    vendor: true,
+    srcs: [
+        "libneuropilot_jni_R.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnativewindow",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

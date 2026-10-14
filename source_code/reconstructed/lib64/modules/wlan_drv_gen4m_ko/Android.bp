@@ -1,0 +1,22 @@
+// Android.bp for reverse-engineered wlan_drv_gen4m.ko
+cc_library_shared {
+    name: "wlan_drv_gen4m_ko_gki",
+    vendor: true,
+    srcs: [
+        "wlan_drv_gen4m_ko.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

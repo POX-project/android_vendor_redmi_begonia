@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered libmtkcam_metastore.so
+cc_library_shared {
+    name: "libmtkcam_metastore_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_metastore.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamera_metadata",
+        "libmtkcam_metadata",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_calibration_convertor",
+        "libmtkcam_calibration_provider",
+        "libfeature.stereo.provider",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

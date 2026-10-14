@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered libGLES_mali.so
+cc_library_shared {
+    name: "libGLES_mali_gki",
+    vendor: true,
+    srcs: [
+        "libGLES_mali.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libz",
+        "libnativewindow",
+        "libged",
+        "libgpu_aux",
+        "libgpud",
+        "libgralloc_extra",
+        "android.hardware.graphics.mapper@4.0",
+        "libgralloctypes",
+        "libhidlbase",
+        "libm",
+        "libc",
+        "libdl",
+        "libc++",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

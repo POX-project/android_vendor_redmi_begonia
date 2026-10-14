@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered 57f02fe81d5a11ea8d23d7abe98b8462.ta
+cc_binary {
+    name: "57f02fe81d5a11ea8d23d7abe98b8462_ta_gki",
+    vendor: true,
+    srcs: [
+        "57f02fe81d5a11ea8d23d7abe98b8462_ta.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libuTsys_base",
+        "libuTbta",
+        "libuTdrv_framework",
+        "libuTsys_io",
+        "libld-l4",
+        "libc_support_misc",
+        "libc_be_socket_noop",
+        "libc_be_l4refile",
+        "libc_be_l4re",
+        "libsupc++",
+        "libuc_c",
+        "lib4re",
+        "libl4util",
+        "libl4sys",
+        "lib4log",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

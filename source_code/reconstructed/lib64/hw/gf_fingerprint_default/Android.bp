@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered gf_fingerprint.default.so
+cc_library_shared {
+    name: "gf_fingerprint_default_gki",
+    vendor: true,
+    srcs: [
+        "gf_fingerprint_default.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libgf_hal",
+        "libbinder",
+        "libgoodixhwfingerprint",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

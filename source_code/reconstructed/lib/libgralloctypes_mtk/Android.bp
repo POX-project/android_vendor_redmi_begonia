@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libgralloctypes_mtk.so
+cc_library_shared {
+    name: "libgralloctypes_mtk_gki",
+    vendor: true,
+    srcs: [
+        "libgralloctypes_mtk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.graphics.mapper@4.0",
+        "libhidlbase",
+        "libion",
+        "libc",
+        "libc++",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libcomutils.so
+cc_library_shared {
+    name: "libcomutils_gki",
+    vendor: true,
+    srcs: [
+        "libcomutils.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libstagefright_foundation",
+        "libstagefright",
+        "libmedia",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

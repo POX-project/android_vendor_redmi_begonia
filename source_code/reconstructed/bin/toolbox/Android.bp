@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered toolbox
+cc_binary {
+    name: "toolbox_gki",
+    vendor: true,
+    srcs: [
+        "toolbox.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

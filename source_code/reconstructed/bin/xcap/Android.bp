@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered xcap
+cc_binary {
+    name: "xcap_gki",
+    vendor: true,
+    srcs: [
+        "xcap.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcurl-md",
+        "libssl-md",
+        "libcrypto-md",
+        "libverno",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

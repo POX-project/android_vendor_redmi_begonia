@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered volte_ua
+cc_binary {
+    name: "volte_ua_gki",
+    vendor: true,
+    srcs: [
+        "volte_ua.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvolte_core_shr",
+        "libvolte_xdmc_shr",
+        "libverno",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

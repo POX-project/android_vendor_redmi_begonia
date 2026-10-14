@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered trace
+cc_binary {
+    name: "trace_gki",
+    vendor: true,
+    srcs: [
+        "trace.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libssl",
+        "libcrypto",
+        "libpcap_bak",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

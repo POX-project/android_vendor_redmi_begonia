@@ -1,0 +1,36 @@
+// Android.bp for reverse-engineered vendor.xiaomi.hardware.misys@3.0-service
+cc_binary {
+    name: "vendor_xiaomi_hardware_misys_3_0_service_gki",
+    vendor: true,
+    srcs: [
+        "vendor_xiaomi_hardware_misys_3_0_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "liblogwrap_vendor",
+        "libcheckpid",
+        "libbase",
+        "libhidlbase",
+        "libhidlmemory",
+        "android.hidl.memory@1.0",
+        "android.hidl.allocator@1.0",
+        "vendor.xiaomi.hardware.misys@1.0",
+        "vendor.xiaomi.hardware.misys@2.0",
+        "vendor.xiaomi.hardware.misys@3.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

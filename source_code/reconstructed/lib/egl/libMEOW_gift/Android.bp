@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libMEOW_gift.so
+cc_library_shared {
+    name: "libMEOW_gift_gki",
+    vendor: true,
+    srcs: [
+        "libMEOW_gift.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libFrameRecord",
+        "libDefaultFpsActor",
+        "libNoFpsActor",
+        "libnativewindow",
+        "libutilscallstack",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

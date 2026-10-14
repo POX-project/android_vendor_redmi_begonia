@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered jpegtool
+cc_binary {
+    name: "jpegtool_gki",
+    vendor: true,
+    srcs: [
+        "jpegtool.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libjpeg-alpha_vendor",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

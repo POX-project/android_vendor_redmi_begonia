@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libSonyIMX230PdafLibraryWrapper.so
+cc_library_shared {
+    name: "libSonyIMX230PdafLibraryWrapper_gki",
+    vendor: true,
+    srcs: [
+        "libSonyIMX230PdafLibraryWrapper.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcam.hal3a.log",
+        "libSonyIMX230PdafLibrary",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

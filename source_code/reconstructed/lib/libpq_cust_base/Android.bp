@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libpq_cust_base.so
+cc_library_shared {
+    name: "libpq_cust_base_gki",
+    vendor: true,
+    srcs: [
+        "libpq_cust_base.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libdpframework",
+        "libpq_prot",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

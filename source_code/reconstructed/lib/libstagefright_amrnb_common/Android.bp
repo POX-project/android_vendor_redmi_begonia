@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libstagefright_amrnb_common.so
+cc_library_shared {
+    name: "libstagefright_amrnb_common_gki",
+    vendor: true,
+    srcs: [
+        "libstagefright_amrnb_common.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

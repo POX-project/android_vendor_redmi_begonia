@@ -1,0 +1,38 @@
+// Android.bp for reverse-engineered libsource.so
+cc_library_shared {
+    name: "libsource_gki",
+    vendor: true,
+    srcs: [
+        "libsource.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libui_shim",
+        "libbinder",
+        "libgui",
+        "libmedia",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libmedia_omx",
+        "libui",
+        "libcamera_client",
+        "libcomutils",
+        "libvcodec_cap",
+        "libsignal",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

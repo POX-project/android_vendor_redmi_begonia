@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0dp" android:textStyle="bold" android:textColor="#ff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Information" />
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/nlp_installed" style="@style/info_label" />
+            <TextView android:id="@id/TextNlp_InstalledValue" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/nlp_enabled" style="@style/info_label" />
+            <TextView android:id="@id/TextNlp_EnabledValue" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/geocoder_installed" style="@style/info_label" />
+            <TextView android:id="@id/TextGeocoder_InstalledValue" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/nlp_mtk_nlp_bound" style="@style/info_label" />
+            <TextView android:id="@id/TextNlp_MtkNlpBound" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/nlp_packagename" style="@style/info_label" />
+            <TextView android:id="@id/TextNlp_PackageNameValue" style="@style/info_state_value" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ToggleButton android:id="@id/toggleButton_Nlp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/nlp_on" android:textOff="@string/nlp_off" />
+            <Button android:textSize="15.0sp" android:id="@id/Button_ClearScreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_screen" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <TextView android:textSize="11.0dp" android:id="@id/TextView_NlpResult" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <ToggleButton android:id="@id/toggleButton_Flp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/flp_on" android:textOff="@string/flp_off" />
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <TextView android:textSize="11.0dp" android:id="@id/TextView_FlpResult" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <TextView android:textSize="20.0dp" android:textStyle="bold" android:textColor="#ff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/geocoder" />
+        <Button android:textSize="15.0sp" android:id="@id/Button_GetGeoLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_geolocation" />
+        <TextView android:textSize="15.0dp" android:id="@id/TextView_Geolocation" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

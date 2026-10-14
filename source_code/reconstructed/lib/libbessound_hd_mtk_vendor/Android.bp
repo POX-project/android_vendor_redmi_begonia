@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libbessound_hd_mtk_vendor.so
+cc_library_shared {
+    name: "libbessound_hd_mtk_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libbessound_hd_mtk_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtk_drvb",
+        "libm",
+        "libc++",
+        "libc",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

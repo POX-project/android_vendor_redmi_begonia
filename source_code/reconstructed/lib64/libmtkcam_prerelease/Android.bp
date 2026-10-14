@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libmtkcam_prerelease.so
+cc_library_shared {
+    name: "libmtkcam_prerelease_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_prerelease.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaedv",
+        "libmtkcam_metadata",
+        "libmtkcam_stdutils",
+        "libmtkcam.eventcallback",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered teei_daemon
+cc_binary {
+    name: "teei_daemon_gki",
+    vendor: true,
+    srcs: [
+        "teei_daemon.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libcurl-ss.so
+cc_library_shared {
+    name: "libcurl_ss_gki",
+    vendor: true,
+    srcs: [
+        "libcurl_ss.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libssl-ss",
+        "libcrypto-ss",
+        "libz",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

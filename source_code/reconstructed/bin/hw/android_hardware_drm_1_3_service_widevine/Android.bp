@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered android.hardware.drm@1.3-service.widevine
+cc_binary {
+    name: "android_hardware_drm_1_3_service_widevine_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_drm_1_3_service_widevine.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.drm@1.0",
+        "android.hardware.drm@1.1",
+        "android.hardware.drm@1.2",
+        "android.hardware.drm@1.3",
+        "libbase",
+        "libhidlbase",
+        "libwvhidl",
+        "libbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

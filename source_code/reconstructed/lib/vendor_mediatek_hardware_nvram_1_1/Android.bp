@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.nvram@1.1.so
+cc_library_shared {
+    name: "vendor_mediatek_hardware_nvram_1_1_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_nvram_1_1.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.mediatek.hardware.nvram@1.0",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

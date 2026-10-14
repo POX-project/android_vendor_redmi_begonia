@@ -1,0 +1,12 @@
+//
+// LineageOS Reconstructed MediaTek Framework Library: mediatek-telephony-common
+//
+
+java_library {
+    name: "mediatek-telephony-common",
+    srcs: [
+        "src/sources/**/*.java",
+    ],
+    installable: true,
+    platform_apis: true,
+}

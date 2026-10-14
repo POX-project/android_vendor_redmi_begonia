@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libneuron_adapter.so
+cc_library_shared {
+    name: "libneuron_adapter_gki",
+    vendor: true,
+    srcs: [
+        "libneuron_adapter.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libion",
+        "libion_mtk",
+        "libneuron_platform",
+        "libarmnn",
+        "libcmdl",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

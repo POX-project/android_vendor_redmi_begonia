@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libbundlewrapper.so
+cc_library_shared {
+    name: "libbundlewrapper_gki",
+    vendor: true,
+    srcs: [
+        "libbundlewrapper.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaudioutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

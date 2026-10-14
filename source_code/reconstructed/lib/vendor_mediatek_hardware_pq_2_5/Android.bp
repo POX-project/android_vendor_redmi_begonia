@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.pq@2.5.so
+cc_library_shared {
+    name: "vendor_mediatek_hardware_pq_2_5_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_pq_2_5.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.mediatek.hardware.pq@2.0",
+        "vendor.mediatek.hardware.pq@2.1",
+        "vendor.mediatek.hardware.pq@2.2",
+        "vendor.mediatek.hardware.pq@2.3",
+        "vendor.mediatek.hardware.pq@2.4",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

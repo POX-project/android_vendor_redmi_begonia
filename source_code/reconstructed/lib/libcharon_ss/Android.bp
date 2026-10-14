@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libcharon-ss.so
+cc_library_shared {
+    name: "libcharon_ss_gki",
+    vendor: true,
+    srcs: [
+        "libcharon_ss.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libsimaka",
+        "libstrongswan",
+        "libhydra",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libnvram_daemon_callback.so
+cc_library_shared {
+    name: "libnvram_daemon_callback_gki",
+    vendor: true,
+    srcs: [
+        "libnvram_daemon_callback.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcustom_nvram",
+        "libnvram",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

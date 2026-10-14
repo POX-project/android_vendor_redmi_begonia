@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libmtkaviextractor.so
+cc_library_shared {
+    name: "libmtkaviextractor_gki",
+    vendor: true,
+    srcs: [
+        "libmtkaviextractor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmediandk",
+        "libstagefright_foundation",
+        "libstagefright_omx_utils",
+        "libstagefright",
+        "libmedia_omx",
+        "libbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

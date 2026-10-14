@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered libaudioprimarydevicehalifclient.so
+cc_library_shared {
+    name: "libaudioprimarydevicehalifclient_gki",
+    vendor: true,
+    srcs: [
+        "libaudioprimarydevicehalifclient.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libhwbinder",
+        "libhidlbase",
+        "android.hardware.audio@6.0",
+        "android.hardware.audio.common@6.0",
+        "android.hardware.audio.common@6.0-util",
+        "libmedia_helper",
+        "libbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

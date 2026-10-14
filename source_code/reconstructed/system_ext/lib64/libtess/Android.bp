@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libtess.so
+cc_library_shared {
+    name: "libtess_gki",
+    vendor: true,
+    srcs: [
+        "libtess.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "liblept",
+        "libjnigraphics",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

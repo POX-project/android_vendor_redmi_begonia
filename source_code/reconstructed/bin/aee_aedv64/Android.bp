@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered aee_aedv64
+cc_binary {
+    name: "aee_aedv64_gki",
+    vendor: true,
+    srcs: [
+        "aee_aedv64.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaedv",
+        "libbase",
+        "libunwindstack",
+        "libmtk_drvb",
+        "libz",
+        "libc",
+        "libdl",
+        "libm",
+        "libc++",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

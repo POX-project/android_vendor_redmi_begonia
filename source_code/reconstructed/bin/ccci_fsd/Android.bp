@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered ccci_fsd
+cc_binary {
+    name: "ccci_fsd_gki",
+    vendor: true,
+    srcs: [
+        "ccci_fsd.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnvram",
+        "libstorage_otp",
+        "libhardware_legacy",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

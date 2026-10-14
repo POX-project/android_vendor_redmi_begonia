@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libcamalgo.eis.so
+cc_library_shared {
+    name: "libcamalgo_eis_gki",
+    vendor: true,
+    srcs: [
+        "libcamalgo_eis.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtk_drvb",
+        "libc++",
+        "libcamalgo.utility",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

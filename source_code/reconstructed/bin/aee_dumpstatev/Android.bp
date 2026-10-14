@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered aee_dumpstatev
+cc_binary {
+    name: "aee_dumpstatev_gki",
+    vendor: true,
+    srcs: [
+        "aee_dumpstatev.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaedv",
+        "libz",
+        "libc",
+        "libdl",
+        "libm",
+        "libc++",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

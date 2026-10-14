@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libmtkcam_mfb.so
+cc_library_shared {
+    name: "libmtkcam_mfb_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_mfb.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libdip_imem",
+        "libdpframework",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

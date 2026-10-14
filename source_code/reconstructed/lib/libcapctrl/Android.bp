@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libcapctrl.so
+cc_library_shared {
+    name: "libcapctrl_gki",
+    vendor: true,
+    srcs: [
+        "libcapctrl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkrillog",
+        "libmtkproperty",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

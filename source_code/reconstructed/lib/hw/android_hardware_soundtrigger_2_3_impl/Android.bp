@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered android.hardware.soundtrigger@2.3-impl.so
+cc_library_shared {
+    name: "android_hardware_soundtrigger_2_3_impl_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_soundtrigger_2_3_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "libhidlmemory",
+        "android.hardware.soundtrigger@2.0",
+        "android.hardware.soundtrigger@2.0-core",
+        "android.hardware.soundtrigger@2.1",
+        "android.hardware.soundtrigger@2.2",
+        "android.hardware.soundtrigger@2.3",
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <vendor-uuid>7038ddc8-30f2-11e6-b0ac-40a8f03d3f15</vendor-uuid>
+    <locale-map>
+        <locale-map-entry locale="en-AU" modelFileName="en_all" />
+        <locale-map-entry locale="en-CA" modelFileName="en_all" />
+        <locale-map-entry locale="en-GB" modelFileName="en_all" />
+        <locale-map-entry locale="en-IE" modelFileName="en_all" />
+        <locale-map-entry locale="en-IN" modelFileName="en_all" />
+        <locale-map-entry locale="en-PH" modelFileName="en_all" />
+        <locale-map-entry locale="en-SG" modelFileName="en_all" />
+        <locale-map-entry locale="en-US" modelFileName="en_all" />
+        <locale-map-entry locale="fr-CA" modelFileName="fr_fr" />
+        <locale-map-entry locale="ar-EG" modelFileName="universal" />
+        <locale-map-entry locale="ar-SA" modelFileName="universal" />
+        <locale-map-entry locale="bn-IN" modelFileName="universal" />
+        <locale-map-entry locale="fa-IR" modelFileName="universal" />
+        <locale-map-entry locale="fil-PH" modelFileName="universal" />
+        <locale-map-entry locale="gu-IN" modelFileName="universal" />
+        <locale-map-entry locale="hr-HR" modelFileName="universal" />
+        <locale-map-entry locale="id-ID" modelFileName="universal" />
+        <locale-map-entry locale="kn-IN" modelFileName="universal" />
+        <locale-map-entry locale="ml-IN" modelFileName="universal" />
+        <locale-map-entry locale="mr-IN" modelFileName="universal" />
+        <locale-map-entry locale="ms-MY" modelFileName="universal" />
+        <locale-map-entry locale="pa-IN" modelFileName="universal" />
+        <locale-map-entry locale="pl-PL" modelFileName="universal" />
+        <locale-map-entry locale="ro-RO" modelFileName="universal" />
+        <locale-map-entry locale="ta-IN" modelFileName="universal" />
+        <locale-map-entry locale="te-IN" modelFileName="universal" />
+        <locale-map-entry locale="th-TH" modelFileName="universal" />
+        <locale-map-entry locale="tr-TR" modelFileName="universal" />
+        <locale-map-entry locale="ur-IN" modelFileName="universal" />
+        <locale-map-entry locale="es-419" modelFileName="es_es" />
+        <locale-map-entry locale="es-AR" modelFileName="es_es" />
+        <locale-map-entry locale="es-MX" modelFileName="es_es" />
+        <locale-map-entry locale="es-US" modelFileName="es_es" />
+        <locale-map-entry locale="cmn-Hans-CN" modelFileName="cmn" />
+        <locale-map-entry locale="cmn-Hant-TW" modelFileName="cmn" />
+        <locale-map-entry locale="yue-Hant-HK" modelFileName="cmn" />
+        <locale-map-entry locale="yue-HK" modelFileName="cmn" />
+        <locale-map-entry locale="zh-CN" modelFileName="cmn" />
+        <locale-map-entry locale="zh-Hans-CN" modelFileName="cmn" />
+        <locale-map-entry locale="zh-Hant-HK" modelFileName="cmn" />
+        <locale-map-entry locale="zh-Hant-TW" modelFileName="cmn" />
+        <locale-map-entry locale="zh-HK" modelFileName="cmn" />
+        <locale-map-entry locale="zh-TW" modelFileName="cmn" />
+    </locale-map>
+</config>

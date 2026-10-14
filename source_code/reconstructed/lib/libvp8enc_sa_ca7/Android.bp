@@ -1,0 +1,25 @@
+// Android.bp for reverse-engineered libvp8enc_sa.ca7.so
+cc_library_shared {
+    name: "libvp8enc_sa_ca7_gki",
+    vendor: true,
+    srcs: [
+        "libvp8enc_sa_ca7.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvcodec_oal",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

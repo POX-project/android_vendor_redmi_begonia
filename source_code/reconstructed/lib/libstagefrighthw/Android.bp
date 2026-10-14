@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libstagefrighthw.so
+cc_library_shared {
+    name: "libstagefrighthw_gki",
+    vendor: true,
+    srcs: [
+        "libstagefrighthw.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libui",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

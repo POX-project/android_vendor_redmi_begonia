@@ -1,0 +1,22 @@
+// Android.bp for reverse-engineered kheaders.ko
+cc_library_shared {
+    name: "kheaders_ko_gki",
+    vendor: true,
+    srcs: [
+        "kheaders_ko.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

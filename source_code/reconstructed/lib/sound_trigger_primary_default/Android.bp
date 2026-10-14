@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered sound_trigger.primary.default.so
+cc_library_shared {
+    name: "sound_trigger_primary_default_gki",
+    vendor: true,
+    srcs: [
+        "sound_trigger_primary_default.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhardware_legacy",
+        "libmedia_helper",
+        "libhidlbase",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "libaedv",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

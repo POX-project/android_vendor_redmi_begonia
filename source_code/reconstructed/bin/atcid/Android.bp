@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered atcid
+cc_binary {
+    name: "atcid_gki",
+    vendor: true,
+    srcs: [
+        "atcid.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcutils",
+        "libmtkutils",
+        "libmtkrillog",
+        "libmtkproperty",
+        "vendor.mediatek.hardware.atci@1.0",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libnvram",
+        "libfile_op",
+        "libwifitest",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

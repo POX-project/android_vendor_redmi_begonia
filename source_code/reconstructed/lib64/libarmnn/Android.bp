@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libarmnn.so
+cc_library_shared {
+    name: "libarmnn_gki",
+    vendor: true,
+    srcs: [
+        "libarmnn.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcmdl",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

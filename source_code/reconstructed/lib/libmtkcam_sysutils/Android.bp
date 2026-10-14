@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered libmtkcam_sysutils.so
+cc_library_shared {
+    name: "libmtkcam_sysutils_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_sysutils.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libsync",
+        "libmtkcam_stdutils",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "android.hardware.power@1.0",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "libladder",
+        "libmtkcam_ulog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

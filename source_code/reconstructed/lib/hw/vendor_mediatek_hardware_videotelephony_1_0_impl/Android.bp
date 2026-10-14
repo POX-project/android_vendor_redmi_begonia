@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.videotelephony@1.0-impl.so
+cc_library_shared {
+    name: "vendor_mediatek_hardware_videotelephony_1_0_impl_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_videotelephony_1_0_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "libfmq",
+        "vendor.mediatek.hardware.videotelephony@1.0",
+        "libc",
+        "libbase",
+        "libc++",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

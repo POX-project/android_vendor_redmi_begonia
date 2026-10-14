@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libvolte_core_shr.so
+cc_library_shared {
+    name: "libvolte_core_shr_gki",
+    vendor: true,
+    srcs: [
+        "libvolte_core_shr.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvolte_xdmc_shr",
+        "libverno",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

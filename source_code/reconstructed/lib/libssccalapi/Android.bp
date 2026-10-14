@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libssccalapi.so
+cc_library_shared {
+    name: "libssccalapi_gki",
+    vendor: true,
+    srcs: [
+        "libssccalapi.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhwm",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libgf_ca.so
+cc_library_shared {
+    name: "libgf_ca_gki",
+    vendor: true,
+    srcs: [
+        "libgf_ca.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

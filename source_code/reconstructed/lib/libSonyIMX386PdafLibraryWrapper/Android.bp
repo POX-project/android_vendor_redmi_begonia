@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libSonyIMX386PdafLibraryWrapper.so
+cc_library_shared {
+    name: "libSonyIMX386PdafLibraryWrapper_gki",
+    vendor: true,
+    srcs: [
+        "libSonyIMX386PdafLibraryWrapper.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcam.hal3a.log",
+        "libSonyIMX386PdafLibrary",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

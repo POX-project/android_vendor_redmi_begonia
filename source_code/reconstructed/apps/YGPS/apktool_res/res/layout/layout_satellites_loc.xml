@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_satellites_loc" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridLayout android:id="@id/glSummary" android:layout_width="match_parent" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="8" />
+    <com.mediatek.ygps.SatelLocationView android:id="@id/sky_view" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

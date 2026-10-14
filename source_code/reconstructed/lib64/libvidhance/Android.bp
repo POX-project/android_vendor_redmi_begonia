@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libvidhance.so
+cc_library_shared {
+    name: "libvidhance_gki",
+    vendor: true,
+    srcs: [
+        "libvidhance.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libGLESv3",
+        "libEGL",
+        "libGLESv2",
+        "libdl",
+        "libm",
+        "libc++",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,213 @@
+.class Lcom/mediatek/engineermode/mdmcomponent/PrimaryCellDlResourceBlock;
+.super Lcom/mediatek/engineermode/mdmcomponent/CurveComponent;
+.source "MDMComponent.java"
+
+
+# static fields
+.field private static final EM_TYPES:[Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 7154
+    const-string v0, "MSG_ID_EM_EL1_STATUS_IND"
+
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/mediatek/engineermode/mdmcomponent/PrimaryCellDlResourceBlock;->EM_TYPES:[Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/app/Activity;)V
+    .locals 0
+    .param p1, "context"    # Landroid/app/Activity;
+
+    .line 7158
+    invoke-direct {p0, p1}, Lcom/mediatek/engineermode/mdmcomponent/CurveComponent;-><init>(Landroid/app/Activity;)V
+
+    .line 7159
+    return-void
+.end method
+
+
+# virtual methods
+.method configY()Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;
+    .locals 5
+
+    .line 7179
+    iget-object v0, p0, Lcom/mediatek/engineermode/mdmcomponent/PrimaryCellDlResourceBlock;->mYLabel:Landroid/widget/TextView;
+
+    const-string v1, "R"
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 7181
+    const/4 v0, 0x1
+
+    new-array v1, v0, [Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;
+
+    .line 7182
+    .local v1, "configs":[Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;
+    new-instance v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;
+
+    invoke-direct {v2}, Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;-><init>()V
+
+    const/4 v3, 0x0
+
+    aput-object v2, v1, v3
+
+    .line 7183
+    aget-object v2, v1, v3
+
+    const v4, -0xffff01
+
+    iput v4, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;->color:I
+
+    .line 7184
+    aget-object v2, v1, v3
+
+    const/4 v4, 0x3
+
+    iput v4, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;->lineWidth:I
+
+    .line 7185
+    aget-object v2, v1, v3
+
+    sget v4, Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;->TYPE_CIRCLE:I
+
+    iput v4, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;->nodeType:I
+
+    .line 7186
+    aget-object v2, v1, v3
+
+    const-string v3, "DL Resource Block"
+
+    iput-object v3, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;->name:Ljava/lang/String;
+
+    .line 7187
+    iget-object v2, p0, Lcom/mediatek/engineermode/mdmcomponent/PrimaryCellDlResourceBlock;->mCurveView:Lcom/mediatek/engineermode/mdmcomponent/CurveView;
+
+    invoke-virtual {v2, v1}, Lcom/mediatek/engineermode/mdmcomponent/CurveView;->setConfig([Lcom/mediatek/engineermode/mdmcomponent/CurveView$Config;)V
+
+    .line 7189
+    new-instance v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;
+
+    invoke-direct {v2}, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;-><init>()V
+
+    .line 7190
+    .local v2, "yConfig":Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;
+    const-wide/16 v3, -0x64
+
+    iput-wide v3, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;->min:J
+
+    .line 7191
+    const-wide/16 v3, 0x64
+
+    iput-wide v3, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;->max:J
+
+    .line 7192
+    const-wide/16 v3, 0xa
+
+    iput-wide v3, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;->step:J
+
+    .line 7193
+    iput-boolean v0, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;->configMin:Z
+
+    .line 7194
+    iput-boolean v0, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;->configMax:Z
+
+    .line 7195
+    iput-boolean v0, v2, Lcom/mediatek/engineermode/mdmcomponent/CurveView$AxisConfig;->configStep:Z
+
+    .line 7196
+    return-object v2
+.end method
+
+.method getEmComponentName()[Ljava/lang/String;
+    .locals 1
+
+    .line 7173
+    sget-object v0, Lcom/mediatek/engineermode/mdmcomponent/PrimaryCellDlResourceBlock;->EM_TYPES:[Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method getGroup()Ljava/lang/String;
+    .locals 1
+
+    .line 7168
+    const-string v0, "5. LTE EM Component"
+
+    return-object v0
+.end method
+
+.method getName()Ljava/lang/String;
+    .locals 1
+
+    .line 7163
+    const-string v0, "Primary Cell DL Resource Block"
+
+    return-object v0
+.end method
+
+.method supportMultiSIM()Z
+    .locals 1
+
+    .line 7201
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method update(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 5
+    .param p1, "name"    # Ljava/lang/String;
+    .param p2, "msg"    # Ljava/lang/Object;
+
+    .line 7206
+    move-object v0, p2
+
+    check-cast v0, Lcom/mediatek/mdml/Msg;
+
+    .line 7207
+    .local v0, "data":Lcom/mediatek/mdml/Msg;
+    const-string v1, "dl_info[0]."
+
+    .line 7208
+    .local v1, "coName":Ljava/lang/String;
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v3, "DL_rb"
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v3, 0x1
+
+    invoke-virtual {p0, v0, v2, v3}, Lcom/mediatek/engineermode/mdmcomponent/PrimaryCellDlResourceBlock;->getFieldValue(Lcom/mediatek/mdml/Msg;Ljava/lang/String;Z)I
+
+    move-result v2
+
+    .line 7210
+    .local v2, "value":I
+    int-to-float v3, v2
+
+    const/4 v4, 0x0
+
+    invoke-virtual {p0, v4, v3}, Lcom/mediatek/engineermode/mdmcomponent/PrimaryCellDlResourceBlock;->addData(IF)V
+
+    .line 7211
+    return-void
+.end method

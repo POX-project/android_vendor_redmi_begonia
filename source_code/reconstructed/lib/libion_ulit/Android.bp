@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libion_ulit.so
+cc_library_shared {
+    name: "libion_ulit_gki",
+    vendor: true,
+    srcs: [
+        "libion_ulit.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libladder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

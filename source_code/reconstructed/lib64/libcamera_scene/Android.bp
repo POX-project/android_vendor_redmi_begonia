@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libcamera_scene.so
+cc_library_shared {
+    name: "libcamera_scene_gki",
+    vendor: true,
+    srcs: [
+        "libcamera_scene.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libapu-frontend",
+        "libm",
+        "libc",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

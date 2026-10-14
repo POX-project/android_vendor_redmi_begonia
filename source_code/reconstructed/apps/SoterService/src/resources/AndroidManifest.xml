@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="30"
+    android:versionName="11"
+    android:compileSdkVersion="30"
+    android:compileSdkVersionCodename="11"
+    package="com.tencent.soter.soterserver"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11">
+    <uses-sdk
+        android:minSdkVersion="30"
+        android:targetSdkVersion="29"/>
+    <application
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:extractNativeLibs="false">
+        <service
+            android:name="com.tencent.soter.soterserver.SoterService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.tencent.soter.soterserver.ISoterService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="org.ifaa.android.manager.IFAAService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="org.ifaa.android.manager.IIFAAService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="org.mipay.android.manager.MipayService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="org.mipay.android.manager.IMipayService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.xiaomi.android.manager.MtService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.android.manager.IMtService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.tencent.soter.soterserver.SoterService.UserAppUninstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

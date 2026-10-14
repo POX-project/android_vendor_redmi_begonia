@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libtflite_mtk_static_R.so
+cc_binary {
+    name: "libtflite_mtk_static_R_gki",
+    vendor: true,
+    srcs: [
+        "libtflite_mtk_static_R.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnativewindow",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

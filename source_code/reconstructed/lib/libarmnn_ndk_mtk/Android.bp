@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libarmnn_ndk.mtk.so
+cc_library_shared {
+    name: "libarmnn_ndk_mtk_gki",
+    vendor: true,
+    srcs: [
+        "libarmnn_ndk_mtk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcmdl_ndk.mtk",
+        "libdl",
+        "libm",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

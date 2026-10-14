@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libneuropilot_hal_utils.so
+cc_library_shared {
+    name: "libneuropilot_hal_utils_gki",
+    vendor: true,
+    srcs: [
+        "libneuropilot_hal_utils.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,36 @@
+// Android.bp for reverse-engineered libtida@1.1.so
+cc_library_shared {
+    name: "libtida_1_1_gki",
+    vendor: true,
+    srcs: [
+        "libtida_1_1.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.xiaomi.hardware.tidaservice@1.0",
+        "vendor.xiaomi.hardware.tidaservice@1.1",
+        "vendor.xiaomi.hardware.mtdservice@1.0",
+        "libbase",
+        "libcrypto",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libmt",
+        "libTEECommon",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

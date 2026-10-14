@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libmtkhardware_legacy.so
+cc_library_shared {
+    name: "libmtkhardware_legacy_gki",
+    vendor: true,
+    srcs: [
+        "libmtkhardware_legacy.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhardware_legacy",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

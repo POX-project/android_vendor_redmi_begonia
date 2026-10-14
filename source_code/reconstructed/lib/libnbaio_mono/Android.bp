@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libnbaio_mono.so
+cc_library_shared {
+    name: "libnbaio_mono_gki",
+    vendor: true,
+    srcs: [
+        "libnbaio_mono.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaudioutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

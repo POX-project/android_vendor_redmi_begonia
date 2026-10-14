@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libvc1dec_sa.ca7.so
+cc_library_shared {
+    name: "libvc1dec_sa_ca7_gki",
+    vendor: true,
+    srcs: [
+        "libvc1dec_sa_ca7.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvcodec_oal",
+        "libvcodec_utility",
+        "libc++",
+        "libdl",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

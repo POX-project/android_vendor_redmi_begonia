@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_satellites_cnr" android:paddingLeft="5.0dp" android:paddingRight="5.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tag_summary" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:textColor="#ffff00ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cnr_ave" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffff00ff" android:id="@id/tvAveCnr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <CheckBox android:id="@id/cbShowInSinglePage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cnr_in_single_page" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/llCnrTitle" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_svid" android:layout_weight="2.0" />
+        <TextView android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_fq" android:layout_weight="1.0" />
+        <TextView android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_cnr" android:layout_weight="5.0" />
+        <TextView android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_elevation" android:layout_weight="2.0" />
+        <TextView android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_azimuth" android:layout_weight="2.0" />
+    </LinearLayout>
+    <ListView android:id="@id/lvCnr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:id="@id/llOnePageTitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_ID" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_cnr" android:layout_weight="2.0" />
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_ID" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_cnr" android:layout_weight="2.0" />
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_ID" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_cnr" android:layout_weight="2.0" />
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_ID" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/title_cnr" android:layout_weight="2.0" />
+    </LinearLayout>
+    <GridLayout android:id="@id/glData" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:rowCount="32" android:columnCount="8" />
+</LinearLayout>

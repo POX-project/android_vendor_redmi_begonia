@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered libpowerhal.so
+cc_library_shared {
+    name: "libpowerhal_gki",
+    vendor: true,
+    srcs: [
+        "libpowerhal.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libui",
+        "libexpat",
+        "libtinyxml2",
+        "libhidlbase",
+        "vendor.mediatek.hardware.netdagent@1.0",
+        "vendor.mediatek.hardware.bluetooth.audio@2.1",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.mtkpower@1.1",
+        "libaedv",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libpuresoftkeymasterdevice.so
+cc_library_shared {
+    name: "libpuresoftkeymasterdevice_gki",
+    vendor: true,
+    srcs: [
+        "libpuresoftkeymasterdevice.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libkeymaster_messages",
+        "libkeymaster_portable",
+        "libsoft_attestation_cert",
+        "libcrypto",
+        "libbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

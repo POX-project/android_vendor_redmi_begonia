@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered lib3a.ccudrv.so
+cc_library_shared {
+    name: "lib3a_ccudrv_gki",
+    vendor: true,
+    srcs: [
+        "lib3a_ccudrv.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_modulehelper",
+        "libcamalgo.utility",
+        "libion",
+        "libion_mtk",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

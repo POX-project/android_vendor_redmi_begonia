@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered gsm0710muxd
+cc_binary {
+    name: "gsm0710muxd_gki",
+    vendor: true,
+    srcs: [
+        "gsm0710muxd.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcutils",
+        "libmtkrillog",
+        "libmtkproperty",
+        "libaedv",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

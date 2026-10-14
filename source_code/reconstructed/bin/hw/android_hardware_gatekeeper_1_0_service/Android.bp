@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered android.hardware.gatekeeper@1.0-service
+cc_binary {
+    name: "android_hardware_gatekeeper_1_0_service_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_gatekeeper_1_0_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.gatekeeper@1.0",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

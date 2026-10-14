@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered APUWareXrpServer.so
+cc_library_shared {
+    name: "APUWareXrpServer_gki",
+    vendor: true,
+    srcs: [
+        "APUWareXrpServer.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libion",
+        "libion_mtk",
+        "libneuron_platform",
+        "libhidlbase",
+        "libhidlmemory",
+        "libfmq",
+        "vendor.mediatek.hardware.apuware.xrp@1.0",
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered md_monitor_ctrl
+cc_binary {
+    name: "md_monitor_ctrl_gki",
+    vendor: true,
+    srcs: [
+        "md_monitor_ctrl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "vendor.mediatek.hardware.mdmonitor@1.0",
+        "libhwbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

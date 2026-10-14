@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.mms@1.2.so
+cc_library_shared {
+    name: "vendor_mediatek_hardware_mms_1_2_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_mms_1_2.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.mediatek.hardware.mms@1.0",
+        "vendor.mediatek.hardware.mms@1.1",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

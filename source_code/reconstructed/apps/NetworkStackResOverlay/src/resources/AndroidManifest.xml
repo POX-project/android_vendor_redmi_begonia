@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="33"
+    android:versionName="13"
+    android:compileSdkVersion="33"
+    android:compileSdkVersionCodename="13"
+    package="com.android.networkstack.overlay"
+    platformBuildVersionCode="33"
+    platformBuildVersionName="13">
+    <uses-sdk
+        android:minSdkVersion="33"
+        android:targetSdkVersion="33"/>
+    <overlay
+        android:targetPackage="com.android.networkstack"
+        android:targetName="NetworkStackConfig"
+        android:isStatic="true"/>
+    <application
+        android:label="NetworkStackResOverlay"
+        android:hasCode="false"
+        android:extractNativeLibs="true"/>
+</manifest>

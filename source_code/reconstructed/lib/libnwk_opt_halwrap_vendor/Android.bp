@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libnwk_opt_halwrap_vendor.so
+cc_library_shared {
+    name: "libnwk_opt_halwrap_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libnwk_opt_halwrap_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "vendor.mediatek.hardware.nwk_opt@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

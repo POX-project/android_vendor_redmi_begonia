@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libvcodec_utility.so
+cc_library_shared {
+    name: "libvcodec_utility_gki",
+    vendor: true,
+    srcs: [
+        "libvcodec_utility.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbwc",
+        "libion",
+        "libion_mtk",
+        "libmtk_drvb",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

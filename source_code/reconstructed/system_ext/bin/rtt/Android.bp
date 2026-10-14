@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered rtt
+cc_binary {
+    name: "rtt_gki",
+    vendor: true,
+    srcs: [
+        "rtt.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaed",
+        "libz",
+        "libc",
+        "libdl",
+        "libm",
+        "libc++",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

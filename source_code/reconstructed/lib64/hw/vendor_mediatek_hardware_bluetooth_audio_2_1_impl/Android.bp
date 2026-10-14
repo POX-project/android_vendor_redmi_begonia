@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
+cc_library_shared {
+    name: "vendor_mediatek_hardware_bluetooth_audio_2_1_impl_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_bluetooth_audio_2_1_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.mediatek.hardware.bluetooth.audio@2.1",
+        "libbase",
+        "libbluetooth_audio_session_mediatek",
+        "libfmq",
+        "libhidlbase",
+        "android.hardware.audio@6.0",
+        "android.hardware.audio.common@6.0",
+        "android.hardware.audio.common@6.0-util",
+        "vendor.mediatek.hardware.audio@6.1",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

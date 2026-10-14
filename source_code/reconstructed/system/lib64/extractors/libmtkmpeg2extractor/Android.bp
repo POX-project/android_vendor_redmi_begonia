@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered libmtkmpeg2extractor.so
+cc_library_shared {
+    name: "libmtkmpeg2extractor_gki",
+    vendor: true,
+    srcs: [
+        "libmtkmpeg2extractor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.cas@1.0",
+        "android.hardware.cas.native@1.0",
+        "android.hidl.token@1.0-utils",
+        "android.hidl.allocator@1.0",
+        "libhidlmemory",
+        "libhidlbase",
+        "libmediandk",
+        "libcrypto",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

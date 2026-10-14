@@ -1,0 +1,12 @@
+//
+// LineageOS Reconstructed MediaTek Framework Library: mediatek-framework
+//
+
+java_library {
+    name: "mediatek-framework",
+    srcs: [
+        "src/sources/**/*.java",
+    ],
+    installable: true,
+    platform_apis: true,
+}

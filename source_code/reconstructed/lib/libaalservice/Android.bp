@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered libaalservice.so
+cc_library_shared {
+    name: "libaalservice_gki",
+    vendor: true,
+    srcs: [
+        "libaalservice.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.sensors@1.0-convert-shared",
+        "libaal_mtk",
+        "libhidlbase",
+        "libgralloc_extra",
+        "android.frameworks.sensorservice@1.0",
+        "android.hardware.sensors@1.0",
+        "libsensorndkbridge",
+        "libdrm",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

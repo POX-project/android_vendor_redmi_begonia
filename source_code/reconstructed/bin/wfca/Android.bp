@@ -1,0 +1,25 @@
+// Android.bp for reverse-engineered wfca
+cc_binary {
+    name: "wfca_gki",
+    vendor: true,
+    srcs: [
+        "wfca.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

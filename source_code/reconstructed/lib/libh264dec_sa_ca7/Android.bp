@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libh264dec_sa.ca7.so
+cc_library_shared {
+    name: "libh264dec_sa_ca7_gki",
+    vendor: true,
+    srcs: [
+        "libh264dec_sa_ca7.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvcodec_utility",
+        "libvcodec_oal",
+        "libh264dec_customize",
+        "libpowerhalwrap_vendor",
+        "libthha",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

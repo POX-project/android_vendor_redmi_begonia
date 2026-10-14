@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libcamdrv_isp.so
+cc_library_shared {
+    name: "libcamdrv_isp_gki",
+    vendor: true,
+    srcs: [
+        "libcamdrv_isp.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libion",
+        "libion_mtk",
+        "libcamdrv_imem",
+        "libmtkcam_stdutils",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

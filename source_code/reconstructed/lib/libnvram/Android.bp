@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libnvram.so
+cc_library_shared {
+    name: "libnvram_gki",
+    vendor: true,
+    srcs: [
+        "libnvram.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase_shim",
+        "libcustom_nvram",
+        "libnvram_platform",
+        "libbase",
+        "libnvram_sec",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

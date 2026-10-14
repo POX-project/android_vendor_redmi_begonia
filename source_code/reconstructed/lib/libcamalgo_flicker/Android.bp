@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libcamalgo.flicker.so
+cc_library_shared {
+    name: "libcamalgo_flicker_gki",
+    vendor: true,
+    srcs: [
+        "libcamalgo_flicker.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamalgo.utility",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

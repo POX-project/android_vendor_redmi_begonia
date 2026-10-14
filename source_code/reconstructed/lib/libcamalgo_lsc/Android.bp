@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libcamalgo.lsc.so
+cc_library_shared {
+    name: "libcamalgo_lsc_gki",
+    vendor: true,
+    srcs: [
+        "libcamalgo_lsc.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtk_drvb",
+        "libcamalgo.utility",
+        "libmtkcam_tsf",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

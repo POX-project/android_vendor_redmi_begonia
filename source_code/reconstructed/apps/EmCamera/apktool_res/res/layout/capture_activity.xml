@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/camera_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/frame_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <com.mediatek.emcamera.AutoFitTextureView android:id="@id/texture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <FrameLayout android:id="@id/camera_view_container" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false">
+            <View android:id="@id/camera_cover" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+    <Button android:textSize="16.0sp" android:id="@id/capture_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp" android:text="@string/camera_gis_calibration" />
+</LinearLayout>

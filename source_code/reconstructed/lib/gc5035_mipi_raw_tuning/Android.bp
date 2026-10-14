@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered gc5035_mipi_raw_tuning.so
+cc_library_shared {
+    name: "gc5035_mipi_raw_tuning_gki",
+    vendor: true,
+    srcs: [
+        "gc5035_mipi_raw_tuning.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libCamera_gc5035mipiraw_Reserved",
+        "libCamera_gc5035mipiraw_Scene_Capture",
+        "libCamera_gc5035mipiraw_Scene_Preview",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

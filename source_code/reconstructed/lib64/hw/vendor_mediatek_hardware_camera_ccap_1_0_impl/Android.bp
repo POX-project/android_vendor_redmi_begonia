@@ -1,0 +1,36 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.camera.ccap@1.0-impl.so
+cc_library_shared {
+    name: "vendor_mediatek_hardware_camera_ccap_1_0_impl_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_camera_ccap_1_0_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "libhidlmemory",
+        "libhidltransport",
+        "vendor.mediatek.hardware.camera.ccap@1.0",
+        "android.hardware.camera.common@1.0",
+        "android.hardware.camera.device@3.2",
+        "android.hardware.camera.device@3.3",
+        "android.hardware.camera.device@3.4",
+        "android.hidl.memory@1.0",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

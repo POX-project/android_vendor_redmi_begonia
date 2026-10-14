@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libCamera_s5k3t1sunnymipiraw_FaceUnlock_Capture.so
+cc_library_shared {
+    name: "libCamera_s5k3t1sunnymipiraw_FaceUnlock_Capture_gki",
+    vendor: true,
+    srcs: [
+        "libCamera_s5k3t1sunnymipiraw_FaceUnlock_Capture.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

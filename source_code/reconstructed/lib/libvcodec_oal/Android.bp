@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libvcodec_oal.so
+cc_library_shared {
+    name: "libvcodec_oal_gki",
+    vendor: true,
+    srcs: [
+        "libvcodec_oal.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libdl",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

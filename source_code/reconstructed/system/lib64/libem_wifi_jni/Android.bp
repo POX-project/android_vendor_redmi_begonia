@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libem_wifi_jni.so
+cc_library_shared {
+    name: "libem_wifi_jni_gki",
+    vendor: true,
+    srcs: [
+        "libem_wifi_jni.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libandroid_runtime",
+        "libui",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

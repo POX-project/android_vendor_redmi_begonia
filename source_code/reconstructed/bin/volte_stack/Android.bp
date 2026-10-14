@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered volte_stack
+cc_binary {
+    name: "volte_stack_gki",
+    vendor: true,
+    srcs: [
+        "volte_stack.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvolte_core_shr",
+        "libvolte_xdmc_shr",
+        "libipsec_ims_shr",
+        "libverno",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

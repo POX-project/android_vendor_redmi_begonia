@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered android.hardware.bluetooth.audio@2.0-impl.so
+cc_library_shared {
+    name: "android_hardware_bluetooth_audio_2_0_impl_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_bluetooth_audio_2_0_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.audio.common@5.0",
+        "android.hardware.bluetooth.audio@2.0",
+        "libbase",
+        "libbluetooth_audio_session",
+        "libfmq",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

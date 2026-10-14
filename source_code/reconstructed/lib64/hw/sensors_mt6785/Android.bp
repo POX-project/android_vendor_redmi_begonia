@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered sensors.mt6785.so
+cc_library_shared {
+    name: "sensors_mt6785_gki",
+    vendor: true,
+    srcs: [
+        "sensors_mt6785.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libstagefright_foundation",
+        "libksensor",
+        "libaedv",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

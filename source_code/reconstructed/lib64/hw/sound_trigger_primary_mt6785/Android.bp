@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered sound_trigger.primary.mt6785.so
+cc_library_shared {
+    name: "sound_trigger_primary_mt6785_gki",
+    vendor: true,
+    srcs: [
+        "sound_trigger_primary_mt6785.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhardware_legacy",
+        "libmedia_helper",
+        "vendor.mediatek.hardware.bluetooth.audio@2.1",
+        "libvow_ap_testing.vendor",
+        "libvowp2training.vendor",
+        "libvowp23_sid_training.vendor",
+        "libvowp23_sid_testing.vendor",
+        "libvowp25testing.vendor",
+        "libhidlbase",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "libaedv",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

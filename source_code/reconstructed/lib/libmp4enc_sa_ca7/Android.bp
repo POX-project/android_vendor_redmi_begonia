@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libmp4enc_sa.ca7.so
+cc_library_shared {
+    name: "libmp4enc_sa_ca7_gki",
+    vendor: true,
+    srcs: [
+        "libmp4enc_sa_ca7.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvcodec_utility",
+        "libvcodec_oal",
+        "libc++",
+        "libdl",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

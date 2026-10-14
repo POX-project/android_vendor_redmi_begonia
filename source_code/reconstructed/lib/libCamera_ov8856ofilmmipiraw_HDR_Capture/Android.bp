@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libCamera_ov8856ofilmmipiraw_HDR_Capture.so
+cc_library_shared {
+    name: "libCamera_ov8856ofilmmipiraw_HDR_Capture_gki",
+    vendor: true,
+    srcs: [
+        "libCamera_ov8856ofilmmipiraw_HDR_Capture.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

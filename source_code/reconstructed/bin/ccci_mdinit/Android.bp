@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered ccci_mdinit
+cc_binary {
+    name: "ccci_mdinit_gki",
+    vendor: true,
+    srcs: [
+        "ccci_mdinit.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libsysenv",
+        "libnvram",
+        "libccci_util",
+        "libhardware_legacy",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

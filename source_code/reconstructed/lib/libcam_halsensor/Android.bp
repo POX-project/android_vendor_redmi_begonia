@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libcam.halsensor.so
+cc_library_shared {
+    name: "libcam_halsensor_gki",
+    vendor: true,
+    srcs: [
+        "libcam_halsensor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcameracustom",
+        "libc++",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_metadata",
+        "libcamdrv_isp",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

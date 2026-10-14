@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered nfc_nci.nqx.default.so
+cc_library_shared {
+    name: "nfc_nci_nqx_default_gki",
+    vendor: true,
+    srcs: [
+        "nfc_nci_nqx_default.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.nfc@1.0",
+        "android.hardware.nfc@1.1",
+        "android.hardware.secure_element@1.0",
+        "libbase",
+        "libhardware_legacy",
+        "libhidlbase",
+        "libchrome",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

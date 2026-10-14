@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered arm.graphics-V1-ndk_platform.so
+cc_library_shared {
+    name: "arm_graphics_V1_ndk_platform_gki",
+    vendor: true,
+    srcs: [
+        "arm_graphics_V1_ndk_platform.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder_ndk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

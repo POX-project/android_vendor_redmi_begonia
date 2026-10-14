@@ -1,0 +1,24 @@
+// Android.bp for reverse-engineered libh264dec_customize.so
+cc_library_shared {
+    name: "libh264dec_customize_gki",
+    vendor: true,
+    srcs: [
+        "libh264dec_customize.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

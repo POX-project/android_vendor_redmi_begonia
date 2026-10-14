@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered android.hardware.power-service-mediatek.so
+cc_library_shared {
+    name: "android_hardware_power_service_mediatek_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_power_service_mediatek.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libbinder_ndk",
+        "android.hardware.power-V1-ndk_platform",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

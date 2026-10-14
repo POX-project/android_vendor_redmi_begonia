@@ -1,0 +1,23 @@
+// Android.bp for reverse-engineered libmpbase.so
+cc_library_shared {
+    name: "libmpbase_gki",
+    vendor: true,
+    srcs: [
+        "libmpbase.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

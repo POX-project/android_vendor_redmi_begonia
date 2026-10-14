@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libcamalgo.fdft.so
+cc_library_shared {
+    name: "libcamalgo_fdft_gki",
+    vendor: true,
+    srcs: [
+        "libcamalgo_fdft.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamalgo.utility",
+        "libmtk_drvb",
+        "libc++",
+        "libGLESv2",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

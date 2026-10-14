@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libwvdrmengine.so
+cc_library_shared {
+    name: "libwvdrmengine_gki",
+    vendor: true,
+    srcs: [
+        "libwvdrmengine.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libcrypto-v33",
+        "libprotobuf-cpp-lite-3.9.1",
+        "libstagefright_foundation",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

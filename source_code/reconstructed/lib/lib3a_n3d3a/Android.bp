@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered lib3a.n3d3a.so
+cc_library_shared {
+    name: "lib3a_n3d3a_gki",
+    vendor: true,
+    srcs: [
+        "lib3a_n3d3a.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "lib3a.log",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

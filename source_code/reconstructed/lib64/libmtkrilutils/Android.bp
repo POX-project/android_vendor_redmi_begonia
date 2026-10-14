@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libmtkrilutils.so
+cc_library_shared {
+    name: "libmtkrilutils_gki",
+    vendor: true,
+    srcs: [
+        "libmtkrilutils.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcutils",
+        "libmtkrillog",
+        "libmtkproperty",
+        "libratconfig",
+        "libmtkconfigutils",
+        "libcrypto",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

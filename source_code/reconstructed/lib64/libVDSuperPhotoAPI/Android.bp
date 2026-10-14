@@ -1,0 +1,25 @@
+// Android.bp for reverse-engineered libVDSuperPhotoAPI.so
+cc_library_shared {
+    name: "libVDSuperPhotoAPI_gki",
+    vendor: true,
+    srcs: [
+        "libVDSuperPhotoAPI.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libm",
+        "libdl",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

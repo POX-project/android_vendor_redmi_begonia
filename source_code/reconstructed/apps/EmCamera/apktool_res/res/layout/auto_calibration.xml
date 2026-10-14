@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <TextView android:textSize="18.0sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dp" android:minWidth="170.0dp" android:text="@string/auto_clibr_camera_sensor" />
+            <Spinner android:textSize="14.0sp" android:id="@id/auto_clibr_camera_sensor_spnr" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="#777777" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="150.0dp" android:minHeight="40.0dp" android:text="@string/auto_clibr_sensor_mode" />
+            <Spinner android:textSize="14.0sp" android:entries="@array/capture_sensor_mode_entries" android:id="@id/sensor_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:minHeight="40.0dp" />
+        </LinearLayout>
+        <View android:background="#777777" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <ListView android:entries="@array/gis_cali_entries" android:id="@id/gis_cali_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libmtkperf_client_vendor.so
+cc_library_shared {
+    name: "libmtkperf_client_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libmtkperf_client_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "vendor.mediatek.hardware.mtkpower@1.1",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

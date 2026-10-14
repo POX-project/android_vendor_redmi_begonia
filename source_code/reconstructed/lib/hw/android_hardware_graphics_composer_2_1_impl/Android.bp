@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered android.hardware.graphics.composer@2.1-impl.so
+cc_library_shared {
+    name: "android_hardware_graphics_composer_2_1_impl_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_graphics_composer_2_1_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.graphics.composer@2.1",
+        "android.hardware.graphics.composer@2.1-resources",
+        "libbase",
+        "libfmq",
+        "libhidlbase",
+        "libsync",
+        "libhwc2on1adapter",
+        "libhwc2onfbadapter",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

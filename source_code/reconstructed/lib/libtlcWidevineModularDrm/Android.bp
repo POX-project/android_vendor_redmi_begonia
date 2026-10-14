@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libtlcWidevineModularDrm.so
+cc_library_shared {
+    name: "libtlcWidevineModularDrm_gki",
+    vendor: true,
+    srcs: [
+        "libtlcWidevineModularDrm.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libTEECommon",
+        "libion_mtk",
+        "libion",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

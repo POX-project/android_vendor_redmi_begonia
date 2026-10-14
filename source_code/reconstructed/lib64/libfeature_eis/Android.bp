@@ -1,0 +1,38 @@
+// Android.bp for reverse-engineered libfeature_eis.so
+cc_library_shared {
+    name: "libfeature_eis_gki",
+    vendor: true,
+    srcs: [
+        "libfeature_eis.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamalgo.eis",
+        "libcamalgo.gyro",
+        "libfeature_lmv",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_ulog",
+        "libmtkcam_sysutils",
+        "libnvram",
+        "libcameracustom",
+        "libcam.utils.sensorprovider",
+        "libcameracustom.eis",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

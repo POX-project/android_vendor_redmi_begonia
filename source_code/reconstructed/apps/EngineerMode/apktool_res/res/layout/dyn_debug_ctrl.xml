@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/dyn_debug_ctrl_cb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dyn_debug_ctrl_enable" android:layout_marginStart="10.0dp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dyn_debug_ctrl_notes" android:layout_marginStart="10.0dp" />
+</LinearLayout>

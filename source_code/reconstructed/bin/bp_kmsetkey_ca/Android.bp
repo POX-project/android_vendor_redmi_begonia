@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered bp_kmsetkey_ca
+cc_binary {
+    name: "bp_kmsetkey_ca_gki",
+    vendor: true,
+    srcs: [
+        "bp_kmsetkey_ca.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

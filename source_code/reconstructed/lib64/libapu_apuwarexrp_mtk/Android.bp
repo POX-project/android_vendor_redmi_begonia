@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered libapu-apuwarexrp.mtk.so
+cc_library_shared {
+    name: "libapu_apuwarexrp_mtk_gki",
+    vendor: true,
+    srcs: [
+        "libapu_apuwarexrp_mtk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libion",
+        "libhidlbase",
+        "libfmq",
+        "vendor.mediatek.hardware.apuware.xrp@1.0",
+        "android.hidl.allocator@1.0",
+        "android.hidl.memory@1.0",
+        "libhidlmemory",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

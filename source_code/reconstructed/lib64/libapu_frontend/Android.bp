@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libapu-frontend.so
+cc_library_shared {
+    name: "libapu_frontend_gki",
+    vendor: true,
+    srcs: [
+        "libapu_frontend.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libapu-platform",
+        "libdl",
+        "libz",
+        "libm",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

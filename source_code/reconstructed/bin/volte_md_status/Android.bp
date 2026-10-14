@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered volte_md_status
+cc_binary {
+    name: "volte_md_status_gki",
+    vendor: true,
+    srcs: [
+        "volte_md_status.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libverno",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

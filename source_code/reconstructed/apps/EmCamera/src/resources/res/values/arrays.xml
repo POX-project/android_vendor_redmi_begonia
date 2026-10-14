@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="capture_isp_profile_entries">
+        <item>Preview</item>
+        <item>Capture</item>
+        <item>Video</item>
+    </array>
+    <array name="capture_sensor_mode_entries">
+        <item>Preview size</item>
+        <item>Capture size</item>
+        <item>Video size</item>
+    </array>
+    <array name="gis_cali_entries">
+        <item>GIS Calibration</item>
+    </array>
+</resources>

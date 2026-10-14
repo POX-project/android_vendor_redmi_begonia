@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libipsec_ims_shr.so
+cc_library_shared {
+    name: "libipsec_ims_shr_gki",
+    vendor: true,
+    srcs: [
+        "libipsec_ims_shr.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcrypto",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

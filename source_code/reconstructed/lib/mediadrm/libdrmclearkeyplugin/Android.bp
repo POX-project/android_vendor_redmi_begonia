@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libdrmclearkeyplugin.so
+cc_library_shared {
+    name: "libdrmclearkeyplugin_gki",
+    vendor: true,
+    srcs: [
+        "libdrmclearkeyplugin.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcrypto",
+        "libstagefright_foundation",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

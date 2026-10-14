@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered epdg_wod
+cc_binary {
+    name: "epdg_wod_gki",
+    vendor: true,
+    srcs: [
+        "epdg_wod.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libwo",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered android.hardware.graphics.composer@2.1-service
+cc_binary {
+    name: "android_hardware_graphics_composer_2_1_service_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_graphics_composer_2_1_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.graphics.composer@2.1",
+        "libbinder",
+        "libhidlbase",
+        "libsync",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

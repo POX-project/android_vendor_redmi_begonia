@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered muxreport
+cc_binary {
+    name: "muxreport_gki",
+    vendor: true,
+    srcs: [
+        "muxreport.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkrillog",
+        "libmtkproperty",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

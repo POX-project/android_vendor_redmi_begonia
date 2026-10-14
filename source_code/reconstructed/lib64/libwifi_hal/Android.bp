@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libwifi-hal.so
+cc_library_shared {
+    name: "libwifi_hal_gki",
+    vendor: true,
+    srcs: [
+        "libwifi_hal.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libnl",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

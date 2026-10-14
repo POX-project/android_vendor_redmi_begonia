@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered audio.usb.mt6785.so
+cc_library_shared {
+    name: "audio_usb_mt6785_gki",
+    vendor: true,
+    srcs: [
+        "audio_usb_mt6785.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libalsautils",
+        "libaudioutils",
+        "libtinyalsa",
+        "libtinycompress",
+        "libaudiocustparam_vendor",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

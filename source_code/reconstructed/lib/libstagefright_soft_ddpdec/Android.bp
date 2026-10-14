@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered libstagefright_soft_ddpdec.so
+cc_library_shared {
+    name: "libstagefright_soft_ddpdec_gki",
+    vendor: true,
+    srcs: [
+        "libstagefright_soft_ddpdec.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "vendor.dolby.hardware.dms@2.0",
+        "libdeccfg",
+        "libstagefright_omx",
+        "libstagefright_softomx",
+        "libstagefright_foundation",
+        "libmedia_omx",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

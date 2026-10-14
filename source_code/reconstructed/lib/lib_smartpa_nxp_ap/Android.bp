@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered lib_smartpa_nxp_ap.so
+cc_library_shared {
+    name: "lib_smartpa_nxp_ap_gki",
+    vendor: true,
+    srcs: [
+        "lib_smartpa_nxp_ap.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

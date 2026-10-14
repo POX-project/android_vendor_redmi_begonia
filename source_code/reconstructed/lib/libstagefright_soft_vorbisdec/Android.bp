@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libstagefright_soft_vorbisdec.so
+cc_library_shared {
+    name: "libstagefright_soft_vorbisdec_gki",
+    vendor: true,
+    srcs: [
+        "libstagefright_soft_vorbisdec.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libstagefright_softomx",
+        "libstagefright_foundation",
+        "libvorbisidec",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

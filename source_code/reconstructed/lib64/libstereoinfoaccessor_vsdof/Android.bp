@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libstereoinfoaccessor_vsdof.so
+cc_library_shared {
+    name: "libstereoinfoaccessor_vsdof_gki",
+    vendor: true,
+    srcs: [
+        "libstereoinfoaccessor_vsdof.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libexpat",
+        "libz",
+        "libpng",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

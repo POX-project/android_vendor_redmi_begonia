@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libviagpsrpc.so
+cc_library_shared {
+    name: "libviagpsrpc_gki",
+    vendor: true,
+    srcs: [
+        "libviagpsrpc.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "librpc",
+        "libccci_util",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

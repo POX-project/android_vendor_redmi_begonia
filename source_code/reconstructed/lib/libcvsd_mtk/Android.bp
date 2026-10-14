@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libcvsd_mtk.so
+cc_library_shared {
+    name: "libcvsd_mtk_gki",
+    vendor: true,
+    srcs: [
+        "libcvsd_mtk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtk_drvb",
+        "libm",
+        "libc++",
+        "libc",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

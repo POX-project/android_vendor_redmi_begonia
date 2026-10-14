@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libwvkeyboxext.so
+cc_library_shared {
+    name: "libwvkeyboxext_gki",
+    vendor: true,
+    srcs: [
+        "libwvkeyboxext.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libTEECommon",
+        "libwvkeybox",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libbt-vendor.so
+cc_library_shared {
+    name: "libbt_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libbt_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbluetooth_mtk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered fuelgauged_nvram
+cc_binary {
+    name: "fuelgauged_nvram_gki",
+    vendor: true,
+    srcs: [
+        "fuelgauged_nvram.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnvram",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

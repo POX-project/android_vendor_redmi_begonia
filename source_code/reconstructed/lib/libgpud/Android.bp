@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered libgpud.so
+cc_library_shared {
+    name: "libgpud_gki",
+    vendor: true,
+    srcs: [
+        "libgpud.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libsync",
+        "libnativewindow",
+        "libgralloc_extra",
+        "libhidlbase",
+        "libgralloctypes",
+        "android.hardware.graphics.common@1.1",
+        "android.hardware.graphics.common@1.2",
+        "android.hardware.graphics.mapper@2.0",
+        "android.hardware.graphics.mapper@2.1",
+        "android.hardware.graphics.mapper@3.0",
+        "android.hardware.graphics.mapper@4.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

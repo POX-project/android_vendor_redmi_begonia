@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered android.hardware.dumpstate@1.1-service.xiaomi
+cc_binary {
+    name: "android_hardware_dumpstate_1_1_service_xiaomi_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_dumpstate_1_1_service_xiaomi.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.dumpstate@1.1",
+        "android.hardware.dumpstate@1.0",
+        "libbase",
+        "libdumpstateutil",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

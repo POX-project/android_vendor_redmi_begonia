@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.aee@1.0-service
+cc_binary {
+    name: "vendor_mediatek_hardware_aee_1_0_service_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_aee_1_0_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.mediatek.hardware.aee@1.0",
+        "libbase",
+        "libdumpstateutil",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

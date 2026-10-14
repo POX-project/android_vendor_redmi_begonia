@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libmtkconfig.so
+cc_library_shared {
+    name: "libmtkconfig_gki",
+    vendor: true,
+    srcs: [
+        "libmtkconfig.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkrillog",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

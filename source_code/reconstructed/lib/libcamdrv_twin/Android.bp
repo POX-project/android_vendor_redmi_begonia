@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libcamdrv_twin.so
+cc_library_shared {
+    name: "libcamdrv_twin_gki",
+    vendor: true,
+    srcs: [
+        "libcamdrv_twin.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libcamdrv_imem",
+        "libaedv",
+        "libmtkcam_stdutils",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

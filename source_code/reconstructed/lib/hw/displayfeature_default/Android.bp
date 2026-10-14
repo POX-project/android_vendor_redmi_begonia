@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered displayfeature.default.so
+cc_library_shared {
+    name: "displayfeature_default_gki",
+    vendor: true,
+    srcs: [
+        "displayfeature_default.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libxml2",
+        "libstagefright_foundation",
+        "libhidltransport",
+        "libhidlbase",
+        "android.frameworks.sensorservice@1.0",
+        "vendor.xiaomi.hardware.citsensorservice@1.1",
+        "vendor.mediatek.hardware.pq@2.0",
+        "vendor.mediatek.hardware.pq@2.1",
+        "vendor.mediatek.hardware.pq@2.2",
+        "vendor.mediatek.hardware.pq@2.3",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

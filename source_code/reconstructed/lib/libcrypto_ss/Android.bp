@@ -1,0 +1,25 @@
+// Android.bp for reverse-engineered libcrypto-ss.so
+cc_library_shared {
+    name: "libcrypto_ss_gki",
+    vendor: true,
+    srcs: [
+        "libcrypto_ss.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libdl",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

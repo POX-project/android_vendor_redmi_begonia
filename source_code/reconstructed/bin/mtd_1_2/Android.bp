@@ -1,0 +1,38 @@
+// Android.bp for reverse-engineered mtd@1.2
+cc_binary {
+    name: "mtd_1_2_gki",
+    vendor: true,
+    srcs: [
+        "mtd_1_2.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.xiaomi.hardware.mtdservice@1.0",
+        "vendor.xiaomi.hardware.mtdservice@1.1",
+        "vendor.xiaomi.hardware.mtdservice@1.2",
+        "libhidlbase",
+        "libhidltransport",
+        "libTEECommon",
+        "libselinux",
+        "libmlipay@1.1",
+        "vendor.xiaomi.hardware.mlipay@1.1",
+        "libmfido",
+        "vendor.xiaomi.hardware.mfidoca@1.0",
+        "libmt@1.2",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

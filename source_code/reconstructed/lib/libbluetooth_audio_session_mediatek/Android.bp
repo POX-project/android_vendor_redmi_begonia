@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libbluetooth_audio_session_mediatek.so
+cc_library_shared {
+    name: "libbluetooth_audio_session_mediatek_gki",
+    vendor: true,
+    srcs: [
+        "libbluetooth_audio_session_mediatek.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.mediatek.hardware.bluetooth.audio@2.1",
+        "libbase",
+        "libfmq",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

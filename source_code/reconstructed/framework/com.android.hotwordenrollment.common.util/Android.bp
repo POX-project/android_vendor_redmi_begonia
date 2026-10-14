@@ -1,0 +1,12 @@
+//
+// LineageOS Reconstructed MediaTek Framework Library: com.android.hotwordenrollment.common.util
+//
+
+java_library {
+    name: "com.android.hotwordenrollment.common.util",
+    srcs: [
+        "src/sources/**/*.java",
+    ],
+    installable: true,
+    platform_apis: true,
+}

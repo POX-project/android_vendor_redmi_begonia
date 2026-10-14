@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libmibokeh_mt6785.so
+cc_library_shared {
+    name: "libmibokeh_mt6785_gki",
+    vendor: true,
+    srcs: [
+        "libmibokeh_mt6785.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libapu-frontend",
+        "libapu-platform",
+        "libOpenCL",
+        "libz",
+        "libm",
+        "libdl",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered fpc_fingerprint.default.so
+cc_library_shared {
+    name: "fpc_fingerprint_default_gki",
+    vendor: true,
+    srcs: [
+        "fpc_fingerprint_default.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "android.hardware.biometrics.fingerprint@2.1",
+        "com.fingerprints.extension@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

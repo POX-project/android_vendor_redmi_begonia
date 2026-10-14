@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libhwc2onfbadapter.so
+cc_library_shared {
+    name: "libhwc2onfbadapter_gki",
+    vendor: true,
+    srcs: [
+        "libhwc2onfbadapter.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libsync",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

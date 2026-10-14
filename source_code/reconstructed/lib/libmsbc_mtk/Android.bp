@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libmsbc_mtk.so
+cc_library_shared {
+    name: "libmsbc_mtk_gki",
+    vendor: true,
+    srcs: [
+        "libmsbc_mtk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtk_drvb",
+        "libm",
+        "libc++",
+        "libc",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

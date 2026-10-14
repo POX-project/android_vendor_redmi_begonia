@@ -1,0 +1,37 @@
+// Android.bp for reverse-engineered libmtkavenhancements.so
+cc_library_shared {
+    name: "libmtkavenhancements_gki",
+    vendor: true,
+    srcs: [
+        "libmtkavenhancements.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libclang_rt.ubsan_standalone-aarch64-android",
+        "libstagefright",
+        "libstagefright_foundation",
+        "libcrypto",
+        "libmedia",
+        "libbinder",
+        "libnativewindow",
+        "android.hidl.memory@1.0",
+        "libmedia_omx",
+        "libdatasource",
+        "libstagefright_omx",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

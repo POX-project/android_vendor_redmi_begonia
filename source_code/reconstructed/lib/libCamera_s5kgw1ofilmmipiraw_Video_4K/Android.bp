@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libCamera_s5kgw1ofilmmipiraw_Video_4K.so
+cc_library_shared {
+    name: "libCamera_s5kgw1ofilmmipiraw_Video_4K_gki",
+    vendor: true,
+    srcs: [
+        "libCamera_s5kgw1ofilmmipiraw_Video_4K.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

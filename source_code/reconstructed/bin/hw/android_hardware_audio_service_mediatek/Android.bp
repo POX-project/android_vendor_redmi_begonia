@@ -1,0 +1,38 @@
+// Android.bp for reverse-engineered android.hardware.audio.service.mediatek
+cc_binary {
+    name: "android_hardware_audio_service_mediatek_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_audio_service_mediatek.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaudiofoundation",
+        "libbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "android.hardware.audio@6.0",
+        "android.hardware.audio.common@6.0",
+        "android.hardware.audio.effect@6.0",
+        "android.hardware.bluetooth.audio@2.0",
+        "vendor.mediatek.hardware.bluetooth.audio@2.1",
+        "android.hardwareundtrigger@2.3",
+        "vendor.mediatek.hardware.audio@6.1",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

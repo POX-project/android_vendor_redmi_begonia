@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libgwsd-ril.so
+cc_library_shared {
+    name: "libgwsd_ril_gki",
+    vendor: true,
+    srcs: [
+        "libgwsd_ril.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcutils",
+        "libmtkutils",
+        "libmtk-ril",
+        "libmtkproperty",
+        "libmtkrillog",
+        "libmtkrilutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

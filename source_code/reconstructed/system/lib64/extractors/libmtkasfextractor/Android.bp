@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libmtkasfextractor.so
+cc_library_shared {
+    name: "libmtkasfextractor_gki",
+    vendor: true,
+    srcs: [
+        "libmtkasfextractor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmediandk",
+        "libstagefright_foundation",
+        "libmedia",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

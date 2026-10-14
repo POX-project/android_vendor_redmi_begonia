@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libmtkmp3extractor.so
+cc_library_shared {
+    name: "libmtkmp3extractor_gki",
+    vendor: true,
+    srcs: [
+        "libmtkmp3extractor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmediandk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,25 @@
+// Android.bp for reverse-engineered bip
+cc_binary {
+    name: "bip_gki",
+    vendor: true,
+    srcs: [
+        "bip.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

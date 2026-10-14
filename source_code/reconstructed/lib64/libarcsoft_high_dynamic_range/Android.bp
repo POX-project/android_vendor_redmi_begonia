@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libarcsoft_high_dynamic_range.so
+cc_library_shared {
+    name: "libarcsoft_high_dynamic_range_gki",
+    vendor: true,
+    srcs: [
+        "libarcsoft_high_dynamic_range.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmpbase",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

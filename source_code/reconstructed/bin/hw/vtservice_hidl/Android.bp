@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered vtservice_hidl
+cc_binary {
+    name: "vtservice_hidl_gki",
+    vendor: true,
+    srcs: [
+        "vtservice_hidl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libfmq",
+        "vendor.mediatek.hardware.videotelephony@1.0",
+        "libhwbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

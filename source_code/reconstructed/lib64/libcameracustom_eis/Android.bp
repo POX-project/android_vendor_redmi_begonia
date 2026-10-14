@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libcameracustom.eis.so
+cc_library_shared {
+    name: "libcameracustom_eis_gki",
+    vendor: true,
+    srcs: [
+        "libcameracustom_eis.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_stdutils",
+        "libcam.halsensor",
+        "vendor.mediatek.hardware.power@1.1",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

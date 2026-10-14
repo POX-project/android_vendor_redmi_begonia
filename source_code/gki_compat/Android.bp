@@ -1,0 +1,21 @@
+cc_library_shared {
+    name: "libion_gki_compat",
+    srcs: [
+        "libion_gki_compat.c",
+    ],
+    shared_libs: [
+        "liblog",
+    ],
+    vendor: true,
+}
+
+cc_library_shared {
+    name: "libashmem_gki_compat",
+    srcs: [
+        "libashmem_gki_compat.c",
+    ],
+    shared_libs: [
+        "liblog",
+    ],
+    vendor: true,
+}

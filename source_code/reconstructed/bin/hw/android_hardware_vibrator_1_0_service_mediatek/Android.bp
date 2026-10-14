@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered android.hardware.vibrator@1.0-service-mediatek
+cc_binary {
+    name: "android_hardware_vibrator_1_0_service_mediatek_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_vibrator_1_0_service_mediatek.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libhardware_legacy",
+        "libhwbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "android.hardware.vibrator@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

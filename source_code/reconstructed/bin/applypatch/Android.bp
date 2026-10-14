@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered applypatch
+cc_binary {
+    name: "applypatch_gki",
+    vendor: true,
+    srcs: [
+        "applypatch.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libcrypto",
+        "libz",
+        "libziparchive",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered mfp-daemon
+cc_binary {
+    name: "mfp_daemon_gki",
+    vendor: true,
+    srcs: [
+        "mfp_daemon.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "android.hardware.biometrics.fingerprint@2.1",
+        "vendor.xiaomi.hardware.fingerprintextension@1.0",
+        "libvndksupport",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

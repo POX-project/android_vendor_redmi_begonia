@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libaudioloudc.so
+cc_library_shared {
+    name: "libaudioloudc_gki",
+    vendor: true,
+    srcs: [
+        "libaudioloudc.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaudiocompensationfilterc",
+        "libbessound_hd_mtk_vendor",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

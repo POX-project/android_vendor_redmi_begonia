@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:minHeight="40.0dp" android:text="@string/xpxt_aging_band" />
+            <Spinner android:textSize="14.0sp" android:entries="@array/xpxt_aging_band_entries" android:id="@id/xpxt_aging_band_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:minHeight="40.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:minHeight="40.0dp" android:text="@string/xpxt_aging_ul_bw" />
+            <Spinner android:textSize="14.0sp" android:entries="@array/xpxt_aging_ul_bw_entries" android:id="@id/xpxt_aging_ul_bw_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:minHeight="40.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:minHeight="40.0dp" android:text="@string/xpxt_aging_ul_freq" />
+            <EditText android:id="@id/xpxt_aging_ul_freq_et" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:maxLength="7" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:text="@string/xpxt_aging_vrb_start" />
+            <EditText android:id="@id/xpxt_aging_vrb_start_et" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:hint="@string/xpxt_aging_vrb_start_hint" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:text="@string/xpxt_aging_vrb_leng" />
+            <EditText android:id="@id/xpxt_aging_vrb_leng_et" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:hint="@string/xpxt_aging_vrb_leng_hint" android:maxLength="3" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:minHeight="40.0dp" android:text="@string/xpxt_aging_mcs" />
+            <Spinner android:textSize="14.0sp" android:entries="@array/xpxt_aging_mcs_entries" android:id="@id/xpxt_aging_mcs_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:minHeight="40.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:minHeight="40.0dp" android:text="@string/xpxt_aging_scs" />
+            <Spinner android:textSize="14.0sp" android:entries="@array/xpxt_aging_scs_entries" android:id="@id/xpxt_aging_scs_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:minHeight="40.0dp" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:text="@string/xpxt_aging_tx_pwr" />
+            <EditText android:id="@id/xpxt_aging_tx_pwr_et" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:hint="@string/xpxt_aging_tx_pwr_hint" android:maxLength="3" android:inputType="numberSigned" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="120.0dp" android:text="@string/xpxt_aging_tdd_slot_config" />
+            <EditText android:id="@id/xpxt_aging_tdd_slot_config_et" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="90.0dp" android:hint="@string/xpxt_aging_tdd_slot_hint" android:maxLength="2" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/xpxt_aging_start_button" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/xpxt_aging_button_start" android:layout_weight="1.0" />
+            <Button android:id="@id/xpxt_aging_stop_button" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/xpxt_aging_button_stop" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#ff909090" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" />
+        <TextView android:id="@id/xpxt_aging_test_result" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

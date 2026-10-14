@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libgz_uree.so
+cc_library_shared {
+    name: "libgz_uree_gki",
+    vendor: true,
+    srcs: [
+        "libgz_uree.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

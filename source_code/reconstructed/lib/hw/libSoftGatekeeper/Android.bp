@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libSoftGatekeeper.so
+cc_library_shared {
+    name: "libSoftGatekeeper_gki",
+    vendor: true,
+    srcs: [
+        "libSoftGatekeeper.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libgatekeeper",
+        "libbase",
+        "libcrypto",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

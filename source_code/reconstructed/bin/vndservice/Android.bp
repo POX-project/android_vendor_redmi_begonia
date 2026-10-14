@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered vndservice
+cc_binary {
+    name: "vndservice_gki",
+    vendor: true,
+    srcs: [
+        "vndservice.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

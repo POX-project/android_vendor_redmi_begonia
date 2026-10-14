@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libmtkcam_tsf.so
+cc_library_shared {
+    name: "libmtkcam_tsf_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_tsf.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,22 @@
+// Android.bp for reverse-engineered met.ko
+cc_library_shared {
+    name: "met_ko_gki",
+    vendor: true,
+    srcs: [
+        "met_ko.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

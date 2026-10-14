@@ -1,0 +1,10 @@
+# zram.rc
+service zram /system/bin/sh /vendor/etc/zram.sh
+    class core
+    console
+    disabled
+    user root
+    group root
+    seclabel u:r:shell:s0
+on property:sys.boot_completed=1
+    start zram

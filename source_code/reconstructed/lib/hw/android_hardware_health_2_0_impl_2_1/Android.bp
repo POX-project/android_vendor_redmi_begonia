@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered android.hardware.health@2.0-impl-2.1.so
+cc_library_shared {
+    name: "android_hardware_health_2_0_impl_2_1_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_health_2_0_impl_2_1.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libhidlbase",
+        "android.hardware.health@2.1",
+        "android.hardware.health@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

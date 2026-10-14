@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered libvcodec_cap.so
+cc_library_shared {
+    name: "libvcodec_cap_gki",
+    vendor: true,
+    srcs: [
+        "libvcodec_cap.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libui",
+        "libbinder",
+        "libexpat",
+        "libvcodec_capenc",
+        "libstagefright_omx_utils",
+        "libstagefright_foundation",
+        "libion",
+        "android.hardware.graphics.bufferqueue@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

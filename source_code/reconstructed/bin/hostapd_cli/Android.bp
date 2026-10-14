@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered hostapd_cli
+cc_binary {
+    name: "hostapd_cli_gki",
+    vendor: true,
+    srcs: [
+        "hostapd_cli.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libneuron_runtime.so
+cc_library_shared {
+    name: "libneuron_runtime_gki",
+    vendor: true,
+    srcs: [
+        "libneuron_runtime.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libdl",
+        "libz",
+        "libneuron_platform",
+        "libion",
+        "libion_mtk",
+        "libvpu",
+        "libm",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

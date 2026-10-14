@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered ov02a10af_mipi_raw_tuning.so
+cc_library_shared {
+    name: "ov02a10af_mipi_raw_tuning_gki",
+    vendor: true,
+    srcs: [
+        "ov02a10af_mipi_raw_tuning.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libCamera_ov02a10afmipiraw_Flash_Capture",
+        "libCamera_ov02a10afmipiraw_Flash_Preview_PF",
+        "libCamera_ov02a10afmipiraw_HDR_Capture",
+        "libCamera_ov02a10afmipiraw_MFSR_Capture",
+        "libCamera_ov02a10afmipiraw_Reserved",
+        "libCamera_ov02a10afmipiraw_Scene_Capture",
+        "libCamera_ov02a10afmipiraw_Scene_Preview",
+        "libCamera_ov02a10afmipiraw_Video_Preview",
+        "libCamera_ov02a10afmipiraw_Zoom_Preview",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

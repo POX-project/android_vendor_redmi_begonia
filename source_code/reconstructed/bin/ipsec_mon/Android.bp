@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered ipsec_mon
+cc_binary {
+    name: "ipsec_mon_gki",
+    vendor: true,
+    srcs: [
+        "ipsec_mon.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libforkexecwrap",
+        "libifcutils_mtk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

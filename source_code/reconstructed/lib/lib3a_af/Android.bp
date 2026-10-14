@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered lib3a.af.so
+cc_library_shared {
+    name: "lib3a_af_gki",
+    vendor: true,
+    srcs: [
+        "lib3a_af.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "lib3a.log",
+        "libvpu",
+        "libion",
+        "libion_mtk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

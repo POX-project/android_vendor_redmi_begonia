@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered libmtkcam_pipelinepolicy_factory.so
+cc_library_shared {
+    name: "libmtkcam_pipelinepolicy_factory_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_pipelinepolicy_factory.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_stdutils",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_modulehelper",
+        "libmtkcam_featurepolicy",
+        "libmtkcam_pipelinepolicy",
+        "libmtkcam_pipelinepolicy-smvr",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

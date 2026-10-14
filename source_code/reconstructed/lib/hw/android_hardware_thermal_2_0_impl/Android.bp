@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered android.hardware.thermal@2.0-impl.so
+cc_library_shared {
+    name: "android_hardware_thermal_2_0_impl_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_thermal_2_0_impl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libhidlbase",
+        "android.hardware.thermal@1.0",
+        "android.hardware.thermal@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

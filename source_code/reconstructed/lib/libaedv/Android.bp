@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libaedv.so
+cc_library_shared {
+    name: "libaedv_gki",
+    vendor: true,
+    srcs: [
+        "libaedv.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libunwindstack",
+        "libz",
+        "libc",
+        "libdl",
+        "libm",
+        "libc++",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

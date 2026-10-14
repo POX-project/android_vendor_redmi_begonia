@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libSonyIMX338PdafLibraryWrapper.so
+cc_library_shared {
+    name: "libSonyIMX338PdafLibraryWrapper_gki",
+    vendor: true,
+    srcs: [
+        "libSonyIMX338PdafLibraryWrapper.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcam.hal3a.log",
+        "libSonyIMX338PdafLibrary",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered android.hardware.media.omx@1.0-service
+cc_binary {
+    name: "android_hardware_media_omx_1_0_service_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_media_omx_1_0_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libbase",
+        "libavservices_minijail",
+        "libhidlbase",
+        "libstagefright_omx",
+        "libstagefright_xmlparser",
+        "android.hardware.media.omx@1.0",
+        "android.hidl.memory@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

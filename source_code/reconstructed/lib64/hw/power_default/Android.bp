@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered power.default.so
+cc_library_shared {
+    name: "power_default_gki",
+    vendor: true,
+    srcs: [
+        "power_default.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

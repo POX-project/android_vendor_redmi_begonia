@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libaudiocompensationfilterc.so
+cc_library_shared {
+    name: "libaudiocompensationfilterc_gki",
+    vendor: true,
+    srcs: [
+        "libaudiocompensationfilterc.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcustom_nvram",
+        "libnvram",
+        "libaudiocustparam_vendor",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered vendor.xiaomi.hardware.tidaservice@1.0.so
+cc_library_shared {
+    name: "vendor_xiaomi_hardware_tidaservice_1_0_gki",
+    vendor: true,
+    srcs: [
+        "vendor_xiaomi_hardware_tidaservice_1_0.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

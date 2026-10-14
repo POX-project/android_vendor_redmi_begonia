@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered starter
+cc_binary {
+    name: "starter_gki",
+    vendor: true,
+    srcs: [
+        "starter.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libstrongswan",
+        "libhydra",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libratconfig.so
+cc_library_shared {
+    name: "libratconfig_gki",
+    vendor: true,
+    srcs: [
+        "libratconfig.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkutils",
+        "libmtkrillog",
+        "libmtkcutils",
+        "libmtkproperty",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

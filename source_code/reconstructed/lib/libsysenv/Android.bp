@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libsysenv.so
+cc_library_shared {
+    name: "libsysenv_gki",
+    vendor: true,
+    srcs: [
+        "libsysenv.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase_shim",
+        "libbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

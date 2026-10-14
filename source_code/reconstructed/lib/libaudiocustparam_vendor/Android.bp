@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libaudiocustparam_vendor.so
+cc_library_shared {
+    name: "libaudiocustparam_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libaudiocustparam_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnvram",
+        "libcustom_nvram",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libcamalgo.n3d.so
+cc_library_shared {
+    name: "libcamalgo_n3d_gki",
+    vendor: true,
+    srcs: [
+        "libcamalgo_n3d.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamalgo.utility",
+        "libmtk_drvb",
+        "libc++",
+        "libEGL",
+        "libGLESv2",
+        "libnativewindow",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

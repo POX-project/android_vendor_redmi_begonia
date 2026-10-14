@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered libdlbdsservice.so
+cc_library_shared {
+    name: "libdlbdsservice_gki",
+    vendor: true,
+    srcs: [
+        "libdlbdsservice.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libstagefright_foundation",
+        "libxml2",
+        "libdapparamstorage",
+        "libsqlite",
+        "libhidlbase",
+        "vendor.dolby.hardware.dms@2.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

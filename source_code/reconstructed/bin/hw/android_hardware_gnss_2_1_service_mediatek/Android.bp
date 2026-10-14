@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered android.hardware.gnss@2.1-service-mediatek
+cc_binary {
+    name: "android_hardware_gnss_2_1_service_mediatek_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_gnss_2_1_service_mediatek.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "android.hardware.gnss@2.1",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

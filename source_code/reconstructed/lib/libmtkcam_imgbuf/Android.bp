@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered libmtkcam_imgbuf.so
+cc_library_shared {
+    name: "libmtkcam_imgbuf_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_imgbuf.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnativewindow",
+        "libion",
+        "libion_mtk",
+        "libaedv",
+        "libmtkcam_stdutils",
+        "libmtkcam_debugutils",
+        "libmtkcam_grallocutils",
+        "libgralloc_extra",
+        "libmtkcam_sysutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

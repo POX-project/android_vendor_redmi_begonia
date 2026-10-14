@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libem_audio_jni.so
+cc_library_shared {
+    name: "libem_audio_jni_gki",
+    vendor: true,
+    srcs: [
+        "libem_audio_jni.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnativehelper",
+        "libandroid_runtime",
+        "libui",
+        "libaudioclient",
+        "libaudiotoolkit",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

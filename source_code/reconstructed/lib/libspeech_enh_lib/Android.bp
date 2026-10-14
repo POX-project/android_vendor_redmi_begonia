@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libspeech_enh_lib.so
+cc_library_shared {
+    name: "libspeech_enh_lib_gki",
+    vendor: true,
+    srcs: [
+        "libspeech_enh_lib.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

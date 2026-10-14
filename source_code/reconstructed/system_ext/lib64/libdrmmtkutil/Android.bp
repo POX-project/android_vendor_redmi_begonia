@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libdrmmtkutil.so
+cc_library_shared {
+    name: "libdrmmtkutil_gki",
+    vendor: true,
+    srcs: [
+        "libdrmmtkutil.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libclang_rt.ubsan_standalone-aarch64-android",
+        "libandroidicu",
+        "libcrypto",
+        "libdrmmtkwhitelist",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

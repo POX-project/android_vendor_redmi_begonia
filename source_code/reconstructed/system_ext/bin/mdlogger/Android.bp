@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered mdlogger
+cc_binary {
+    name: "mdlogger_gki",
+    vendor: true,
+    srcs: [
+        "mdlogger.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmdloggerrecycle",
+        "libmemoryDumpEncoder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

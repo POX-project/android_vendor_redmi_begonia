@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libarcsoft_portrait_lighting.so
+cc_library_shared {
+    name: "libarcsoft_portrait_lighting_gki",
+    vendor: true,
+    srcs: [
+        "libarcsoft_portrait_lighting.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmpbase",
+        "libarcsoft_portrait_lighting_c",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

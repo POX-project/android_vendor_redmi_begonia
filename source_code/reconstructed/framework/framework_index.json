@@ -1,0 +1,62 @@
+[
+  {
+    "name": "mediatek-telecom-common",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-telecom-common.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-telecom-common",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-ims-base",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-ims-base.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-ims-base",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-ims-extension-plugin",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-ims-extension-plugin.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-ims-extension-plugin",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-common",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-common.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-common",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-telephony-base",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-telephony-base.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-telephony-base",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-framework",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-framework.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-framework",
+    "has_java": true
+  },
+  {
+    "name": "com.android.hotwordenrollment.common.util",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/com.android.hotwordenrollment.common.util",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-ims-common",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-ims-common.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-ims-common",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-ims-legacy",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-ims-legacy.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-ims-legacy",
+    "has_java": true
+  },
+  {
+    "name": "mediatek-telephony-common",
+    "jar_path": "/media/dev/work/begonia_blobs_code/proprietary/framework/mediatek-telephony-common.jar",
+    "output_dir": "/media/dev/work/begonia_blobs_code/source_code/reconstructed/framework/mediatek-telephony-common",
+    "has_java": true
+  }
+]

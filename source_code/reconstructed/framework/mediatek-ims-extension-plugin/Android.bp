@@ -1,0 +1,12 @@
+//
+// LineageOS Reconstructed MediaTek Framework Library: mediatek-ims-extension-plugin
+//
+
+java_library {
+    name: "mediatek-ims-extension-plugin",
+    srcs: [
+        "src/sources/**/*.java",
+    ],
+    installable: true,
+    platform_apis: true,
+}

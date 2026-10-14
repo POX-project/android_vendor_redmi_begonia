@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered vendor.mediatek.hardware.mtkradioex@1.0.so
+cc_library_shared {
+    name: "vendor_mediatek_hardware_mtkradioex_1_0_gki",
+    vendor: true,
+    srcs: [
+        "vendor_mediatek_hardware_mtkradioex_1_0.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "android.hardware.radio@1.0",
+        "android.hardware.radio@1.1",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "android.hidl.safe_union@1.0",
+        "libhidlbase",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

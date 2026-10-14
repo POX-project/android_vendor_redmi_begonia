@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libMEOW_trace.so
+cc_library_shared {
+    name: "libMEOW_trace_gki",
+    vendor: true,
+    srcs: [
+        "libMEOW_trace.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libnativewindow",
+        "libGLES_meow",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

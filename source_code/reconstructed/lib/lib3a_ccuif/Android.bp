@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered lib3a.ccuif.so
+cc_library_shared {
+    name: "lib3a_ccuif_gki",
+    vendor: true,
+    srcs: [
+        "lib3a_ccuif.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libion",
+        "libion_mtk",
+        "libmtkcam_modulehelper",
+        "libcam.iopipe",
+        "libcamalgo.utility",
+        "lib3a.ccudrv",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

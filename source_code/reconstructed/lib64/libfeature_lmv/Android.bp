@@ -1,0 +1,35 @@
+// Android.bp for reverse-engineered libfeature_lmv.so
+cc_library_shared {
+    name: "libfeature_lmv_gki",
+    vendor: true,
+    srcs: [
+        "libfeature_lmv.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamalgo.eis",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libmtkcam_imgbuf",
+        "libmtkcam_ulog",
+        "libmtkcam_sysutils",
+        "libcameracustom",
+        "libcam.utils.sensorprovider",
+        "libcameracustom.eis",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

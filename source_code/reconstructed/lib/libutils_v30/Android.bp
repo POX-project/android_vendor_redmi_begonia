@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libutils-v30.so
+cc_library_shared {
+    name: "libutils_v30_gki",
+    vendor: true,
+    srcs: [
+        "libutils_v30.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libprocessgroup",
+        "libvndksupport",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

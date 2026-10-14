@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered audio.usb.default.so
+cc_library_shared {
+    name: "audio_usb_default_gki",
+    vendor: true,
+    srcs: [
+        "audio_usb_default.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libtinyalsa",
+        "libaudioutils",
+        "libalsautils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

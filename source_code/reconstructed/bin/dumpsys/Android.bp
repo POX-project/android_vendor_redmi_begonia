@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered dumpsys
+cc_binary {
+    name: "dumpsys_gki",
+    vendor: true,
+    srcs: [
+        "dumpsys.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libbinder",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

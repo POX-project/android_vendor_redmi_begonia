@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libhevce_sb.ca7.android.so
+cc_library_shared {
+    name: "libhevce_sb_ca7_android_gki",
+    vendor: true,
+    srcs: [
+        "libhevce_sb_ca7_android.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvcodec_oal",
+        "libvcodec_utility",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

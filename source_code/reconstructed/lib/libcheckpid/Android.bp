@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libcheckpid.so
+cc_library_shared {
+    name: "libcheckpid_gki",
+    vendor: true,
+    srcs: [
+        "libcheckpid.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "liblogwrap_vendor",
+        "vendor.xiaomi.hardware.misys@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

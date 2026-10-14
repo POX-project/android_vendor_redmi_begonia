@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libmtkcam_rsc.so
+cc_library_shared {
+    name: "libmtkcam_rsc_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_rsc.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

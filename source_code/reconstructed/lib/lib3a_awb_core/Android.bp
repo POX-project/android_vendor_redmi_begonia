@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered lib3a.awb.core.so
+cc_library_shared {
+    name: "lib3a_awb_core_gki",
+    vendor: true,
+    srcs: [
+        "lib3a_awb_core.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "lib3a.awb",
+        "lib3a.log",
+        "libcamalgo.utility",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

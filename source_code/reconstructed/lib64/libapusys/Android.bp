@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libapusys.so
+cc_library_shared {
+    name: "libapusys_gki",
+    vendor: true,
+    srcs: [
+        "libapusys.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libion",
+        "libion_mtk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

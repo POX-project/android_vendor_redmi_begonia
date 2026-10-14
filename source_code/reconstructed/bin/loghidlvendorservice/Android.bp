@@ -1,0 +1,33 @@
+// Android.bp for reverse-engineered loghidlvendorservice
+cc_binary {
+    name: "loghidlvendorservice_gki",
+    vendor: true,
+    srcs: [
+        "loghidlvendorservice.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libsysutils",
+        "libnetutils",
+        "libcrypto",
+        "libbase",
+        "libbinder",
+        "libhidlbase",
+        "vendor.mediatek.hardware.log@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

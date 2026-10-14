@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libaed.so
+cc_library_shared {
+    name: "libaed_gki",
+    vendor: true,
+    srcs: [
+        "libaed.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libselinux",
+        "libbase",
+        "libunwindstack",
+        "libz",
+        "libc",
+        "libdl",
+        "libm",
+        "libc++",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

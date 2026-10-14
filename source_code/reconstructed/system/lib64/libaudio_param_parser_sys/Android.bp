@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libaudio_param_parser-sys.so
+cc_library_shared {
+    name: "libaudio_param_parser_sys_gki",
+    vendor: true,
+    srcs: [
+        "libaudio_param_parser_sys.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libaudioclient",
+        "libhidlbase",
+        "android.hardware.audio@6.0",
+        "vendor.mediatek.hardware.audio@6.1",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

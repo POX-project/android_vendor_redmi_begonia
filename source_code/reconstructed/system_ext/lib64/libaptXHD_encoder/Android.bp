@@ -1,0 +1,24 @@
+// Android.bp for reverse-engineered libaptXHD_encoder.so
+cc_library_shared {
+    name: "libaptXHD_encoder_gki",
+    vendor: true,
+    srcs: [
+        "libaptXHD_encoder.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libdl",
+        "libc",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

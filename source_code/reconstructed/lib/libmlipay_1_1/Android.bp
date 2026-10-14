@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered libmlipay@1.1.so
+cc_library_shared {
+    name: "libmlipay_1_1_gki",
+    vendor: true,
+    srcs: [
+        "libmlipay_1_1.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.xiaomi.hardware.mlipay@1.0",
+        "libhidlbase",
+        "libhidltransport",
+        "vendor.xiaomi.hardware.mlipay@1.1",
+        "libteeclientjni@1.1",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

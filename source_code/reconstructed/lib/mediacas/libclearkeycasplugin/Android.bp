@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libclearkeycasplugin.so
+cc_library_shared {
+    name: "libclearkeycasplugin_gki",
+    vendor: true,
+    srcs: [
+        "libclearkeycasplugin.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libprotobuf-cpp-full-3.9.1",
+        "libcrypto",
+        "libstagefright_foundation",
+        "libprotobuf-cpp-lite-3.9.1",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

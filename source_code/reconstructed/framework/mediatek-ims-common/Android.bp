@@ -1,0 +1,12 @@
+//
+// LineageOS Reconstructed MediaTek Framework Library: mediatek-ims-common
+//
+
+java_library {
+    name: "mediatek-ims-common",
+    srcs: [
+        "src/sources/**/*.java",
+    ],
+    installable: true,
+    platform_apis: true,
+}

@@ -1,0 +1,29 @@
+// Android.bp for reverse-engineered libJpgEncPipe.so
+cc_library_shared {
+    name: "libJpgEncPipe_gki",
+    vendor: true,
+    srcs: [
+        "libJpgEncPipe.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libjpeg-alpha_vendor",
+        "libion",
+        "libion_mtk",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

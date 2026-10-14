@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libvsim.so
+cc_library_shared {
+    name: "libvsim_gki",
+    vendor: true,
+    srcs: [
+        "libvsim.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.xiaomi.hardware.vsimapp@1.0",
+        "libhidlbase",
+        "libhidltransport",
+        "libTEECommon",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

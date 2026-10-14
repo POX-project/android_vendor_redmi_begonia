@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered vtservice
+cc_binary {
+    name: "vtservice_gki",
+    vendor: true,
+    srcs: [
+        "vtservice.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbinder",
+        "libmtk_vt_service",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libaudioutilmtk.so
+cc_library_shared {
+    name: "libaudioutilmtk_gki",
+    vendor: true,
+    srcs: [
+        "libaudioutilmtk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaudioutils",
+        "libandroidicu",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

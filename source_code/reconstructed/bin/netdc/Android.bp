@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered netdc
+cc_binary {
+    name: "netdc_gki",
+    vendor: true,
+    srcs: [
+        "netdc.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libhidlbase",
+        "vendor.mediatek.hardware.netdagent@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

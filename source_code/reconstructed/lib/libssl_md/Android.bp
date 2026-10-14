@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libssl-md.so
+cc_library_shared {
+    name: "libssl_md_gki",
+    vendor: true,
+    srcs: [
+        "libssl_md.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcrypto-md",
+        "libc",
+        "libdl",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

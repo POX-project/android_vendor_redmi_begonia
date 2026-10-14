@@ -1,0 +1,26 @@
+// Android.bp for reverse-engineered libCamera_gc2375alphamipiraw_Reserved.so
+cc_library_shared {
+    name: "libCamera_gc2375alphamipiraw_Reserved_gki",
+    vendor: true,
+    srcs: [
+        "libCamera_gc2375alphamipiraw_Reserved.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

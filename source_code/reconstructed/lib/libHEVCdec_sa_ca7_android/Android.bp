@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libHEVCdec_sa.ca7.android.so
+cc_library_shared {
+    name: "libHEVCdec_sa_ca7_android_gki",
+    vendor: true,
+    srcs: [
+        "libHEVCdec_sa_ca7_android.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvcodec_oal",
+        "libpowerhalwrap_vendor",
+        "libthha",
+        "libc",
+        "libm",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

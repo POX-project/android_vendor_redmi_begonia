@@ -1,0 +1,34 @@
+// Android.bp for reverse-engineered libmtkcam_pipelinemodel_zsl.so
+cc_library_shared {
+    name: "libmtkcam_pipelinemodel_zsl_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_pipelinemodel_zsl.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam_stdutils",
+        "libmtkcam_debugutils",
+        "libmtkcam_pipelinemodel_utils",
+        "libmtkcam_pipelinemodel_hbc",
+        "libmtkcam_imgbuf",
+        "libmtkcam_metadata",
+        "libmtkcam_metastore",
+        "libmtkcam_streamutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

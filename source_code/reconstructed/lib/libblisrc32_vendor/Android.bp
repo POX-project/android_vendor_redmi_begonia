@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libblisrc32_vendor.so
+cc_library_shared {
+    name: "libblisrc32_vendor_gki",
+    vendor: true,
+    srcs: [
+        "libblisrc32_vendor.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtk_drvb",
+        "libm",
+        "libc++",
+        "libc",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

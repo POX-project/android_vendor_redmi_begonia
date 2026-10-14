@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered doeapp-sat
+cc_binary {
+    name: "doeapp_sat_gki",
+    vendor: true,
+    srcs: [
+        "doeapp_sat.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaedv",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

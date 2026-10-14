@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered android.hardware.secure_element@1.0-service-mediatek
+cc_binary {
+    name: "android_hardware_secure_element_1_0_service_mediatek_gki",
+    vendor: true,
+    srcs: [
+        "android_hardware_secure_element_1_0_service_mediatek.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "vendor.mediatek.hardware.mtkradioex@2.0",
+        "libhidlbase",
+        "android.hardware.secure_element@1.0",
+        "android.hardware.radio@1.2",
+        "android.hardware.radio@1.4",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

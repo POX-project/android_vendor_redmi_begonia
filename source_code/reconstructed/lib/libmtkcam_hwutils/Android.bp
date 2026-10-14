@@ -1,0 +1,38 @@
+// Android.bp for reverse-engineered libmtkcam_hwutils.so
+cc_library_shared {
+    name: "libmtkcam_hwutils_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_hwutils.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libfeature.stereo.provider",
+        "libladder",
+        "libmtkcam_modulehelper",
+        "libmtkcam_stdutils",
+        "libbwc",
+        "libcameracustom",
+        "libmtkcam_sysutils",
+        "libhidlbase",
+        "libhidltransport",
+        "libhwbinder",
+        "android.hardware.power@1.0",
+        "vendor.mediatek.hardware.mtkpower@1.0",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

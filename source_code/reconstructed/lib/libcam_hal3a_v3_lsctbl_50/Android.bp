@@ -1,0 +1,28 @@
+// Android.bp for reverse-engineered libcam.hal3a.v3.lsctbl.50.so
+cc_library_shared {
+    name: "libcam_hal3a_v3_lsctbl_50_gki",
+    vendor: true,
+    srcs: [
+        "libcam_hal3a_v3_lsctbl_50.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libcamalgo.lsc",
+        "libmtkcam_stdutils",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

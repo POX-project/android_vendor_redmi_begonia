@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered libaudiofoundation.so
+cc_library_shared {
+    name: "libaudiofoundation_gki",
+    vendor: true,
+    srcs: [
+        "libaudiofoundation.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libaudioutils",
+        "libbase",
+        "libbinder",
+        "libmedia_helper",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,118 @@
+package android.support.v4.os;
+
+import android.os.Build;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class CancellationSignal {
+    private boolean mCancelInProgress;
+    private Object mCancellationSignalObj;
+    private boolean mIsCanceled;
+    private OnCancelListener mOnCancelListener;
+
+    public interface OnCancelListener {
+        void onCancel();
+    }
+
+    private void waitForCancelFinishedLocked() {
+        while (this.mCancelInProgress) {
+            try {
+                wait();
+            } catch (InterruptedException e) {
+            }
+        }
+    }
+
+    /* JADX WARN: Bottom block not found for handler: all -> 0x0051 */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+    */
+    public void cancel() throws Throwable {
+        synchronized (this) {
+            try {
+                if (this.mIsCanceled) {
+                    return;
+                }
+                this.mIsCanceled = true;
+                this.mCancelInProgress = true;
+                OnCancelListener onCancelListener = this.mOnCancelListener;
+                try {
+                    Object obj = this.mCancellationSignalObj;
+                    try {
+                        if (onCancelListener != null) {
+                            try {
+                                onCancelListener.onCancel();
+                            } catch (Throwable th) {
+                                synchronized (this) {
+                                    this.mCancelInProgress = false;
+                                    notifyAll();
+                                    throw th;
+                                }
+                            }
+                        }
+                        if (obj != null && Build.VERSION.SDK_INT >= 16) {
+                            ((android.os.CancellationSignal) obj).cancel();
+                        }
+                        synchronized (this) {
+                            this.mCancelInProgress = false;
+                            notifyAll();
+                        }
+                    } catch (Throwable th2) {
+                        th = th2;
+                        while (true) {
+                            throw th;
+                        }
+                    }
+                } catch (Throwable th3) {
+                    th = th3;
+                }
+            } catch (Throwable th4) {
+                th = th4;
+            }
+        }
+    }
+
+    public Object getCancellationSignalObject() {
+        Object obj;
+        if (Build.VERSION.SDK_INT < 16) {
+            return null;
+        }
+        synchronized (this) {
+            if (this.mCancellationSignalObj == null) {
+                android.os.CancellationSignal cancellationSignal = new android.os.CancellationSignal();
+                this.mCancellationSignalObj = cancellationSignal;
+                if (this.mIsCanceled) {
+                    cancellationSignal.cancel();
+                }
+            }
+            obj = this.mCancellationSignalObj;
+        }
+        return obj;
+    }
+
+    public boolean isCanceled() {
+        boolean z;
+        synchronized (this) {
+            z = this.mIsCanceled;
+        }
+        return z;
+    }
+
+    public void setOnCancelListener(OnCancelListener onCancelListener) {
+        synchronized (this) {
+            waitForCancelFinishedLocked();
+            if (this.mOnCancelListener == onCancelListener) {
+                return;
+            }
+            this.mOnCancelListener = onCancelListener;
+            if (this.mIsCanceled && onCancelListener != null) {
+                onCancelListener.onCancel();
+            }
+        }
+    }
+
+    public void throwIfCanceled() {
+        if (isCanceled()) {
+            throw new OperationCanceledException();
+        }
+    }
+}

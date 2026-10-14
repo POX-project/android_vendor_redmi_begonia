@@ -1,0 +1,31 @@
+// Android.bp for reverse-engineered fidoca
+cc_binary {
+    name: "fidoca_gki",
+    vendor: true,
+    srcs: [
+        "fidoca.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libhidlbase",
+        "libhidltransport",
+        "vendor.xiaomi.hardware.mfidoca@1.0",
+        "libmfido",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

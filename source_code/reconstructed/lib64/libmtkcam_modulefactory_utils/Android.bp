@@ -1,0 +1,27 @@
+// Android.bp for reverse-engineered libmtkcam_modulefactory_utils.so
+cc_library_shared {
+    name: "libmtkcam_modulefactory_utils_gki",
+    vendor: true,
+    srcs: [
+        "libmtkcam_modulefactory_utils.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libmtkcam.logicalmodule",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

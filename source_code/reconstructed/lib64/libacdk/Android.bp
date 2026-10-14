@@ -1,0 +1,38 @@
+// Android.bp for reverse-engineered libacdk.so
+cc_library_shared {
+    name: "libacdk_gki",
+    vendor: true,
+    srcs: [
+        "libacdk.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libimageio",
+        "libcam.iopipe",
+        "libmtkcam_stdutils",
+        "libmtkcam_imgbuf",
+        "libcam.halsensor",
+        "libmtkcam_metadata",
+        "libmtkcam_fwkutils",
+        "libmtkcam_modulehelper",
+        "libion",
+        "libion_mtk",
+        "libmtkcam_metastore",
+        "libJpgEncPipe",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "hw",
+}

@@ -1,0 +1,32 @@
+// Android.bp for reverse-engineered lbs_hidl_service
+cc_binary {
+    name: "lbs_hidl_service_gki",
+    vendor: true,
+    srcs: [
+        "lbs_hidl_service.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libbase",
+        "libbinder",
+        "libhidlbase",
+        "libhidltransport",
+        "vendor.mediatek.hardware.lbs@1.0",
+        "lbs_hidl_service-impl",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}

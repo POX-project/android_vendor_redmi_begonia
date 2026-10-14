@@ -1,0 +1,30 @@
+// Android.bp for reverse-engineered vpud
+cc_binary {
+    name: "vpud_gki",
+    vendor: true,
+    srcs: [
+        "vpud.cpp",
+    ],
+    shared_libs: [
+        "liblog",
+        "libcutils",
+        "libutils",
+        "libhardware",
+        "libvpud_vcodec",
+        "libvcodec_utility",
+        "libion",
+        "libaedv",
+        "libc++",
+        "libc",
+        "libm",
+        "libdl",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+        "-Wno-unused-parameter",
+        "-Wno-unused-variable",
+        "-O2",
+    ],
+    relative_install_path: "bin/hw",
+}
