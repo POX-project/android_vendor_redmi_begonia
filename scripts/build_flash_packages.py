@@ -174,7 +174,9 @@ def build_installer_zip():
             if not os.path.exists(full_hdir):
                 continue
             for root, dirs, files in os.walk(full_hdir):
-                for f in files:
+                for f in sorted(files):
+                    if f.endswith('.orig') or f.endswith('.bak') or f.startswith('.'):
+                        continue
                     fp = os.path.join(root, f)
                     rel = os.path.relpath(fp, PROPRIETARY_DIR)
                     arcname = f"vendor/{rel}"
@@ -229,7 +231,9 @@ def build_magisk_module():
             if not os.path.exists(full_hdir):
                 continue
             for root, dirs, files in os.walk(full_hdir):
-                for f in files:
+                for f in sorted(files):
+                    if f.endswith('.orig') or f.endswith('.bak') or f.startswith('.'):
+                        continue
                     fp = os.path.join(root, f)
                     rel = os.path.relpath(fp, PROPRIETARY_DIR)
                     arcname = f"system/vendor/{rel}"
